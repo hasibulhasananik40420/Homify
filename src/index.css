@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.html {
+  margin: 0;
+  padding: 0;
+}
+/*************** All the custom css is here ***************/
+
+.custom-border {
+  border-radius: 60px 60px 60px 0px;
+}
+/* .custom-border-2 {
+  border-radius: 60px 60px 60px 15px;
+} */
+
+.custom-border-button {
+  border-radius: 100px 60px 60px 10px;
+}
+
+.custom-border-image {
+  border-radius: 60px 60px 60px 0px;
+}
+.custom-border-property {
+  border-radius: 100px 60px 60px 10px;
+}
+
+/* core service css */
+.core-service {
+  border-radius: 60px 60px 60px 0px;
+  box-shadow: 0px 0px 60px 0px rgba(237, 234, 234, 0.65);
+}
+
+.footer-bg{
+  background-image: url('../src/assets/Footer-image/footer-bg.png');
+}
+
+
+
+
+
+.sub-menu-style {
+  @apply w-full py-3 text-center mb-2 border border-[#144352] hover:bg-[#144453] rounded-sm duration-300 min-w-[158px] z-10 block;
+}
+.mobile-sub-menu-style {
+  @apply w-full py-3 text-center mb-2 border border-[#144352] hover:bg-[#144453] rounded-sm duration-300 min-w-[258px] z-10 block;
+}
+
+.sm-menu-style {
+  @apply hover:bg-[#00172F] shadow  rounded-sm my-2 duration-500 cursor-pointer py-3 flex items-center justify-center w-full z-10 block;
+}
+.text-md {
+  font-size: 20px;
+  line-height: 20px;
+}
+.custom-shadow {
+  box-shadow: 0px 24px 48px 8px #011529;
+}
+.custom-bottom-border {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border: 0.01px solid rgba(245, 237, 237, 0.19);
+}
+
+.custom-path {
+  -webkit-clip-path: polygon(100% 66%, 100% 86%, 0 47%, 0 27%);
+  clip-path: polygon(100% 66%, 100% 86%, 0 47%, 0 27%);
+}
+
+
+.primary-navbar {
+  position: absolute !important;
+  transition: 0.5s linear;
+  top: 0 !important;
+  box-shadow: 0px -5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+.navbar-bg {
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  transition: 2.3s linear;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+}
+
+.custom-shadow-left {
+  box-shadow: -2px 0px 2px -1px rgba(0, 0, 0, 0.5) inset;
+}
+.cuystom-gradient {
+  background: linear-gradient(
+    151.76deg,
+    rgba(249, 199, 71, 0) -8.92%,
+    #f9c747 115.63%
+  );
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0.2px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
