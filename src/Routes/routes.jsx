@@ -11,6 +11,8 @@ import AboutPage from "../Pages/AboutPage/AboutPage"
 import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails"
 import ContactUsPage from "../Pages/ContactUsPage/ContactUsPage"
 import BlogsDetails from "../Pages/BlogsDetails/BlogsDetails"
+import AddProperty from "../Pages/AddProperty/AddProperty"
+import BlogPage from "../Pages/BlogPage/BlogPage"
 
 
 const routes = createBrowserRouter([
@@ -33,6 +35,10 @@ const routes = createBrowserRouter([
             }, 
 
              {
+                path: "/blog",
+                element: <BlogPage />
+            }, 
+ {
                 path: "/blog-details",
                 element: <BlogsDetails />
             }, 
@@ -45,6 +51,10 @@ const routes = createBrowserRouter([
             {
                 path: "/property-details",
                 element: <PropertyDetails />
+            },
+             {
+                path: "/add-property",
+                element: <AddProperty />
             }, 
              {
                 path: "/agents-list",

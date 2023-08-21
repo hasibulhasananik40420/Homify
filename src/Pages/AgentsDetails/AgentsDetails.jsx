@@ -84,98 +84,101 @@ const AgentsDetails = () => {
             tincidunt non.
           </p>
 
-
-           <div className="lg:flex lg:flex-row-reverse gap-[122px] mt-20">
-
-           <div>
-                  <img className="lg:w-[884px] lg:h-[884px] w-full h-[500px] md:w-[660px] md:h-[500px] md:mx-auto custom-border" src={contact} alt="" />
-                 </div>
-
-
-
-                <div className="md:w-[450px] md:mx-auto">
-                <form>
-            <div className="flex flex-col gap-5 mt-[45px]">
-              <label
-                className="text-black font-Teko font-normal text-[24px] leading-6"
-                htmlFor="email"
-              >
-                Your Name
-              </label>
-              <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="text"
-                placeholder="Write your name here"
-              />
-            </div>
-            
-             <div className="flex flex-col gap-5 mt-[45px]">
-              <label
-                className="text-black font-Teko font-normal text-[24px] leading-6"
-                htmlFor="email"
-              >
-                Your Email
-              </label>
-              <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="email"
-                placeholder="Write your email id"
-              />
-            </div>
-
-
-                <div className="flex flex-col gap-5 mt-[45px]">
-              <label
-                className="text-black font-Teko font-normal text-[24px] leading-6"
-                htmlFor="email"
-              >
-                Your  Mobile Number
-              </label>
-              <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="text"
-                placeholder="Write your mobile number here"
-              />
-            </div>
-
-            <div className="flex flex-col gap-5 mt-[45px]">
-              <label
-                className="text-black font-Teko font-normal text-[24px] leading-6"
-                htmlFor="email"
-              >
-                Subject
-              </label>
-              <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="text"
-                placeholder="Write your message subject"
-              />
-            </div>
-
-           <div className="flex flex-col gap-5 mt-[45px]">
-              <label
-                className="text-black font-Teko font-normal text-[24px] leading-6"
-                htmlFor="email"
-              >
-                Your Message
-              </label>
-                <textarea name="" id="" className="lg:w-[429px] md:w-[429px] w-full h-[140px] pl-10 rounded-[45px] border-[1px] pt-7 border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="text" placeholder="Write your message "></textarea>
+          <div className="lg:flex lg:flex-row-reverse gap-[122px] mt-20">
+            <div>
+              {/* <img
+                className="lg:w-[884px] lg:h-[884px] w-full h-[500px] md:w-[660px] md:h-[500px] md:mx-auto custom-border"
+                src={contact}
+                alt=""
+              /> */}
               
+               <img
+                className="lg:w-[884px] lg:h-[884px] w-full h-[500px] md:w-[660px] md:h-[500px] md:mx-auto custom-border"
+                src='https://img.freepik.com/premium-photo/skyscraper-burning-nighttime-contemporary-tall-skyscraper-with-bright-flame-night-generative-ai_629315-10924.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'
+                alt=""
+              />
             </div>
 
-          
-
-          
-            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[210px] h-[56px] custom-border-property mt-8 hover:bg-primary duration-500">
-            Send Message
-            </button>
-
-          </form>
+            <div className="md:w-[450px] md:mx-auto">
+              <form>
+                <div className="flex flex-col gap-5 mt-[45px]">
+                  <label
+                    className="text-black font-Teko font-normal text-[24px] leading-6"
+                    htmlFor="email"
+                  >
+                    Your Name
+                  </label>
+                  <input
+                    className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    type="text"
+                    placeholder="Write your name here"
+                  />
                 </div>
 
-               
-           </div>
+                <div className="flex flex-col gap-5 mt-[45px]">
+                  <label
+                    className="text-black font-Teko font-normal text-[24px] leading-6"
+                    htmlFor="email"
+                  >
+                    Your Email
+                  </label>
+                  <input
+                    className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    type="email"
+                    placeholder="Write your email id"
+                  />
+                </div>
+
+                <div className="flex flex-col gap-5 mt-[45px]">
+                  <label
+                    className="text-black font-Teko font-normal text-[24px] leading-6"
+                    htmlFor="email"
+                  >
+                    Your Mobile Number
+                  </label>
+                  <input
+                    className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    type="text"
+                    placeholder="Write your mobile number here"
+                  />
+                </div>
+
+                <div className="flex flex-col gap-5 mt-[45px]">
+                  <label
+                    className="text-black font-Teko font-normal text-[24px] leading-6"
+                    htmlFor="email"
+                  >
+                    Subject
+                  </label>
+                  <input
+                    className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    type="text"
+                    placeholder="Write your message subject"
+                  />
+                </div>
+
+                <div className="flex flex-col gap-5 mt-[45px]">
+                  <label
+                    className="text-black font-Teko font-normal text-[24px] leading-6"
+                    htmlFor="email"
+                  >
+                    Your Message
+                  </label>
+                  <textarea
+                    name=""
+                    id=""
+                    className="lg:w-[429px] md:w-[429px] w-full h-[140px] pl-10 rounded-[45px] border-[1px] pt-7 border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    type="text"
+                    placeholder="Write your message "
+                  ></textarea>
+                </div>
+
+                <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[210px] h-[56px] custom-border-property mt-8 hover:bg-primary duration-500">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
