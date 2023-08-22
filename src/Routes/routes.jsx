@@ -35,7 +35,7 @@ const routes = createBrowserRouter([
             }, 
 
              {
-                path: "/blog",
+                path: "/blogs",
                 element: <BlogPage />
             }, 
  {
@@ -45,7 +45,7 @@ const routes = createBrowserRouter([
 
             
              {
-                path: "/property-list",
+                path: "/property-grid",
                 element: <PropertyList />
             },
             {
@@ -61,7 +61,7 @@ const routes = createBrowserRouter([
                 element: <AgentsList />
             }, 
              {
-                path: "/agent-details",
+                path: "/agents-details",
                 element: <AgentsDetails />
             }, 
             {
