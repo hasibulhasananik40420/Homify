@@ -20,12 +20,12 @@ const Login = () => {
 
       {/********************** login section start here ****************************/}
 
-      <div className="lg:flex items-center gap-24 2xl:py-[120px] lg:py-[80px] py-16 max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-4 ">
+      <div className="lg:flex items-center gap-24 2xl:py-32 lg:py-[100px] md:py-20 py-16 max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 ">
         <motion.div  initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }} className="lg:w-[765px] md:w-[600px] md:h-[550px] md:mx-auto w-full h-[450px] lg:h-[748px]">
           <img
-            className="lg:w-[765px] md:w-[550px]  md:h-[550px] md:mx-auto w-full h-[450px] lg:h-[748px]"
+            className="lg:w-[765px] md:w-[600px]  md:h-[550px] md:mx-auto w-full h-[450px] lg:h-[748px]"
             src={loginImage}
             alt=""
           />
@@ -33,7 +33,7 @@ const Login = () => {
 
         <motion.div initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }} className="flex flex-col md:mx-auto md:mt-10 lg:mt-0 mt-10 2xl:mt-0 md:w-[500px] w-full">
+          transition={{ duration: 0.5 }} className="flex flex-col md:mx-auto md:mt-10 lg:mt-0 mt-10 2xl:mt-0 md:w-[600px] w-full">
           <h1 className="text-primary text-[56px] font-Teko font-bold">
             User Sign In
           </h1>
@@ -50,7 +50,7 @@ const Login = () => {
                 Your Email
               </label>
               <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                className="lg:w-[429px] md:w-[500px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                 type="email"
                 placeholder="Write your email id"
               />
@@ -64,17 +64,17 @@ const Login = () => {
                 Your Password
               </label>
               <input
-                className="lg:w-[429px] md:w-[429px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                className="lg:w-[429px] md:w-[500px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                 type="password"
                 placeholder="Write your password"
               />
 
-              <span className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute lg:right-[90px] md:right-[90px] right-[30px] top-[59px]">
+              <span className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute lg:right-[90px] md:right-[130px] right-[30px] top-[59px]">
                 Hide
               </span>
             </div>
 
-            <div className="flex justify-between items-center lg:w-[429px] md:w-[429px] w-full">
+            <div className="flex justify-between items-center lg:w-[429px] md:w-[500px] w-full">
               <div className="mt-5">
                 <div className="flex gap-4 items-center">
                   <input

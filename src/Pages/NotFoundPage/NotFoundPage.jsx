@@ -6,8 +6,8 @@ const NotFoundPage = () => {
     <div>
       <CommonAction title={"Error 404"} subTitle={"Home> 404"} />
 
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-4">
-        <div className="2xl:flex 2xl:gap-[122px] lg:flex lg:gap-2 py-32">
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8">
+        <div className="2xl:flex 2xl:gap-[122px] lg:flex lg:gap-2 2xl:py-32 lg:py-[100px] md:py-20 py-16">
           <div>
             <h1 className="text-[#008DA2] 2xl:text-[194px] lg:text-[150px] md:text-[194px] text-[100px] font-Lato font-extrabold leading-[147px]">
               O

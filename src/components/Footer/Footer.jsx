@@ -7,7 +7,7 @@ const Footer = () => {
   //******************** ##########################  ************************//
 
   return (
-    <div className="lg:h-[630px] h-full w-full footer-bg bg-cover bg-no-repeat bg-center">
+    <div className="lg:h-[630px] h-full w-full footer-bg bg-cover bg-no-repeat bg-center border">
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 ">
         <div className="flex items-center gap-3 pt-10  border-b-[1px] border-b-white pb-10">
           <img
@@ -22,7 +22,7 @@ const Footer = () => {
 
         {/********************** main content *************************/}
 
-        <div className="lg:flex flex-wrap lg:justify-between md:grid md:grid-cols-2 md:gap-16 mt-[30px] border-b-[1px] border-b-white pb-10">
+        <div className="lg:flex flex-wrap lg:justify-between md:grid md:grid-cols-2 md:gap-16 pt-[30px] border-b-[1px] border-b-white pb-10">
           {/*********************** first part start here ***********************/}
           <div className="lg:w-[363px] w-full">
             <h4 className="lg:w-[363px] w-full text-[#F5F5F5] text-16px] md:text-[20px] lg:text-[16px] font-Lato font-normal leading-8">

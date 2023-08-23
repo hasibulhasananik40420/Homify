@@ -4,7 +4,7 @@ import agent1 from "../../../src/assets/Agents-images/agent1.png";
 const AgentsListCard = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 gap-x-[20px] gap-y-[100px] justify-items-center mt-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 gap-x-[20px] gap-y-[100px] justify-items-center pt-28">
         {/****************** card 1 start here  ******************/}
         <div className="bg-[#504594] 2xl:w-[345px] lg:w-[290px] md:w-[345px] w-full h-[420px] custom-border relative hover:bg-secondaryColor duration-500 transform ease-in-out group">
           <div className="flex flex-col 2xl:ml-20 lg:ml-10 ml-20 mt-[120px]">
@@ -33,7 +33,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -68,7 +68,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -103,7 +103,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -138,7 +138,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -173,7 +173,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -208,7 +208,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -243,7 +243,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -278,7 +278,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -313,7 +313,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -348,7 +348,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -383,7 +383,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />
@@ -418,7 +418,7 @@ const AgentsListCard = () => {
             </button>
           </div>
           <img
-            className="absolute top-[-90px] left-[76px] md:left-[76px] lg:left-[45px] 2xl:left-[74px] w-[200px] h-[200px]  rounded-full flex-shrink-0"
+            className="absolute -top-[100px] left-1/2 transform -translate-x-1/2 w-[200px] h-[200px]  rounded-full flex-shrink-0"
             src={agent1}
             alt=""
           />

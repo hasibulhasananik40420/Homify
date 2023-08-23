@@ -12,7 +12,7 @@ const PropertyList = () => {
     <div>
       <CommonAction title={"Property grid"} subTitle={"Home> Property Grid "} />
 
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-4 2xl:mt-20 mt-12">
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:mt-32 lg:mt-[100px] md:mt-20 mt-16">
         <h1 className="lg:text-[56px] text-[30px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
           Buy Your Dream Property from here
         </h1>
