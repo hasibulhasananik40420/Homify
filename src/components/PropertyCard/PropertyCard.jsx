@@ -2,11 +2,14 @@ import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
 import property6 from '../../../src/assets/Property-image/Property-image6.jpg'
 const PropertyCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
+     <div>
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
+    
+    
       {/************** property card 1 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] custom-border-image"
           src={property6}
           alt=""
         />
@@ -60,7 +63,7 @@ const PropertyCard = () => {
       {/************** property card 2 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px]  custom-border-image"
           src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
           alt=""
         />
@@ -114,7 +117,7 @@ const PropertyCard = () => {
       {/************** property card 3 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] custom-border-image"
           src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
           alt=""
         />
@@ -165,10 +168,10 @@ const PropertyCard = () => {
       </div>
       {/************** property card 3 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+     {/************** property card 4 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] custom-border-image"
           src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
           alt=""
         />
@@ -217,12 +220,12 @@ const PropertyCard = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 4 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+     {/************** property card 5 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px]  custom-border-image"
           src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
           alt=""
         />
@@ -271,12 +274,12 @@ const PropertyCard = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 5 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+     {/************** property card 6 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] custom-border-image"
           src={property6}
           alt=""
         />
@@ -325,15 +328,18 @@ const PropertyCard = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 6 end here ********************/}
     
-    
-    
-    
-    
-    
-    
+ 
     </div>
+
+           <div className="flex justify-center mt-20">
+            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
+            Load More Properties
+            </button>
+          </div>
+
+     </div>
   );
 };
 

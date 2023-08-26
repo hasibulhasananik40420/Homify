@@ -1,10 +1,19 @@
 import CommonAction from "../../components/CommonAction/CommonAction";
 import aboutHero from "../../assets/About-us-image/about-hero.png";
 import certified1 from "../../assets/About-us-image/certified1.png";
+import certified2 from "../../assets/About-us-image/certificate-2.png";
+import certified3 from "../../assets/About-us-image/certificate-3.png";
+import certified4 from "../../assets/About-us-image/certificate-4.png";
+import certified5 from "../../assets/About-us-image/certificate-5.png";
+import certified6 from "../../assets/About-us-image/certificate-6.png";
+
 import { BsBagDash } from "react-icons/bs";
+
 const AboutPage = () => {
   return (
     //********************  About us section end here **************************//
+     //******************** ##########################  *************************//
+
     <div>
       <CommonAction title={"About us"} subTitle={"Home> About us "} />
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8">
@@ -155,7 +164,7 @@ const AboutPage = () => {
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
-                src={certified1}
+                src={certified2}
                 alt=""
               />
               <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
@@ -169,22 +178,7 @@ const AboutPage = () => {
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
-                src={certified1}
-                alt=""
-              />
-              <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
-                Certificate for
-              </h1>
-
-              <p className="text-black font-Lato font-normal text-[20px] leading-8">
-                Organization from
-              </p>
-            </div>
-
-            <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
-              <img
-                className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
-                src={certified1}
+                src={certified3}
                 alt=""
               />
               <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
@@ -199,7 +193,7 @@ const AboutPage = () => {
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
-                src={certified1}
+                src={certified4}
                 alt=""
               />
               <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
@@ -214,7 +208,22 @@ const AboutPage = () => {
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
-                src={certified1}
+                src={certified5}
+                alt=""
+              />
+              <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
+                Certificate for
+              </h1>
+
+              <p className="text-black font-Lato font-normal text-[20px] leading-8">
+                Organization from
+              </p>
+            </div>
+
+            <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
+              <img
+                className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
+                src={certified6}
                 alt=""
               />
               <h1 className="text-black text-[20px] font-Teko font-medium leading-8 mt-5">
@@ -233,6 +242,7 @@ const AboutPage = () => {
     </div>
 
     //********************  About us section end here **************************//
+     //******************** ##########################  ************************//
   );
 };
 

@@ -4,6 +4,8 @@ import CoreService from "./CoreService/CoreService"
 import Header from "./Header/Header"
 import OurAgents from "./OurAgents/OurAgents"
 import Property from "./Property/Property"
+import Reviews from "./Reviews/Reviews"
+import SellProperty from "./SellProperty/SellProperty"
 
 const HomePage = () => {
   return (
@@ -13,7 +15,9 @@ const HomePage = () => {
       <CoreService/>
       <ChoseUs/>
       <Property/>
+      <SellProperty/>
      <OurAgents/>
+     <Reviews/>
     </div>
   )
 }

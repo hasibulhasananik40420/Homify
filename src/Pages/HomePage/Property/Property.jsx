@@ -4,8 +4,8 @@ import { BiSolidDownArrow } from "react-icons/bi";
 const Property = () => {
   return (
      //********************  Our property section start here **************************//
-     <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-4 pt-32">
-     <h1 className="lg:text-[56px] text-[30px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
+     <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+     <h1 className="lg:text-[56px] text-[32px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
      Buy Your Dream Property from here
      </h1>
      <p className="text-[#4F4E4E] font-normal font-Lato text-[20px] text-center">
@@ -13,8 +13,8 @@ const Property = () => {
      </p>
 
 
-     <div className="flex justify-center items-center gap-5 w-full mt-20 ">
-          <div className="w-[591px] h-[56px] rounded-l-full rounded-r-0 border-[2px] border-primary">
+     <div className="lg:flex justify-center items-center gap-5 w-full mt-20 ">
+          <div className="lg:w-[591px] w-full h-[56px] rounded-l-full rounded-r-0 border-[2px] border-primary">
             <div className="flex gap-[47px] items-center px-16 h-[50px]">
               <div className="flex items-center gap-5">
                 <h1 className="text-black font-Lato font-normal text-[16px]">

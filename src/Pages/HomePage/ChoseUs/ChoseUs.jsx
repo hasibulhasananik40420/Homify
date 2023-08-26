@@ -5,14 +5,14 @@ const ChoseUs = () => {
     //********************  Chose us section start here **************************//
     //******************** ##########################  **************************//
 
-    <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-4 pt-32">
+    <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
       <div className="lg:flex 2xl:flex lg:gap-[50px] 2xl:gap-[50px] justify-between">
-        <div className="2xl:w-[607px] lg:w-[607px] md:[500px] w-full md:mx-auto">
-          <img className="2xl:w-[607px] lg:w-[607px] md:[500px] w-full md:mx-auto h-[460px]" src={choseimage} alt="" />
+        <div className="2xl:w-[607px] lg:w-[607px] w-full">
+          <img className="2xl:w-[607px] lg:w-[607px] w-full lg:h-[460px] 2xl:h-[460px] h-full" src={choseimage} alt="" />
         </div>
 
         <div className="2xl:w-[717px] lg:w-[660px]">
-          <h1 className="text-[56px] font-Teko font-bold text-[#375E97]">
+          <h1 className="lg:text-[56px] md:text-[56px] text-[32px] mt-16 md:mt-16 lg:mt-0 2xl:mt-0 font-Teko font-bold text-[#375E97]">
             Why Chose us?
           </h1>
           <p className="2xl:w-[717px] lg:w-[660px] font-Lato text-[16px] font-normal text-black leading-8 pt-[20px]">

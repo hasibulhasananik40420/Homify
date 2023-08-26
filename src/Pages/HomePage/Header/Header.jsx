@@ -5,8 +5,8 @@ const Header = () => {
   //******************** ##########################  **************************//
   return (
     <div className="max-w-[1680px] mx-auto lg:px-8 2xl:px-0 px-4 md:px-4 ">
-      <div className="2xl:flex 2xl:gap-[130px] lg:flex lg:gap-[50px]">
-        <div className="mt-[200px]">
+      <div className="2xl:flex 2xl:gap-[120px] lg:flex lg:gap-[50px]">
+        <div className="2xl:mt-[200px] mt-20">
           <h1 className="text-secondaryColor 2xl:text-[82px] lg:text-[75px] font-Teko font-bold 2xl:leading-[110px] lg:leading-[90px] tracking-[2.46px] 2xl:w-[719px] lg:w-[650px]">
             The Real{" "}
             <span className="text-primary 2xl:text-[82px] lg:text-[75px] font-Teko font-bold 2xl:leading-[110px] lg:leading-[90px] tracking-[2.46px]">
@@ -76,9 +76,9 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="2xl:w-[785px] lg:w-[600px] h-[933px] mt-[95px]">
+        <div className="2xl:w-[785px] lg:w-[600px] 2xl:h-[933px] lg:h-[600px] 2xl:mt-[95px] lg:mt-16">
           <img
-            className="2xl:w-[785px] lg:w-[600px] h-[933px]"
+            className="2xl:w-[785px] lg:w-[600px] 2xl:h-[933px] lg:h-[600px] bg-red-500"
             style={{
               borderRadius: "100px 100px 100px 0px",
               boxShadow: "0px 4px 60px 0px rgba(215, 209, 209, 0.25)",
@@ -88,6 +88,9 @@ const Header = () => {
           />
         </div>
       </div>
+
+
+
     </div>
 
     //********************  Header section end here **************************//

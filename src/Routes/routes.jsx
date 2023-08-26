@@ -13,6 +13,10 @@ import ContactUsPage from "../Pages/ContactUsPage/ContactUsPage"
 import BlogsDetails from "../Pages/BlogsDetails/BlogsDetails"
 import AddProperty from "../Pages/AddProperty/AddProperty"
 import BlogPage from "../Pages/BlogPage/BlogPage"
+import BlogVersionTwo from "../Pages/BlogPage/BlogVersionTwo"
+import AgentsListVersionTwo from "../Pages/AgentsList/AgentsListVersionTwo"
+import PropertyListTwo from "../Pages/PropertyList/PropertyListTwo"
+import HomeTwo from "../Pages/HomeTwo/HomeTwo"
 
 
 const routes = createBrowserRouter([
@@ -23,6 +27,9 @@ const routes = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />
+            }, {
+                path: "/home-two",
+                element: <HomeTwo />
             },  
             
             {
@@ -37,8 +44,11 @@ const routes = createBrowserRouter([
              {
                 path: "/blogs",
                 element: <BlogPage />
+            },   {
+                path: "/blogs-v2",
+                element: <BlogVersionTwo />
             }, 
- {
+              {
                 path: "/blog-details",
                 element: <BlogsDetails />
             }, 
@@ -47,6 +57,9 @@ const routes = createBrowserRouter([
              {
                 path: "/property-grid",
                 element: <PropertyList />
+            }, {
+                path: "/property-grid-two",
+                element: <PropertyListTwo />
             },
             {
                 path: "/property-details",
@@ -59,6 +72,9 @@ const routes = createBrowserRouter([
              {
                 path: "/agents-list",
                 element: <AgentsList />
+            },{
+                path: "/agents-list-two",
+                element: <AgentsListVersionTwo />
             }, 
              {
                 path: "/agents-details",

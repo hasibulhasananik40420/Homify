@@ -18,7 +18,7 @@ const BlogPage = () => {
         {/******************* blog  part 1 start here *******************/}
         <div className="lg:flex lg:relative mb-[200px]">
           <div
-            className=" lg:w-[694px] w-full h-[400px] md:h-[400px] mt-32 bg-[#3E348F] flex justify-center items-center z-50 hover:bg-secondaryColor duration-1000 group hover:cursor-pointer"
+            className=" lg:w-[694px] w-full h-[400px] md:h-[400px] mt-32 bg-[#3E348F] flex justify-center items-center z-30 hover:bg-secondaryColor duration-1000 group hover:cursor-pointer"
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(68, 68, 68, 0.30",
@@ -113,7 +113,7 @@ const BlogPage = () => {
             <div>
               <div className="lg:flex">
                 <img
-                  className="lg:w-[246px] lg:h-[236px] md:w-[140px] md:h-[140px] w-[100px] h-[100px] mx-auto rounded-full lg:rounded-[15px] lg:mt-8 z-50"
+                  className="lg:w-[246px] lg:h-[236px] md:w-[140px] md:h-[140px] w-[100px] h-[100px] mx-auto rounded-full lg:rounded-[15px] lg:mt-8 z-30"
                   src={manImage}
                   alt=""
                 />
@@ -145,7 +145,7 @@ const BlogPage = () => {
 
               <div className="lg:flex mt-20">
                 <img
-                  className="lg:w-[246px] lg:h-[236px] md:w-[140px] md:h-[140px] w-[100px] h-[100px] mx-auto rounded-full lg:rounded-[15px] lg:mt-8 z-50"
+                  className="lg:w-[246px] lg:h-[236px] md:w-[140px] md:h-[140px] w-[100px] h-[100px] mx-auto rounded-full lg:rounded-[15px] lg:mt-8 z-30"
                   src={womenImage}
                   alt=""
                 />

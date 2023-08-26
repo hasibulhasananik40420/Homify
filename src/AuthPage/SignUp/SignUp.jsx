@@ -86,7 +86,7 @@ const SignUp = () => {
                 placeholder="Write your password"
               />
 
-              <span className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute lg:right-[90px] md:right-[130px] right-[30px] top-[59px]">
+              <span className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute 2xl:right-[100px] lg:right-[70px] md:right-[130px] right-[30px] top-[59px]">
                 Hide
               </span>
             </div>
