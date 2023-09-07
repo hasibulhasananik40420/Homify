@@ -32,7 +32,7 @@ const Footer = () => {
               fermentu
             </h4>
 
-            <p className="text-white text-[12px] md:text-[24px] lg:text-[12px] font-Teko font-normal tracking-[0.72px] mt-[70px]">
+            <p className="text-white text-[12px] md:text-[24px] lg:text-[12px] font-Teko font-normal tracking-[0.72px] pt-[70px]">
               Connect with our social media
             </p>
 

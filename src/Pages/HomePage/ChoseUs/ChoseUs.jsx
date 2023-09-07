@@ -15,7 +15,7 @@ const ChoseUs = () => {
           <h1 className="lg:text-[56px] md:text-[56px] text-[32px] mt-16 md:mt-16 lg:mt-0 2xl:mt-0 font-Teko font-bold text-[#375E97]">
             Why Chose us?
           </h1>
-          <p className="2xl:w-[717px] lg:w-[660px] font-Lato text-[16px] font-normal text-black leading-8 pt-[20px]">
+          <p className="2xl:w-[717px] text-justify lg:w-[660px] font-Lato text-[16px] font-normal text-black leading-8 pt-[20px]">
             Lorem ipsum dolor sit amet. Aut voluptatum unde aut odit reiciendis
             aut a sunt suscipit qui Quis illo sed quam quisquam et consequatur
             ipsum. At temporibus autem sed eveniet cupiditate etmodi laborio sam

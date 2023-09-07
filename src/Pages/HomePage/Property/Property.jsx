@@ -2,6 +2,14 @@ import PropertyCard from "../../../components/PropertyCard/PropertyCard"
 import { BiSolidDownArrow } from "react-icons/bi";
 
 const Property = () => {
+
+
+ 
+
+
+
+
+
   return (
      //********************  Our property section start here **************************//
      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">

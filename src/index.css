@@ -34,11 +34,21 @@
 
 .footer-bg{
   background-image: url('../src/assets/Footer-image/footer-bg.png');
+  /* background-image: url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'); */
 }
 
+.herader-image{
+  background-image: url('../src/assets/Header/header-image.png');
+
+
+}
 
 .herader-bg{
   background-image: url('../src/assets/Header-two-image/header-2.png');
+}
+
+.review-bg{
+  background-image: url('../src/assets/Reviews-image/background\ -review.png');
 }
 
 
@@ -63,6 +73,23 @@
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
 }
+
+
+
+.stoke-design{
+  color: white ;
+ line-height: 110px;
+ text-transform: uppercase;
+ text-align: center;
+ /* font-family: sans-serif; */
+ letter-spacing: 2.46px;
+ -webkit-text-fill-color:#504594;
+ -webkit-text-stroke-width: 2px;
+}
+
+
+
+
 
 
 

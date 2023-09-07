@@ -42,7 +42,7 @@ const Faq = () => {
 
 
   return (
-      <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+      <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
          <h2 className="text-[#3E348F] lg:text-[56px] md:text-[50px] text-[32px] font-Teko font-bold mb-20 lg:w-[790px] w-full">Frequently Asked Question (F.A.Q)</h2>
           <div className=" lg:flex gap-20">
          <div className=" overflow-hidden lg:w-[663px] w-full">

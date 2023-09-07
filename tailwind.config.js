@@ -32,7 +32,7 @@ export default {
         primary: '#504594',
         secondaryColor: '#F90',
         textColor: '#717070',
-        hoverColor: 'rgba(100,255,218,0.1)',
+        hoverColor: 'rgba(100,255,218,0.3)',
         iconBackground: 'rgba(254, 255, 254, 0.06)',
         boxShadow: '0px 16px 24px 4px rgba(1, 21, 41, 0.2)',
         background: 'linear-gradient(151.76deg, rgba(66, 112, 251, 0) -8.92%, #4270FB 115.63%)'

@@ -67,7 +67,7 @@ const Reviews = () => {
                 </span>
               </div>
 
-              <span className="text-[#6F6C6C] text-[16px] font-Lato font-normal leading-8">
+              <span className="text-[#6F6C6C] text-justify text-[16px] font-Lato font-normal leading-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 vitae ipsum aliquet, aliquam massa ferme.
               </span>

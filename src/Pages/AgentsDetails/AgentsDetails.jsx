@@ -24,6 +24,8 @@ const AgentsDetails = () => {
        <div className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] relative">
           <div className="group">
             <img className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] cursor-pointer" src='https://img.freepik.com/free-photo/handsome-blond-young-man-posing-studio_158595-3385.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais' alt="" />
+
+            
             <div className="bg-[#181C21] lg:w-[550px] w-full h-[150px] absolute bottom-0 transform translate-y-full transition-transform duration-1000 group-hover:translate-y-0 hidden group-hover:block cursor-pointer">
               <h1 className="text-[20px] font-Lato font-normal text-white text-center pt-8">
                 Connect With Our Agent

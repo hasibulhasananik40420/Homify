@@ -1,6 +1,4 @@
 import CommonAction from "../../components/CommonAction/CommonAction";
-
-import BlogRelatedCard from "../../components/BlogRelatedCard/BlogRelatedCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import manImage from "../../assets/Blog-image/man1.png";
 import womenImage from "../../assets/Blog-image/women1.png";
@@ -89,19 +87,7 @@ const BlogPage = () => {
 
         {/******************* blog pagination end  here *******************/}
 
-        {/******************* blog releted post card start here *******************/}
-
-        <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
-          <h1 className="text-[#3E348F] text-[56px] font-Teko font-bold leading-[70px]">
-            See Related Post
-          </h1>
-
-          <div>
-            <BlogRelatedCard />
-          </div>
-        </div>
-
-        {/******************* blog releted post card end here *******************/}
+       
 
         {/******************* blog comments part start here *******************/}
         <div>
