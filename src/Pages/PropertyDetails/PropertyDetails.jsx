@@ -2,6 +2,7 @@
 import React from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
 import propertyDetails from "../../assets/Property-image/property-details-image.jpg";
+import icon from "../../assets/Property-image/Vector 6.svg";
 import { GrLocation } from "react-icons/gr";
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
 import SimiliarProperty from "../../components/SimiliarProperty/SimiliarProperty";
@@ -54,7 +55,7 @@ const PropertyDetails = () => {
 
                 <div className="">
                   <img
-                    src="https://i.ibb.co/MCPCHDG/Vector-6.png"
+                    src={icon}
                     alt=""
                   />
                 </div>
@@ -73,7 +74,7 @@ const PropertyDetails = () => {
                 Riverview Home
               </h1>
 
-              <p className="text-[56px] text-secondaryColor font-Teko font-bold ">
+              <p className="text-[56px] text-secondaryColor font-Teko font-bold">
                 $ 11,79,237
               </p>
 

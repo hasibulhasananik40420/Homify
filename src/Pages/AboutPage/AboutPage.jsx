@@ -6,7 +6,7 @@ import certified3 from "../../assets/About-us-image/certificate-3.png";
 import certified4 from "../../assets/About-us-image/certificate-4.png";
 import certified5 from "../../assets/About-us-image/certificate-5.png";
 import certified6 from "../../assets/About-us-image/certificate-6.png";
-
+import about from "../../assets/About-us-image/about.png";
 import { BsBagDash } from "react-icons/bs";
 
 const AboutPage = () => {
@@ -20,18 +20,16 @@ const AboutPage = () => {
         {/***************** Our misstion and vistion section start here *******************/}
 
         <div className="lg:flex 2xl:flex 2xl:gap-[121px] lg:gap-20 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
-          <div data-aos="fade-up" data-aos-duration="2000">
+          <div>
             <img
               className="lg:w-[611px] w-full lg:h-[700px] h-[450px] "
               style={{ borderRadius: "60px 60px 60px 0px" }}
-              src="https://img.freepik.com/premium-photo/house-with-garden-garden-with-house-background_865967-130543.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais"
+              src={about}
               alt=""
             />
           </div>
 
           <div
-            data-aos="fade-up"
-            data-aos-duration="2000"
             className="lg:w-[705px] w-full"
           >
             <h1 className="text-[#5B519B] text-[56px] font-Teko font-bold mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
@@ -71,8 +69,7 @@ const AboutPage = () => {
         {/***************** Our misstion and vistion section end here *******************/}
 
         <div className="lg:flex gap-[74px] 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
-          <div data-aos="fade-up"
-     data-aos-duration="2000" className="lg:w-[663px] w-full">
+          <div className="lg:w-[663px] w-full">
             <h1 className="lg:w-[663px] w-full text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold lg:leading-[70px]">
               We are Best and Most Trusted Real Estate Agent
             </h1>
@@ -116,8 +113,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div data-aos="fade-up"
-     data-aos-duration="2000">
+          <div>
             <img
               className="lg:w-[700px] lg:h-[980px] md:w-full mt-16 md:mt-24 lg:mt-0 md:h-[500px] md:mx-auto w-full h-[450px] custom-border"
               src={aboutHero}

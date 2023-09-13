@@ -4,11 +4,19 @@ import { AiOutlineApple, AiOutlineGoogle } from "react-icons/ai";
 import { FiFacebook } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
+import { useState } from "react";
 
 
 
 const Login = () => {
 
+
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
  
   return (
     <div className="">
@@ -56,7 +64,7 @@ const Login = () => {
               />
             </div>
 
-            <div className="flex flex-col gap-5 mt-[40px] relative">
+            {/* <div className="flex flex-col gap-5 mt-[40px] relative">
               <label
                 className="text-black font-Teko font-normal text-[24px] leading-6"
                 htmlFor="password"
@@ -72,7 +80,34 @@ const Login = () => {
               <span className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute 2xl:right-[190px] lg:right-[120px] md:right-[130px] right-[30px] top-[59px]">
                 Hide
               </span>
-            </div>
+            </div> */}
+
+
+<div className="flex flex-col gap-5 mt-[40px] relative">
+      <label
+        className="text-black font-Teko font-normal text-[24px] leading-6"
+        htmlFor="password"
+      >
+        Your Password
+      </label>
+      <input
+        className="lg:w-[429px] md:w-[500px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+        type={showPassword ? 'text' : 'password'}
+        placeholder="Write your password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+
+      <span
+        className="text-black font-Lato text-[16px] leading-6 underline font-normal cursor-pointer absolute 2xl:right-[190px] lg:right-[120px] md:right-[130px] right-[30px] top-[59px]"
+        onClick={togglePasswordVisibility}
+      >
+        {showPassword ? 'Show' : 'Hide'}
+      </span>
+    </div>
+
+
+
 
             <div className="flex justify-between items-center lg:w-[429px] md:w-[500px] w-full">
               <div className="mt-5">

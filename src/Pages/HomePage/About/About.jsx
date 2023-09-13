@@ -1,4 +1,3 @@
-import about from "../../../assets/About-hero-image/about.png";
 import house1 from "../../../assets/About-hero-image/about-2-house.svg";
 import house2 from "../../../assets/About-hero-image/about-2.svg";
 import house3 from "../../../assets/About-hero-image/about-3.svg";
@@ -55,6 +54,7 @@ const About = () => {
             className="lg:w-[583px] lg:h-[760px] w-full h-full"
             src="https://img.freepik.com/premium-photo/ai-image-contemporary-luxury-residential-house-with-windows-balcony-surrounded-by-trees-flowers_501669-26503.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais"
             alt=""
+            style={{borderRadius:'60px 60px 60px 0px'}}
           />
         </div>
 
