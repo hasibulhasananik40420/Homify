@@ -1,13 +1,25 @@
 import AgentsListCard from "../../components/AgentsListCard/AgentsListCard"
 import CommonAction from "../../components/CommonAction/CommonAction"
-import agent1 from "../../assets/Agents-images/agent1.png";
+
+import agent1 from '../../assets/Agents-images/agent1.jpg'
+import agent2 from '../../assets/Agents-images/agent2.jpg'
+import agent3 from '../../assets/Agents-images/agent3.jpg'
+import agent4 from '../../assets/Agents-images/agent4.jpg'
+import agent5 from '../../assets/Agents-images/agent5.jpg'
+import agent6 from '../../assets/Agents-images/agent6.jpg'
+import agent7 from '../../assets/Agents-images/agent7.jpg'
+import agent8 from '../../assets/Agents-images/agent8.jpg'
+
+
+
+
 const AgentsList = () => {
 
    const agents = [
     
     {
       _id: 1,
-      image: 'https://img.freepik.com/free-photo/handsome-businessman-suit-glasses-cross-arms-chest-look_176420-21750.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=sph',
+      image: agent1,
       name: "Mack Alexa",
       news: "Real Estate Agent",
       phone: '0123 786 88567',
@@ -15,12 +27,67 @@ const AgentsList = () => {
     },
      {
       _id: 2,
-      image: 'https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=sph',
+      image: agent2,
       name: "Mack Alexa",
       news: "Real Estate Agent",
       phone: '0123 786 88567',
       email:'mackalexa@gmail.com'
     },
+ {
+      _id: 3,
+      image: agent3,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+ {
+      _id: 4,
+      image: agent4,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+ {
+      _id: 5,
+      image: agent5,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+ {
+      _id: 6,
+      image: agent6,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+ {
+      _id: 7,
+      image: agent7,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+ {
+      _id: 8,
+      image: agent8,
+      name: "Mack Alexa",
+      news: "Real Estate Agent",
+      phone: '0123 786 88567',
+      email:'mackalexa@gmail.com'
+    },
+
+
 
    ]
 

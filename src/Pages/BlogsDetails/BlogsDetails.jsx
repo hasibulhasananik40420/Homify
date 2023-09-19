@@ -7,7 +7,9 @@ import blog2 from "../../assets/Blog-details-image/blog-2.png";
 import blogMan from "../../assets/Blog-details-image/blogman-2.png";
 import playImage from "../../assets/Blog-details-image/play-image.png";
 import { GoDotFill } from "react-icons/go";
-import BlogRelatedCard from "../../components/BlogRelatedCard/BlogRelatedCard";
+import videoIcon from '../../assets/Header/video-icon.svg'
+
+
 
 const BlogsDetails = () => {
   return (
@@ -18,7 +20,7 @@ const BlogsDetails = () => {
 
       {/******************* blog details part start here *******************/}
       {/*------------------------------------------------------------ */}
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
         <h1 className="text-[#504592] 2xl:text-[56px] lg:text-[56px] md:text-[56px]  text-[32px] font-Teko font-bold 2xl:leading-[56px] lg:leading-[56px]">
           Every Real Estate Agent Needs a Website
         </h1>
@@ -269,35 +271,24 @@ const BlogsDetails = () => {
           </div>
 
           <div
-            className="2xl:w-[720px] 2xl:h-[600px] lg:w-full lg:h-[550px] md:h-[600px] h-[550px] "
-            style={{ background: "rgba(62, 52, 143, 0.60)" }}
+            className="2xl:w-[720px] 2xl:h-[600px] lg:w-full lg:h-[550px] md:h-[600px] h-[550px] relative "
+            
           >
             <img
-              className="2xl:w-[720px] 2xl:h-[600px] lg:w-full lg:h-[550px] md:h-[600px] h-[550px] opacity-40 hover:opacity-70 hover:cursor-pointer duration-500"
+              className="2xl:w-[720px] 2xl:h-[600px] lg:w-full lg:h-[550px] md:h-[600px] h-[550px]"
               src={playImage}
               alt=""
             />
+             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center">
+           <img className="h-[120px] w-[120px] rounded-full cursor-pointer" src={videoIcon} alt="" />
+          </div>
           </div>
         </div>
 
         {/******************* blog hero part end here *******************/}
         {/*------------------------------------------------------------ */}
 
-        {/******************* blog releted post card start here *******************/}
-        {/*---------------------------------------------------------------------- */}
-
-        <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
-          <h1 className="text-[#3E348F] text-[56px] font-Teko font-bold leading-[70px]">
-            See Related Post
-          </h1>
-
-           <div>
-             <BlogRelatedCard/>
-           </div>
-        </div>
-
-        {/******************* blog releted post card end here *******************/}
-        {/*---------------------------------------------------------------------- */}
+       
       </div>
 
       {/******************* blog details part end here *******************/}

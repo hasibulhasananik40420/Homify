@@ -1,6 +1,6 @@
 import PropertyCard from "../../../components/PropertyCard/PropertyCard"
 import { BiSearch, BiSolidDownArrow } from "react-icons/bi";
-
+import property1 from '../../../assets/Property-image/property-1.jpg'
 
 const Property = () => {
 
@@ -8,8 +8,7 @@ const Property = () => {
   const propertis = [
     {
       _id: 1,
-      image: 'https://img.freepik.com/premium-photo/modern-home-with-garage-garage-door_781958-473.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph',
-      propertyid:'007654',
+      image: property1,
       price:'10,00,000',
       name: "Southbreez Castle",
       bedRooms: 3,
