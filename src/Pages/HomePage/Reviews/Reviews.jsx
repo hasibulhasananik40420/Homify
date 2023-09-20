@@ -1,3 +1,8 @@
+import image1 from '../../../assets/Agents-images/agent6.jpg'
+import image2 from '../../../assets/Agents-images/agent2.jpg'
+import image3 from '../../../assets/Agents-images/agent3.jpg'
+
+
 const Reviews = () => {
   return (
     //******************** reviews section start here **************************//
@@ -53,7 +58,7 @@ const Reviews = () => {
                   style={{
                     boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
                   }}
-                  src="https://img.freepik.com/free-photo/health-fashion-sale-urban-teen_1328-11.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                  src={image1}
                   alt=""
                 />
 
@@ -85,7 +90,7 @@ const Reviews = () => {
                   style={{
                     boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
                   }}
-                  src="https://img.freepik.com/free-photo/health-fashion-sale-urban-teen_1328-11.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                  src={image2}
                   alt=""
                 />
 
@@ -117,7 +122,7 @@ const Reviews = () => {
                   style={{
                     boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
                   }}
-                  src="https://img.freepik.com/free-photo/health-fashion-sale-urban-teen_1328-11.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                  src={image3}
                   alt=""
                 />
 

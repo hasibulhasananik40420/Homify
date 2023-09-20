@@ -1,5 +1,7 @@
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia"
-import property6 from '../../../src/assets/Property-image/Property-image6.jpg'
+import property3 from '../../../src/assets/Property-image/property-1.jpg'
+import property2 from '../../../src/assets/Property-image/property-8.jpg'
+import property1 from '../../../src/assets/Property-image/property-9.png'
 
 const RecentAddedPropertyCard = () => {
   return (
@@ -8,10 +10,10 @@ const RecentAddedPropertyCard = () => {
 
 
        {/************** property card 1 start here ********************/}
-       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
-          src={property6}
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-full h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
+          src={property1}
           alt=""
         />
         <div className="py-[24px] pl-4 bg-white" style={{borderRadius:'0px 0px 60px 0px', boxShadow:'0px 4px 60px 0px rgba(134, 132, 132, 0.30)'}}>
@@ -55,10 +57,10 @@ const RecentAddedPropertyCard = () => {
    
    
      {/************** property card 2 start here ********************/}
-       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
-          src={property6}
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-full h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
+          src={property2}
           alt=""
         />
         <div className="py-[24px] pl-4 bg-white" style={{borderRadius:'0px 0px 60px 0px', boxShadow:'0px 4px 60px 0px rgba(134, 132, 132, 0.30)'}}>
@@ -102,10 +104,10 @@ const RecentAddedPropertyCard = () => {
    
    
      {/************** property card 3 start here ********************/}
-       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
-          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
-          src={property6}
+          className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-full h-[400px]" style={{borderRadius:' 60px 60px 0px 0px',boxShadow:'0px 0px 60px 0px rgba(237, 234, 234, 0.65)'}}
+          src={property3}
           alt=""
         />
         <div className="py-[24px] pl-4 bg-white" style={{borderRadius:'0px 0px 60px 0px', boxShadow:'0px 4px 60px 0px rgba(134, 132, 132, 0.30)'}}>

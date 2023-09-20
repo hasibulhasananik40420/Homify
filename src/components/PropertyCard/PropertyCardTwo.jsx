@@ -32,7 +32,7 @@ const PropertyCardTwo = ({data}) => {
             className="bg-white 2xl:pt-6 lg:pt-2 md:pt-3 pt-3"
             style={{ boxShadow: "0px 4px 45px 0px rgba(180, 178, 178, 0.30)" }}
           >
-            <p className="text-secondaryColor text-[32px]  font-bold font-Teko 2xl:pl-8 lg:pl-4 pl-2">
+            <p className="text-secondaryColor text-[32px] font-bold font-Teko 2xl:pl-8 lg:pl-4 pl-2">
               $ {price}
             </p>
             <p className="text-black 2xl:text-[32px] text-[24px] font-bold font-Lato 2xl:pl-8 lg:pl-4 pl-2">

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 
 
 
@@ -58,9 +59,11 @@ const PropertyCard = ({property}) => {
               Book
             </button>
 
-            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
+           <Link to={'/property-details'}>
+           <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
               View
             </button>
+           </Link>
           </div>
         </div>
       </div>

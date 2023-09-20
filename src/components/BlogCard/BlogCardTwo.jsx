@@ -13,7 +13,7 @@ const BlogCardTwo = ({data}) => {
       {/******************* blog v2 card start here *******************/}
       <div className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full">
         <img
-          className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full h-[420px]"
+          className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full h-[420px] cursor-pointer"
           src={image}
           alt=""
         />

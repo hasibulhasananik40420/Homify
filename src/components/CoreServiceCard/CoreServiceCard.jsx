@@ -5,6 +5,8 @@ import { FcBusinessman } from 'react-icons/fc';
 const CoreServiceCard = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 justify-items-center 2xl:gap-x-5 lg:gap-x-10 md:gap-x-5 gap-y-20 mt-20 ">
+     
+     
       {/************** Core service card 1 start here ********************/}
       <div className="2xl:w-[345px] lg:w-[290px] md:w-[320px] w-full h-[420px] bg-[#fffefe] core-service group hover:bg-primary duration-500 hover:cursor-pointer">
         <div className="flex justify-center">
@@ -24,11 +26,10 @@ const CoreServiceCard = () => {
           </p>
         </div>
       </div>
-
       {/************** Core service card 1 end here ********************/}
 
       {/************** Core service card 2 start here ********************/}
-      <div className="2xl:w-[345px] lg:w-[290px] md:w-[320px] w-full h-[420px] bg-primary core-service hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+      <div className="2xl:w-[345px] lg:w-[290px] md:w-[320px] w-full h-[420px] bg-secondaryColor core-service hover:bg-primary duration-500 hover:cursor-pointer">
         <div className="flex justify-center">
         <SlHandbag className="text-[90px] text-white mt-16"/>
         </div>

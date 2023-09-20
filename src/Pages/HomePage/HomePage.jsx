@@ -16,8 +16,8 @@ const HomePage = () => {
       <ChoseUs/>
       <Property/>
       <SellProperty/>
-     <OurAgents/>
-     <Reviews/>
+      <OurAgents/>
+      <Reviews/>
     </div>
   )
 }

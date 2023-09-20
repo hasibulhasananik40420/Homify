@@ -1,6 +1,11 @@
 import PropertyCard from "../../../components/PropertyCard/PropertyCard"
 import { BiSearch, BiSolidDownArrow } from "react-icons/bi";
 import property1 from '../../../assets/Property-image/property-1.jpg'
+import property2 from '../../../assets/Property-image/property-2.jpg'
+import property3 from '../../../assets/Property-image/property-3.jpg'
+import property4 from '../../../assets/Property-image/property-4.jpg'
+import property5 from '../../../assets/Property-image/property-5.jpg'
+import property6 from '../../../assets/Property-image/property-6.jpg'
 
 const Property = () => {
 
@@ -10,21 +15,68 @@ const Property = () => {
       _id: 1,
       image: property1,
       price:'10,00,000',
-      name: "Southbreez Castle",
+      name: "Lake View Castle",
       bedRooms: 3,
       bathRooms: 3,
       location: "773/2, New york, USA",
     },
+
      {
       _id: 2,
-      image: 'https://img.freepik.com/premium-photo/modern-home-with-garage-garage-door_781958-473.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph',
+      image:property2 ,
       propertyid:'007654',
-      price:'10,00,000',
+      price:'13,79,590',
       name: "Southbreez Castle",
+      bedRooms: 4,
+      bathRooms: 3,
+      location: "773/2, Dallas City, USA",
+    },
+
+ {
+      _id: 3,
+      image:property3 ,
+      propertyid:'007654',
+      price:'19,57,599',
+      name: "Sea View Villa",
+      bedRooms: 6,
+      bathRooms: 5,
+      location: "773/2, California, USA",
+    },
+
+ {
+      _id: 4,
+      image:property4 ,
+      propertyid:'007654',
+      price:'12,89,990',
+      name: "Rose Garden Condo",
       bedRooms: 3,
       bathRooms: 3,
       location: "773/2, New york, USA",
     },
+ {
+      _id: 5,
+      image:property5 ,
+      propertyid:'007654',
+      price:'17,57,999',
+      name: "Castle Panaroma",
+      bedRooms: 4,
+      bathRooms: 3,
+      location: "773/2, Texas, USA",
+    },
+{
+      _id: 6,
+      image:property6 ,
+      propertyid:'007654',
+      price:'19, 75,897',
+      name: "Dream House Condo",
+      bedRooms: 3,
+      bathRooms: 3,
+      location: "773/2, New york, USA",
+    },
+
+
+
+
   ]
 
 

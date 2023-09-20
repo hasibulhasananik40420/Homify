@@ -5,6 +5,9 @@ import blog3 from "../../../assets/Blog-image/blog-3.png";
 import blog4 from "../../../assets/Blog-image/blog-4.png";
 import blog5 from "../../../assets/Blog-image/blog-5.png";
 import blog6 from "../../../assets/Blog-image/blog-6.png";
+
+
+
 const BlogTwo = () => {
   const products = [
     {
@@ -57,7 +60,7 @@ const BlogTwo = () => {
 
   return (
     <div>
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-20 pt-16">
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:py-32 lg:py-[100px] md:py-20 py-16">
         <h1 className="text-[#3E348F] lg:text-[82px] md:text-[56px] text-[32px] font-Teko font-bold leading-[56px] text-right">
           <span className="text-[#181C21]">Our News </span> and Blogs
         </h1>
@@ -72,6 +75,14 @@ const BlogTwo = () => {
             <BlogCardTwo key={data?._id} data={data} />
           ))}
         </div>
+
+        <div className="flex justify-center mt-20">
+            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">
+            Load More News and Blogs
+            </button>
+          </div>
+
+
       </div>
     </div>
   );
