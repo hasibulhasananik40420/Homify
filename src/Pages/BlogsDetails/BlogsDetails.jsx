@@ -2,7 +2,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
-import blogDetails from "../../assets/Blog-details-image/blog-details.png";
+import blogDetails from "../../assets/Property-image/blog1.png";
+import blogDetails2 from "../../assets/Blog-details-image/blog-3.png";
+import blogDetails3 from "../../assets/Blog-details-image/blog-4.png";
 import blog2 from "../../assets/Blog-details-image/blog-2.png";
 import blogMan from "../../assets/Blog-details-image/blogman-2.png";
 import playImage from "../../assets/Blog-details-image/play-image.png";
@@ -199,7 +201,7 @@ const BlogsDetails = () => {
               />
               <div className="bg-[#504592] h-[148px] pl-8 pt-8 absolute bottom-0 ">
                 <h1 className="text-white text-[20px] md:text-[32px] lg:text-[20px] 2xl:text-[20px] font-Lato font-bold leading-10 2xl:leading-10 lg:leading-10 md:leading-[46px]">
-                  How To Get A Great Real Estate Website
+                How To Get A Great Real Estate Website with low cost.
                 </h1>
               </div>
             </div>
@@ -207,12 +209,13 @@ const BlogsDetails = () => {
             <div className="relative group 2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full mt-16 md:mt-24 lg:mt-0 2xl:mt-0">
               <img
                 className="2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full h-[500px]"
-                src={blog2}
+                src={blogDetails2}
                 alt=""
               />
               <div className="bg-[#504592] 2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full h-[148px] pl-8 pt-8 absolute bottom-0 transform translate-y-full transition-transform duration-1000 group-hover:translate-y-0 hidden group-hover:block">
                 <h1 className="text-white text-[20px] md:text-[32px] lg:text-[20px] 2xl:text-[20px] font-Lato font-bold leading-10 2xl:leading-10 lg:leading-10 md:leading-[46px]">
-                  How To Get A Great Real Estate Website
+                Best 10 tips for buying you dream 
+                 Properties with Low budget.
                 </h1>
               </div>
             </div>
@@ -220,12 +223,13 @@ const BlogsDetails = () => {
             <div className="relative group 2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full mt-16 md:mt-24 lg:mt-0 2xl:mt-0">
               <img
                 className="2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full h-[500px]"
-                src={blog2}
+                src={blogDetails3}
                 alt=""
               />
               <div className="bg-[#504592] 2xl:w-[368px] lg:w-[368px] md:w-[550px] w-full h-[148px] pl-8 pt-8 absolute bottom-0 transform translate-y-full transition-transform duration-1000 group-hover:translate-y-0 hidden group-hover:block">
                 <h1 className="text-white text-[20px] md:text-[32px] lg:text-[20px] 2xl:text-[20px] font-Lato font-bold leading-10 2xl:leading-10 lg:leading-10 md:leading-[46px]">
-                  How To Get A Great Real Estate Website
+                Top Tips for those who want to sale 
+                their  Properties without any hassle.
                 </h1>
               </div>
             </div>

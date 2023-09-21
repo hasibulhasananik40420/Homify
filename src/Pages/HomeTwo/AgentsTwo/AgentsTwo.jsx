@@ -1,5 +1,5 @@
 import OurAgentsCardTwo from "../../../components/OurAgentsCard/OurAgentsCardTwo"
-import agents1 from "../../../assets/Agents-images/agent-v2.png";
+import agents1 from "../../../assets/Agents-images/agent6.jpg";
 import agents2 from "../../../assets/Agents-images/agent-v2-2.png";
 import agents3 from "../../../assets/Agents-images/agent-v2-3.png";
 import agents4 from "../../../assets/Agents-images/agent-v4.png";

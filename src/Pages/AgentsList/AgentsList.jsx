@@ -1,4 +1,3 @@
-import AgentsListCard from "../../components/AgentsListCard/AgentsListCard"
 import CommonAction from "../../components/CommonAction/CommonAction"
 
 import agent1 from '../../assets/Agents-images/agent1.jpg'
@@ -9,6 +8,7 @@ import agent5 from '../../assets/Agents-images/agent5.jpg'
 import agent6 from '../../assets/Agents-images/agent6.jpg'
 import agent7 from '../../assets/Agents-images/agent7.jpg'
 import agent8 from '../../assets/Agents-images/agent8.jpg'
+import OurAgentsCard from "../../components/OurAgentsCard/OurAgentsCard"
 
 
 
@@ -110,7 +110,7 @@ const AgentsList = () => {
       {/* ********************  Our agents list card section end here ************************** */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 gap-x-[20px] gap-y-[100px] justify-items-center pt-28">
         {
-          agents?.map(agent => <AgentsListCard key={agent?._id} agent={agent}/>)
+          agents?.map(agent => <OurAgentsCard key={agent?._id} agent={agent}/>)
         }
      
       </div>

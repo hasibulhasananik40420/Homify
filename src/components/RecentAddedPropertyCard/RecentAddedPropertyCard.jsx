@@ -1,7 +1,7 @@
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia"
 import property3 from '../../../src/assets/Property-image/property-1.jpg'
 import property2 from '../../../src/assets/Property-image/property-8.jpg'
-import property1 from '../../../src/assets/Property-image/property-9.png'
+import property1 from '../../../src/assets/Property-image/property-9.jpg'
 
 const RecentAddedPropertyCard = () => {
   return (

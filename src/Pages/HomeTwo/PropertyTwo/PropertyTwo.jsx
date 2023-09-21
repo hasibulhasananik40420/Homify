@@ -7,8 +7,6 @@ import spece from "../../../assets/Chose-us-image/spece.svg";
 import duplexHouse from "../../../assets/Chose-us-image/duplex-house.svg";
 import singleHouse from "../../../assets/Chose-us-image/single-house.svg";
 
-// import agent1 from '../../../assets/Agents-images/agent-v4.png'
-
 import property1 from '../../../assets/Property-image/image1.png'
 import property2 from '../../../assets/Property-image/image2.png'
 import property3 from '../../../assets/Property-image/image3.png'

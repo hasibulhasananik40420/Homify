@@ -1,18 +1,22 @@
 import { CiUser } from "react-icons/ci";
 import { GoDotFill } from "react-icons/go";
-
+import blog1 from '../../assets/Property-image/blog1.png'
+import blog2 from '../../assets/Property-image/property-9.jpg'
+import { Link } from "react-router-dom";
 const BlogCard = () => {
   return (
     <div>
          {/******************* blog card 1 start here *******************/}
          <div className="lg:flex 2xl:gap-32 lg:gap-20">
           <div className="2xl:w-[915px] lg:w-[915px] w-full">
-            <img
-              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[2px] duration-300"
-              src="https://img.freepik.com/free-photo/spacious-interior-museum-hall-generative-ai_169016-28922.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+           <Link to={'/blog-details'}>
+           <img
+              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[1px] duration-300 cursor-pointer"
+              src={blog1}
               style={{ borderRadius: "60px 60px 60px 0px" }}
               alt=""
             />
+           </Link>
 
             <p className="text-black text-[20px] font-Lato font-normal mt-14">
               Real Estate Marketing Ideas
@@ -210,12 +214,14 @@ const BlogCard = () => {
         {/******************* blog card 2 start here *******************/}
         <div className="lg:flex 2xl:gap-32 lg:gap-20 mb-20 mt-16 ">
           <div className="2xl:w-[915px] lg:w-[915px] w-full">
+            <Link to={'/blog-details'}>
             <img
-              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[2px] duration-300"
-              src="https://img.freepik.com/premium-photo/house-with-garden-beautiful-sunset-background_865967-348091.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[2px] duration-300 cursor-pointer"
+              src={blog2}
               style={{ borderRadius: "60px 60px 60px 0px" }}
               alt=""
             />
+            </Link>
 
             <p className="text-black text-[20px] font-Lato font-normal mt-14">
               Real Estate Marketing Ideas

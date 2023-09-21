@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
-import propertyDetails from "../../assets/Property-image/property-details-image.jpg";
+import propertyDetails from "../../assets/Property-image/property-1.jpg";
 import icon from "../../assets/Property-image/Vector 6.svg";
 import { GrLocation } from "react-icons/gr";
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
@@ -46,7 +46,7 @@ const PropertyDetails = () => {
                 alt=""
               />
 
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 flex">
+              <div className="absolute -top-[23px] left-1/2 transform -translate-x-1/2 flex">
                 <div className="w-[150px] h-[56px] bg-secondaryColor flex justify-center items-center">
                   <span className="text-white text-[16px] font-Lato font-bold">
                     FOR SALE

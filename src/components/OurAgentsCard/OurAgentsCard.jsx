@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
+import { Link } from "react-router-dom";
 const OurAgentsCard = ({agent}) => {
 
   const {image,name,phone,email,news} = agent
@@ -31,9 +32,11 @@ const OurAgentsCard = ({agent}) => {
               </p>
             </div>
 
+            <Link to={'/agents-details'}>
             <button className="w-[190px] h-[56px] bg-[#F90] text-white font-Lato font-bold text-[16px] text-center custom-border-button flex-shrink-0 mt-[30px] hover:bg-[#504594] border border-[#F90] transform duration-500 group-hover:bg-primary">
               Contact
             </button>
+            </Link>
           </div>
           <img
             className="absolute top-[-50px] md:top-[-80px] lg:top-[-55px] 2xl:top-[-80px] left-1/2 transform -translate-x-1/2 2xl:w-[150px] 2xl:h-[150px] lg:w-[110px] lg:h-[110px] md:w-[150px] md:h-[150px] w-[100px] h-[100px] rounded-full"

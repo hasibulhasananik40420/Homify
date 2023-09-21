@@ -2,13 +2,16 @@
 import React, { useState } from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
 import { BiSearch, BiSolidDownArrow } from "react-icons/bi";
-import PropertyListCard from "../../components/PropertyListCard/PropertyListCard";
 import property1 from '../../assets/Property-image/property-1.jpg'
 import property2 from '../../assets/Property-image/property-2.jpg'
 import property3 from '../../assets/Property-image/property-3.jpg'
 import property4 from '../../assets/Property-image/property-4.jpg'
 import property5 from '../../assets/Property-image/property-5.jpg'
 import property6 from '../../assets/Property-image/property-6.jpg'
+import property7 from '../../assets/Property-image/house.png'
+import property8 from '../../assets/Property-image/image1.png'
+import property9 from '../../assets/Property-image/image2.png'
+import PropertyCard from "../../components/PropertyCard/PropertyCard";
 
 
 
@@ -79,6 +82,37 @@ const PropertyList = () => {
       location: "773/2, New york, USA",
     },
 
+{
+      _id: 7,
+      image:property7 ,
+      propertyid:'007654',
+      price:'23,79,769',
+      name: "James House",
+      bedRooms: 3,
+      bathRooms: 3,
+      location: "773/2, New york, USA",
+    },
+{
+      _id: 8,
+      image:property8 ,
+      propertyid:'007654',
+      price:'13,49,769',
+      name: "Camelia Rose Villa",
+      bedRooms: 3,
+      bathRooms: 3,
+      location: "333/2, Boston, USA",
+    },
+{
+      _id: 9,
+      image:property9 ,
+      propertyid:'007654',
+      price:'27,55,650',
+      name: "Queence Palace",
+      bedRooms: 8,
+      bathRooms: 6,
+      location: "333/2, Boston, USA",
+    },
+
 
 
 
@@ -139,7 +173,7 @@ const PropertyList = () => {
         {/* ********************  Our property list card section end here ************************* */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
         {
-          propertis?.map(property => <PropertyListCard key={property._id} property={property}/>)
+          propertis?.map(property => <PropertyCard key={property._id} property={property}/>)
         }
         
         </div>

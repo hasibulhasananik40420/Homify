@@ -2,6 +2,13 @@ import CommonAction from "../../components/CommonAction/CommonAction";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import manImage from "../../assets/Blog-image/man1.png";
 import womenImage from "../../assets/Blog-image/women1.png";
+import image1 from "../../assets/Blog-image/Rectangle 1177.png";
+import agent1 from '../../assets/Agents-images/agent5.jpg'
+import agent2 from '../../assets/Agents-images/agent2.jpg'
+import agent3 from '../../assets/Agents-images/agent6.jpg'
+import agent4 from '../../assets/Agents-images/agent4.jpg'
+import agent5 from '../../assets/Agents-images/agent7.jpg'
+import agent6 from '../../assets/Agents-images/agent8.jpg'
 
 const BlogPage = () => {
   return (
@@ -49,21 +56,24 @@ const BlogPage = () => {
               <img
                 className="w-full h-full object-cover transition-transform duration-300 transform-gpu scale-100 hover:scale-105 hover:rotate-2"
                 style={{ borderRadius: "60px 60px 60px 0px" }}
-                src="https://img.freepik.com/free-photo/street-with-glass-buildings_1127-2236.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                src={image1}
                 alt=""
               />
               <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <p className="text-lg font-semibold">Hover Effect</p>
+               
               </div>
             </div>
           </div>
         </div>
         {/******************* blog  part 1 end here *******************/}
 
+
         {/******************* blog card  start here *******************/}
 
         <BlogCard />
         {/******************* blog card  end here *******************/}
+
+        
 
         {/******************* blog pagination start  here *******************/}
         <div className="flex justify-center items-center gap-5 ">
@@ -243,12 +253,12 @@ const BlogPage = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                    Your Last Name
                   </label>
                   <input
                     className="lg:w-[400px] 2xl:w-[440px] md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your last name here"
                   />
                 </div>
               </div>
@@ -259,12 +269,12 @@ const BlogPage = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                    Your Email Address
                   </label>
                   <input
                     className="lg:w-[400px] 2xl:w-[440px] md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your email address here"
                   />
                 </div>
                 <div className="flex flex-col gap-5 mt-7 md:mt-7 lg:mt-0 2xl:mt-0">
@@ -272,12 +282,12 @@ const BlogPage = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                    Your Subject
                   </label>
                   <input
                     className="lg:w-[400px] 2xl:w-[440px] md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your subject here"
                   />
                 </div>
               </div>
@@ -312,66 +322,66 @@ const BlogPage = () => {
                 <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent1}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                    Admin on Luxury Modern Duplex Home
                   </p>
                 </span>
 
                 <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent2}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                  Smiths on Luxury Modern Duplex Home
                   </p>
                 </span>
 
                 <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent3}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                  Waters Loo on Luxury Modern  Home
                   </p>
                 </span>
 
                 <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent4}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                  Bryan on Luxury Modern Duplex Home
                   </p>
                 </span>
 
                 <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent5}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                  Jesica on Luxury Modern Duplex Home
                   </p>
                 </span>
                 
                  <span className="flex gap-3">
                   <img
                     className="w-10 h-10 rounded-[8px]"
-                    src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={agent6}
                     alt=""
                   />
                   <p className="text-[#3E348F] 2xl:text-[20px] text-[16px] font-Lato font-normal">
-                    Admin on Luxury Modern Duplex Hom
+                  Admin on Luxury Modern Duplex Home
                   </p>
                 </span>
               </div>

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { HiOutlineBookmark } from "react-icons/hi";
 import { PiCalendar, PiUserCircle } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const BlogCardTwo = ({data}) => {
 
@@ -12,11 +13,13 @@ const BlogCardTwo = ({data}) => {
 
       {/******************* blog v2 card start here *******************/}
       <div className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full">
-        <img
+       <Link to={'/blog-details'}>
+       <img
           className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full h-[420px] cursor-pointer"
           src={image}
           alt=""
         />
+       </Link>
 
         <div
           className="bg-white"

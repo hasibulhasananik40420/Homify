@@ -59,13 +59,7 @@ const BlogVersionTwo = () => {
       news: "Real Estate Trending News",
       publish: "July 20, 2022",
     },
-    {
-      _id: 7,
-      image: blog6,
-      name: "how to make modern house at low cost",
-      news: "Real Estate Trending News",
-      publish: "July 20, 2022",
-    },
+   
   ];
 
 

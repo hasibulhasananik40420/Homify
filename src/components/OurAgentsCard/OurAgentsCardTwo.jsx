@@ -1,21 +1,24 @@
 /* eslint-disable react/prop-types */
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const OurAgentsCardTwo = ({ data }) => {
   const { image, name, email, phone, agentTitle } = data;
 
   return (
-    <div>
+    <Link to={'/agents-details'}>
       {/******************* agent card start here *******************/}
 
       <div className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full relative">
        
+      
        <img
           className="2xl:w-[466px] lg:w-[400px] md:w-[350px] w-full h-[420px]"
           src={image}
           alt=""
         />
+     
      
 
         {/********************** socal media icon start here *************************/}
@@ -60,7 +63,7 @@ const OurAgentsCardTwo = ({ data }) => {
 
         {/******************* agent card end here *******************/}
       </div>
-    </div>
+    </Link>
   );
 };
 
