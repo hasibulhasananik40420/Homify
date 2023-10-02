@@ -21,7 +21,7 @@ const CommonAction = ({ title, subTitle }) => {
         >
           {title}
         </h1>
-        <p className="text-white font-Lato lg:text-[56px] text-[30px] font-bold">
+        <p className="text-white font-Lato lg:text-[56px] text-[32px] font-bold">
           {subTitle}
         </p>
       </div>

@@ -89,6 +89,19 @@
 
 
 
+.design{
+  border-radius: 150px 0px;
+  box-shadow: 0px 4px 45px 0px rgba(154, 149, 149, 0.25);
+}
+
+.design:hover{
+  border-radius: 0;
+  box-shadow: 0;
+  transition: 0.3s linear;
+}
+
+
+
 
 
 

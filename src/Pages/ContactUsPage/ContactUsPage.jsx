@@ -12,8 +12,8 @@ const ContactUsPage = () => {
     //******************** ##########################  **************************//
     <div>
       <CommonAction
-        title={"Contact With Us"}
-        subTitle={"Home> Contact With Us"}
+        title={"Contact Us"}
+        subTitle={"Home> Contact Us"}
       />
 
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">

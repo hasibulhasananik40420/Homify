@@ -8,6 +8,7 @@ import certified5 from "../../assets/About-us-image/certificate-5.png";
 import certified6 from "../../assets/About-us-image/certificate-6.png";
 import about from "../../assets/About-us-image/about.png";
 import { BsBagDash } from "react-icons/bs";
+import icon2 from '../../assets/About-us-image/Vector (1).png'
 
 const AboutPage = () => {
   return (
@@ -74,7 +75,7 @@ const AboutPage = () => {
               We are Best and Most Trusted Real Estate Agent
             </h1>
 
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:justify-items-center lg:justify-items-start lg:gap-20 2xl:gap-[121px] md:gap-20 gap-14 mt-16">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:justify-items-center lg:justify-items-start lg:gap-20 2xl:gap-[100px] md:gap-20 gap-14 mt-16">
               <div className="lg:flex gap-6">
                 <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
                   <BsBagDash className="text-white text-[75px]" />
@@ -95,12 +96,12 @@ const AboutPage = () => {
 
               <div className="lg:flex gap-6">
                 <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <BsBagDash className="text-white text-[75px]" />
+                  <img src={icon2} alt="" />
                 </div>
 
                 <div>
                   <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
-                    Buy Property
+                  Sell Properties
                   </h1>
 
                   <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
@@ -110,12 +111,54 @@ const AboutPage = () => {
                   </p>
                 </div>
               </div>
+
+              <div className="lg:flex gap-6">
+                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                  <img src={icon2} alt="" />
+                </div>
+
+                <div>
+                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                  Legal/Documentation Help
+                  </h1>
+
+                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec miet, placerat vitae tristique ac, venenatis quis
+                    massa. Proin aliquam,{" "}
+                  </p>
+                </div>
+              </div>
+
+                 <div className="lg:flex gap-6">
+                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                  <img src={icon2} alt="" />
+                </div>
+
+                <div>
+                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                  Agent Consultaion Help
+                  </h1>
+
+                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec miet, placerat vitae tristique ac, venenatis quis
+                    massa. Proin aliquam,{" "}
+                  </p>
+                </div>
+              </div>
+
+
+
+
+
+
             </div>
           </div>
 
           <div>
             <img
-              className="lg:w-[700px] lg:h-[980px] md:w-full mt-16 md:mt-24 lg:mt-0 md:h-[500px] md:mx-auto w-full h-[450px] custom-border"
+              className="lg:w-[700px] lg:h-[940px] 2xl:h-[980px] 2xl:w-[700px] md:w-full mt-16 md:mt-24 lg:mt-0 md:h-[500px] md:mx-auto w-full h-[450px] custom-border"
               src={aboutHero}
               alt=""
             />

@@ -22,13 +22,10 @@ const ChooseUsCard = () => {
         </p>
       </div>
 
-      <div className="2xl:w-[467px] lg:w-[400px] bg-[#504594] md:w-[350px] w-full h-[500px] ">
+      <div className="2xl:w-[467px] lg:w-[400px] bg-[#504594] md:w-[350px] w-full h-[500px]">
         <div
-          className="2xl:pl-[50px] lg:pl-[40px] pl-6 py-[56px] bg-white h-[500px]"
-          style={{
-            borderRadius: "150px 0px",
-            boxShadow: "0px 4px 45px 0px rgba(154, 149, 149, 0.25)",
-          }}
+          className="2xl:pl-[50px] lg:pl-[40px] pl-6 py-[56px] bg-white h-[500px] design hover:cursor-pointer"
+         
         >
           <img className="w-20 h-20" src={image2} alt="" />
           <h1 className="text-[#504594] lg:text-[28px] 2xl:text-[32px] text-[24px] font-Lato font-bold lg:leading-[50px] leading-10  w-full mt-4">
