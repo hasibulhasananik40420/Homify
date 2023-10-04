@@ -7,7 +7,7 @@ const Footer = () => {
   //******************** ##########################  ************************//
 
   return (
-    <div className="lg:h-[630px] h-full w-full footer-bg bg-cover bg-no-repeat bg-center border">
+    <div className="lg:h-[630px] overflow-clip h-full w-full footer-bg bg-cover bg-no-repeat bg-center ">
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 ">
         <div className="flex items-center gap-3 pt-10  border-b-[1px] border-b-white pb-10">
           <img
@@ -167,6 +167,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
+     
     </div>
   );
 };
