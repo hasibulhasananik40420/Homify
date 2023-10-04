@@ -6,6 +6,11 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  overflow-x: hidden;
+}
+
 /*************** All the custom css is here ***************/
 
 .custom-border {
@@ -32,30 +37,22 @@
   box-shadow: 0px 0px 60px 0px rgba(237, 234, 234, 0.65);
 }
 
-.footer-bg{
-  background-image: url('../src/assets/Footer-image/footer-bg.png');
+.footer-bg {
+  background-image: url("../src/assets/Footer-image/footer-bg.png");
   /* background-image: url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'); */
 }
 
-.herader-image{
-  background-image: url('../src/assets/Header/header-image.png');
-
-
+.herader-image {
+  background-image: url("../src/assets/Header/header-image.png");
 }
 
-.herader-bg{
-  background-image: url('../src/assets/Header-two-image/header-2.png');
+.herader-bg {
+  background-image: url("../src/assets/Header-two-image/header-2.png");
 }
 
-.review-bg{
-  background-image: url('../src/assets/Reviews-image/background\ -review.png');
+.review-bg {
+  background-image: url("../src/assets/Reviews-image/background\ -review.png");
 }
-
-
-
-
-
-
 
 .primary-navbar {
   position: absolute !important;
@@ -74,35 +71,63 @@
   -webkit-backdrop-filter: blur(3.7px);
 }
 
-
-
-.stoke-design{
-  color: white ;
- line-height: 110px;
- text-transform: uppercase;
- text-align: center;
- /* font-family: sans-serif; */
- letter-spacing: 2.46px;
- -webkit-text-fill-color:#504594;
- -webkit-text-stroke-width: 2px;
+.stoke-design {
+  color: white;
+  line-height: 110px;
+  text-transform: uppercase;
+  text-align: center;
+  /* font-family: sans-serif; */
+  letter-spacing: 2.46px;
+  -webkit-text-fill-color: #504594;
+  -webkit-text-stroke-width: 2px;
 }
 
-
-
-.design{
+.design {
   border-radius: 150px 0px;
   box-shadow: 0px 4px 45px 0px rgba(154, 149, 149, 0.25);
 }
 
-.design:hover{
+.design:hover {
   border-radius: 0;
   box-shadow: 0;
   transition: 0.3s linear;
 }
 
+/* Custom React Slick Dots */
+.slick-dots {
+  display: block;
+  max-width: 166px;
+  position: absolute;
+  right: 140px;
+  bottom: 42px;
+}
+
+ul.slick-dots {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  justify-content: center; 
+}
+
+ul.slick-dots li {
+  margin: 0 10px; 
+}
 
 
+ul.slick-dots li button {
+  background-color: #D9D9D9; 
+  color: #fff; 
+  border: none; 
+  border-radius: 50%; 
+  width: 20px; 
+  height: 20px; 
+  font-size: 16px;
+  cursor: pointer; 
+  text-indent: -9999px; 
+}
 
 
-
-
+ul.slick-dots li.slick-active button {
+  background-color: #4F52FF; 
+  scale: 140%;
+}

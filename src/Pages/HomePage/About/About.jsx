@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
 import house1 from "../../../assets/About-hero-image/about-2-house.svg";
 import house2 from "../../../assets/About-hero-image/about-2.svg";
 import house3 from "../../../assets/About-hero-image/about-3.svg";
+
 const About = () => {
   return (
     //********************  About hero section start here **************************//
@@ -51,14 +53,15 @@ const About = () => {
       <div className="lg:flex 2xl:gap-[121px] lg:gap-20">
         <div>
           <img
-            className="lg:w-[583px] lg:h-[760px] w-full h-full"
+          data-aos="fade-right"
+            className="lg:w-[583px] lg:h-[760px] w-full h-full "
             src="https://img.freepik.com/premium-photo/ai-image-contemporary-luxury-residential-house-with-windows-balcony-surrounded-by-trees-flowers_501669-26503.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais"
             alt=""
             style={{borderRadius:'60px 60px 60px 0px'}}
           />
         </div>
 
-        <div className="2xl:w-[735px] lg:w-[670px] w-full">
+        <div data-aos="fade-left" className="2xl:w-[735px] lg:w-[670px] w-full">
           <h1 className="text-black text-[32px] font-Teko font-bold mt-10 lg:mt-0 2xl:mt-0">
             Dream Living Spaces Setting for New Build
           </h1>
@@ -70,6 +73,7 @@ const About = () => {
           </p>
 
           <div
+         
             className="2xl:w-[735px] lg:w-[670px] w-full h-full lg:h-[148px] bg-white mt-10 hover:bg-secondaryColor duration-500 hover:cursor-pointer group"
             style={{
               boxShadow: "0px 4px 45px 0px rgba(151, 150, 150, 0.30)",

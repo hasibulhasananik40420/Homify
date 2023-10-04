@@ -1,29 +1,32 @@
-import { Outlet, useLocation } from "react-router-dom"
-import Navbar from "../components/Navbar/Navbar"
-import Footer from "../components/Footer/Footer"
+import { Outlet, useLocation } from "react-router-dom";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import { useEffect } from "react";
 
 const Main = () => {
-   const location = useLocation()
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+
 
   return (
     <div>
-         {/*************** main page start here  ****************/}
-         {
-          location.pathname =='/home-two'? (
-            ''   ) :
-            (
-              <Navbar/>
-            )
-        
-         }
-        
-        
-        <Outlet/>
-        <Footer/>
+      
+      {/*************** main page start here  ****************/}
+      {pathname == "/home-two" ? "" : <Navbar />}
 
-         {/*************** main page end here  ****************/}
+      <Outlet />
+      <ScrollToTop/>
+      <Footer />
+
+      {/*************** main page end here  ****************/}
+     
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
