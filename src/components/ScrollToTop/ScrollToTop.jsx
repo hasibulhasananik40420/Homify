@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaArrowAltCircleUp } from 'react-icons/fa';
+import {  RiArrowUpDoubleFill} from 'react-icons/ri';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,11 +29,11 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={handleScrollToTop}
-      className={`px-4 sticky bottom-6 float-right right-6 py-2  ${
+      className={`fixed bottom-6 float-right right-6  bg-[#15305c] ring-2 rounded-full w-[45px] h-[45px] flex justify-center items-center ${
         isVisible ? "visible" : "hidden"
       }`}
     >
-      <FaArrowAltCircleUp className="w-12 h-12"/>
+      <RiArrowUpDoubleFill className="text-2xl animate-bounce text-white"/>
     </button>
   );
 };
