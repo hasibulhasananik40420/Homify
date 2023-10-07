@@ -9,6 +9,7 @@ import agent3 from '../../assets/Agents-images/agent6.jpg'
 import agent4 from '../../assets/Agents-images/agent4.jpg'
 import agent5 from '../../assets/Agents-images/agent7.jpg'
 import agent6 from '../../assets/Agents-images/agent8.jpg'
+import BlogRelatedCard from "../../components/BlogRelatedCard/BlogRelatedCard";
 
 const BlogPage = () => {
   return (
@@ -96,6 +97,21 @@ const BlogPage = () => {
         </div>
 
         {/******************* blog pagination end  here *******************/}
+
+
+
+        {/******************* blog related section start  here *******************/}
+
+         <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+           <h1 className="lg:text-[56px] md:text-[56px] text-[32px] mt-20 text-[#3E348F] font-Teko font-bold ">See  Related Post</h1>
+
+            <BlogRelatedCard/>
+         </div>
+
+        {/******************* blog related section end  here *******************/}
+
+
+         
 
        
 

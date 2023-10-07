@@ -3,6 +3,7 @@ import React from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import details from "../../assets/About-us-image/about-hero.png";
+import image1 from '../../assets/Property-image/image1.png'
 
 const AddProperty = () => {
   //********************  Add property section start here **************************//
@@ -21,12 +22,14 @@ const AddProperty = () => {
           <ImageSlider />
         </div>
 
+         {/******************* Image slider section part end here *******************/}
+
         {/* ********************  Add property details section start here ************************* */}
         <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
            <h1 className="text-[#375E97] text-[32px] font-Teko font-bold leading-8 mb-5">Add Property Details</h1>
           <div className="lg:flex lg:gap-20 2xl:gap-[121px]">
             <div className="lg:w-[602px] lg:h-[800px] 2xl:h-[907px] md:h-[700px] h-[500px] w-full">
-              <img
+              <img style={{borderRadius:"60px 60px 60px 0px"}}
                 className="lg:w-[602px] lg:h-[800px] 2xl:h-[907px] md:h-[700px] h-[500px] w-full"
                 src={details}
                 alt=""
@@ -40,12 +43,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                    Property Address
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your property address"
                   />
                 </div>
                 <div className="flex flex-col gap-5 w-full mt-6 md:mt-0 lg:mt-0">
@@ -53,12 +56,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your Last Name
+                    Property’s Asking Price
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your last name here"
+                    placeholder="Write your property’s  asking price"
                   />
                 </div>
               </div>
@@ -69,12 +72,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                   Bedrooms
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your property’s bedroom number"
                   />
                 </div>
                 <div className="flex flex-col gap-5 w-full mt-6 md:mt-0 lg:mt-0">
@@ -82,12 +85,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your Last Name
+                   Bathrooms
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your last name here"
+                    placeholder="Write your property’s bathroom number"
                   />
                 </div>
               </div>
@@ -98,12 +101,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                   Area(Sft.)
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your property’s area (Sft.)"
                   />
                 </div>
                 <div className="flex flex-col gap-5 w-full mt-6 md:mt-0 lg:mt-0">
@@ -111,12 +114,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your Last Name
+                   Car Parking Capacity
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your last name here"
+                    placeholder="Write your  house car parking capacity"
                   />
                 </div>
               </div>
@@ -126,12 +129,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                   Metro Station Distance
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write metro station distance from your house"
                   />
                 </div>
                 <div className="flex flex-col gap-5 w-full mt-6 md:mt-0 lg:mt-0">
@@ -139,12 +142,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your Last Name
+                    College Distance
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your last name here"
+                    placeholder="Write your college distance from your house "
                   />
                 </div>
               </div>
@@ -154,12 +157,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your First Name
+                    Primary School Distance
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your first name here"
+                    placeholder="Write your primary distance from your house "
                   />
                 </div>
                 <div className="flex flex-col gap-5 w-full mt-6 md:mt-0 lg:mt-0">
@@ -167,12 +170,12 @@ const AddProperty = () => {
                     className="text-black font-Teko font-normal text-[24px] leading-6"
                     htmlFor="name"
                   >
-                    Your Last Name
+                   High Way Road Distance 
                   </label>
                   <input
-                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                    className="lg:w-full md:w-[320px] w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                     type="name"
-                    placeholder="Write your last name here"
+                    placeholder="Write your road distance from your house"
                   />
                 </div>
               </div>
@@ -182,24 +185,54 @@ const AddProperty = () => {
                   className="text-black font-Teko font-normal text-[24px] leading-6"
                   htmlFor="email"
                 >
-                  Your Message
+                  Property More Details
                 </label>
                 <textarea
                   name=""
                   id=""
-                  className="lg:w-full md:w-[680px] w-full h-[140px] pl-10 rounded-[45px] border-[1px] pt-7 border-[#878383] text-[#2F2D2D] font-Lato text-[16px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                  className="lg:w-full md:w-[680px] w-full h-[140px] pl-10 rounded-[45px] border-[1px] pt-7 border-[#878383] text-[#2F2D2D] font-Lato text-[12px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
                   type="text"
-                  placeholder="Write your message  here "
+                  placeholder="Write your property more details  "
                 ></textarea>
               </div>
             </div>
           </div>
         </div>
 
+
+         <div className="flex 2xl:gap-[121px] lg:gap-20 2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
+
+          <div className="w-full">
+          <h1 className="text-[#375E97] text-[32px] font-Teko font-bold leading-8 mb-5">Add Amenities</h1>
+          <p className="text-black font-Lato font-semibold text-[20px]"> Interior Details</p>
+               <div className="flex gap-4 items-center">
+                  <input
+                    className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                  />
+                  <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                    I am agree your{" "}
+                    <span className="text-[16px] font-Lato text-black font-bold leading-6">
+                      Terms and Conditions
+                    </span>
+                  </p>
+                </div>
+
+          </div>
+
+
+          <img style={{borderRadius:"60px 60px 60px 0px"}} className="2xl:w-[658.971px] lg:w-[550px] md:w-[500px] h-[730px] w-full" src={image1} alt="" />
+
+         </div>
+
+
+
         {/* ********************  Add property details section end here ************************* */}
       </div>
 
-      {/******************* Image slider section part end here *******************/}
+     
     </div>
   );
 
