@@ -200,30 +200,387 @@ const AddProperty = () => {
         </div>
 
 
-         <div className="flex 2xl:gap-[121px] lg:gap-20 2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
+         <div className="lg:flex 2xl:gap-[121px] lg:gap-20 2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
 
           <div className="w-full">
           <h1 className="text-[#375E97] text-[32px] font-Teko font-bold leading-8 mb-5">Add Amenities</h1>
-          <p className="text-black font-Lato font-semibold text-[20px]"> Interior Details</p>
-               <div className="flex gap-4 items-center">
-                  <input
-                    className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
-                    type="checkbox"
-                    name="checkbox"
-                    id="checkbox"
-                  />
-                  <p className="text-[16px] font-Lato text-black font-normal leading-6">
-                    I am agree your{" "}
-                    <span className="text-[16px] font-Lato text-black font-bold leading-6">
-                      Terms and Conditions
-                    </span>
-                  </p>
-                </div>
+           
+
+          <div className="flex flex-col gap-10">
+
+
+          <div>
+           <p className="text-black font-Lato font-semibold text-[20px] pb-5"> Interior Details</p>
+             
+             
+             <div className="lg:flex md:flex justify-between">
+ 
+             <div className="flex flex-col gap-4">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Stylish Drawing Room
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Equipped Kichen Room
+                   </p>
+                 </div>
+              </div>
+ 
+              <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Gym
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Steam Bath
+                   </p>
+                 </div>
+              </div>
+ 
+                <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Laundry Facility
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Equipped Kichen
+                   </p>
+                 </div>
+              </div>
+ 
+ 
+ 
+ 
+             </div>
+           </div>
+
+
+            <div>
+           <p className="text-black font-Lato font-semibold text-[20px] pb-5"> Outdoor Details</p>
+             
+             
+             <div className="lg:flex md:flex justify-between">
+ 
+             <div className="flex flex-col gap-4">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Attached Garage
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Nice Backyard
+                   </p>
+                 </div>
+              </div>
+ 
+              <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Badminton Court
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Hot Bath
+                   </p>
+                 </div>
+              </div>
+ 
+                <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Pool
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Font yard
+                   </p>
+                 </div>
+              </div>
+ 
+ 
+ 
+ 
+             </div>
+           </div>
+
+             <div>
+           <p className="text-black font-Lato font-semibold text-[20px] pb-5">Utilities Details</p>
+             
+             
+             <div className="lg:flex md:flex justify-between">
+ 
+             <div className="flex flex-col gap-4">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Central A/C
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Gas Connection
+                   </p>
+                 </div>
+              </div>
+ 
+              <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Ventilation
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Electricity
+                   </p>
+                 </div>
+              </div>
+ 
+                <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Heating System
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Water Supply
+                   </p>
+                 </div>
+              </div>
+ 
+ 
+ 
+ 
+             </div>
+           </div>
+
+
+            <div>
+           <p className="text-black font-Lato font-semibold text-[20px] pb-5">Other Features</p>
+             
+             
+             <div className="lg:flex md:flex justify-between">
+ 
+             <div className="flex flex-col gap-4">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Smoke Detector
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Washer and Dryer
+                   </p>
+                 </div>
+              </div>
+ 
+              <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Elevator
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Wheel Chair Access
+                   </p>
+                 </div>
+              </div>
+ 
+                <div className="flex flex-col gap-4 pt-5 md:pt-0 lg:pt-0">
+              <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   Fireplace
+                   </p>
+                 </div> 
+                 <div className="flex gap-4 items-center">
+                   <input
+                     className="w-6 h-6 border-[1px] !rounded-[6px] border-black transition-colors duration-300 ease-in-out"
+                     type="checkbox"
+                     name="checkbox"
+                     id="checkbox"
+                   />
+                   <p className="text-[16px] font-Lato text-black font-normal leading-6">
+                   WiFi Connection
+                   </p>
+                 </div>
+              </div>
+ 
+ 
+ 
+ 
+             </div>
+           </div>
+
+
+
+
+
+
+
+
+
 
           </div>
 
 
-          <img style={{borderRadius:"60px 60px 60px 0px"}} className="2xl:w-[658.971px] lg:w-[550px] md:w-[500px] h-[730px] w-full" src={image1} alt="" />
+
+          <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[245px] h-[56px] custom-border-property mt-10 hover:bg-primary duration-500">
+          Submit Property
+                </button>
+
+
+          </div>
+
+
+          <img style={{borderRadius:"60px 60px 60px 0px"}} className="2xl:w-[658.971px] lg:w-[550px] md:w-full h-[730px] w-full mt-20 md:mt-20 lg:mt-0 2xl:mt-0" src={image1} alt="" />
 
          </div>
 
