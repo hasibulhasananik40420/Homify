@@ -7,7 +7,7 @@ const CommonAction = ({ title, subTitle }) => {
   return (
     <div className="relative">
       <div
-        className="w-full h-[430px] 2xl:h-[500px] absolute"
+        className="w-full h-[430px] 2xl:h-[500px] absolute "
         style={{ backgroundColor: "rgba(70, 64, 96, 0.30)" }}
       ></div>
       <img

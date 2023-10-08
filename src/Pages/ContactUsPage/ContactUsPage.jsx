@@ -5,6 +5,7 @@ import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import Faq from "./Faq/Faq";
+import { Fade } from "react-reveal";
 
 const ContactUsPage = () => {
   return (
@@ -20,6 +21,7 @@ const ContactUsPage = () => {
 
          {/***************** contact hero section start here *******************/}
         <div className="lg:flex 2xl:gap-[121px] lg:gap-20">
+        <Fade big bottom>
           <div
             className="lg:w-[712px] lg:h-[810px] w-full h-[550px] md:h-[600px] relative"
             style={{
@@ -96,7 +98,8 @@ const ContactUsPage = () => {
               {/*********************** socal media icon end here ***********************/}
             </div>
           </div>
-
+          </Fade>
+          <Fade bottom cascade>
           <div className="lg:w-[604px] w-full">
             <p className="text-black text-[20px] font-Lato font-normal mt-10">
               Get in Touch
@@ -183,6 +186,7 @@ const ContactUsPage = () => {
               Send Message
             </button>
           </div>
+          </Fade>
         </div>
 
         {/***************** contact hero section end here *******************/}
