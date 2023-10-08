@@ -7,8 +7,10 @@ import certified4 from "../../assets/About-us-image/certificate-4.png";
 import certified5 from "../../assets/About-us-image/certificate-5.png";
 import certified6 from "../../assets/About-us-image/certificate-6.png";
 import about from "../../assets/About-us-image/about.png";
-import { BsBagDash } from "react-icons/bs";
+import icon1 from '../../assets/About-us-image/Group.png'
 import icon2 from '../../assets/About-us-image/Vector (1).png'
+import icon3 from '../../assets/About-us-image/Vector (2).png'
+import icon4 from '../../assets/About-us-image/Vector (3).png'
 
 const AboutPage = () => {
   return (
@@ -78,7 +80,7 @@ const AboutPage = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:justify-items-center lg:justify-items-start lg:gap-20 2xl:gap-[100px] md:gap-20 gap-14 mt-16">
               <div className="lg:flex gap-6">
                 <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <BsBagDash className="text-white text-[75px]" />
+                <img src={icon1} alt="" />
                 </div>
 
                 <div>
@@ -114,7 +116,7 @@ const AboutPage = () => {
 
               <div className="lg:flex gap-6">
                 <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <img src={icon2} alt="" />
+                  <img src={icon3} alt="" />
                 </div>
 
                 <div>
@@ -132,7 +134,7 @@ const AboutPage = () => {
 
                  <div className="lg:flex gap-6">
                 <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <img src={icon2} alt="" />
+                  <img src={icon4} alt="" />
                 </div>
 
                 <div>

@@ -2,11 +2,13 @@
 import React from "react";
 import CommonAction from "../../components/CommonAction/CommonAction";
 import contact from "../../../src/assets/Agents-images/contact-agent.png";
-import agent from "../../../src/assets/Agents-images/single-agents.png";
+import agent from "../../../src/assets/Agents-images/agent6.jpg";
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
+
+
 const AgentsDetails = () => {
   return (
     <div>
@@ -22,8 +24,13 @@ const AgentsDetails = () => {
 
        <div className="lg:flex lg:justify-between 2xl:gap-[121px]">
        <div className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] relative">
-          <div className="group">
-            <img className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] cursor-pointer" src='https://img.freepik.com/free-photo/handsome-blond-young-man-posing-studio_158595-3385.jpg?size=626&ext=jpg&ga=GA1.1.1166836568.1647150580&semt=ais' alt="" />
+          <div className="group relative">
+
+         
+           
+            <img className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] border-[20px] border-[#504594]  cursor-pointer" src={agent} alt="" />
+
+            <div className="bg-red-400 w-[100px] h-[100px] absolute top-0 right-0 "></div>
 
             
             <div className="bg-[#181C21] lg:w-[550px] w-full h-[150px] absolute bottom-0 transform translate-y-full transition-transform duration-1000 group-hover:translate-y-0 hidden group-hover:block cursor-pointer">
@@ -135,7 +142,7 @@ const AgentsDetails = () => {
 
 
         {/********************* Contact With Our Agent section statr here ********************/}
-        <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+        <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
           <h1 className="text-primary font-Teko font-bold text-[56px] leading-[56px] text-center">
             Contact With Our Agent
           </h1>
@@ -154,7 +161,7 @@ const AgentsDetails = () => {
               
                <img
                 className="lg:w-[884px] lg:h-[884px] w-full h-[500px] md:w-full md:h-[500px] md:mx-auto custom-border"
-                src='https://img.freepik.com/premium-photo/skyscraper-burning-nighttime-contemporary-tall-skyscraper-with-bright-flame-night-generative-ai_629315-10924.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'
+                src={contact}
                 alt=""
               />
             </div>

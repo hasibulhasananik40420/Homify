@@ -16,12 +16,12 @@ const CommonAction = ({ title, subTitle }) => {
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h1
-          className="text-white lg:text-[102px] text-[56px] font-Teko font-bold uppercase leading-[102px]"
+          className="text-white lg:text-[102px] md:text-[56px] text-[32px] font-Teko font-bold uppercase leading-[102px]"
           style={{ textShadow: "0px 4px 60px rgba(199, 198, 198, 0.30)" }}
         >
           {title}
         </h1>
-        <p className="text-white font-Lato lg:text-[56px] text-[32px] font-bold">
+        <p className="text-white font-Lato lg:text-[56px] md:text-[32px] text-[24px] font-bold">
           {subTitle}
         </p>
       </div>

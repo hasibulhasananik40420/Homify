@@ -2,6 +2,10 @@ import { CiUser } from "react-icons/ci";
 import { GoDotFill } from "react-icons/go";
 import blog1 from '../../assets/Property-image/blog1.png'
 import blog2 from '../../assets/Property-image/property-9.jpg'
+import blog3 from '../../assets/Property-image/blogfacing.png'
+import blog4 from '../../assets/Property-image/image4.png'
+import blog5 from '../../assets/Core-service-image/core-service-two.png'
+
 import { Link } from "react-router-dom";
 const BlogCard = () => {
   return (
@@ -11,7 +15,7 @@ const BlogCard = () => {
           <div className="2xl:w-[915px] lg:w-[915px] w-full">
            <Link to={'/blog-details'}>
            <img
-              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[1px] duration-300 cursor-pointer"
+              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
               src={blog1}
               style={{ borderRadius: "60px 60px 60px 0px" }}
               alt=""
@@ -142,7 +146,7 @@ const BlogCard = () => {
                 <span>
                   <img
                     className="w-[94px] h-[100px] rounded-[15px]"
-                    src="https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695923.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={blog3}
                     alt=""
                   />
                 </span>
@@ -165,14 +169,14 @@ const BlogCard = () => {
                 <span>
                   <img
                     className="w-[94px] h-[100px] rounded-[15px]"
-                    src="https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695923.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={blog4}
                     alt=""
                   />
                 </span>
 
                 <span>
                   <h1 className="text-black text-[20px] font-Lato font-bold leading-8">
-                    Sea Facing House
+                  River View Villa
                   </h1>
                   <h1 className="text-black text-[16px] font-Lato font-normal leading-8">
                     223/1/A, New Astoria, NY, USA{" "}
@@ -188,14 +192,14 @@ const BlogCard = () => {
                 <span>
                   <img
                     className="w-[94px] h-[100px] rounded-[15px]"
-                    src="https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695923.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+                    src={blog5}
                     alt=""
                   />
                 </span>
 
                 <span>
                   <h1 className="text-black text-[20px] font-Lato font-bold leading-8">
-                    Sea Facing House
+                  South Breez Villa
                   </h1>
                   <h1 className="text-black text-[16px] font-Lato font-normal leading-8">
                     223/1/A, New Astoria, NY, USA{" "}
@@ -216,7 +220,7 @@ const BlogCard = () => {
           <div className="2xl:w-[915px] lg:w-[915px] w-full">
             <Link to={'/blog-details'}>
             <img
-              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover transition-all transform-gpu  hover:brightness-75 hover:grayscale hover:blur-[2px] duration-300 cursor-pointer"
+              className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
               src={blog2}
               style={{ borderRadius: "60px 60px 60px 0px" }}
               alt=""
