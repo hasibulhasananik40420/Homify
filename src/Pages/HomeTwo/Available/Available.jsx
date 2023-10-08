@@ -3,6 +3,7 @@ import image3 from "../../../assets/Available-image/image-3.png";
 import image4 from "../../../assets/Available-image/image-4.png";
 import image5 from "../../../assets/Available-image/image-5.png";
 import image6 from "../../../assets/Available-image/image-6.png";
+import { Rotate } from "react-reveal";
 
 const Available = () => {
   //******************** available section start here **************************//
@@ -19,6 +20,7 @@ const Available = () => {
       </p>
 
       <div className="mt-20 lg:flex gap-5">
+      <Rotate bottom right cascade>
         <div className=" relative 2xl:w-[491px] lg:w-[450px] w-full h-[656px]">
           <img
             src={image1}
@@ -40,8 +42,10 @@ const Available = () => {
             </p>
           </div>
         </div>
-
+        </Rotate>
+        <Rotate bottom right cascade>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 2xl:grid-cols-3 gap-5 lg:w-[900px] 2xl:w-[1000px] w-full ">
+       
           <div className=" relative 2xl:w-[309px] lg:w-[260px] w-full 2xl:h-[308px] lg:h-[308px] md:h-[450px] h-[308px] mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
             <img
               src={image1}
@@ -63,7 +67,8 @@ const Available = () => {
               </p>
             </div>
           </div>
-
+         
+       
           <div className=" relative 2xl:w-[372px] lg:w-[340px] w-full 2xl:h-[308px] lg:h-[308px] md:h-[450px] h-[308px] mt-10 md:mt-10 lg:mt-0 2xl:mt-0 lg:-ml-2 2xl:ml-0 ml-0">
             <img
               src={image3}
@@ -152,6 +157,7 @@ const Available = () => {
             </div>
           </div>
         </div>
+        </Rotate>
       </div>
     </div>
 

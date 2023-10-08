@@ -23,6 +23,7 @@ const routes = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
+        errorElement: <NotFoundPage/>,
         children: [
             {
                 path: "/",
@@ -89,13 +90,6 @@ const routes = createBrowserRouter([
                 path: "/sign-up",
                 element: <SignUp />
             },
-           {
-                path: "*",
-                element: <NotFoundPage />
-            },
-          
-
-
         ]
 
     }

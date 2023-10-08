@@ -7,15 +7,15 @@ import certified4 from "../../assets/About-us-image/certificate-4.png";
 import certified5 from "../../assets/About-us-image/certificate-5.png";
 import certified6 from "../../assets/About-us-image/certificate-6.png";
 import about from "../../assets/About-us-image/about.png";
-import icon1 from '../../assets/About-us-image/Group.png'
-import icon2 from '../../assets/About-us-image/Vector (1).png'
-import icon3 from '../../assets/About-us-image/Vector (2).png'
-import icon4 from '../../assets/About-us-image/Vector (3).png'
-
+import icon1 from "../../assets/About-us-image/Group.png";
+import icon2 from "../../assets/About-us-image/Vector (1).png";
+import icon3 from "../../assets/About-us-image/Vector (2).png";
+import icon4 from "../../assets/About-us-image/Vector (3).png";
+import { Fade, Zoom } from "react-reveal";
 const AboutPage = () => {
   return (
     //********************  About us section end here **************************//
-     //******************** ##########################  *************************//
+    //******************** ##########################  *************************//
 
     <div>
       <CommonAction title={"About us"} subTitle={"Home> About us "} />
@@ -24,17 +24,17 @@ const AboutPage = () => {
 
         <div className="lg:flex 2xl:flex 2xl:gap-[121px] lg:gap-20 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
           <div>
-            <img
-              className="lg:w-[611px] w-full lg:h-[700px] h-[450px] "
-              style={{ borderRadius: "60px 60px 60px 0px" }}
-              src={about}
-              alt=""
-            />
+            <Fade>
+              <img
+                className="lg:w-[611px] w-full lg:h-[700px] h-[450px] "
+                style={{ borderRadius: "60px 60px 60px 0px" }}
+                src={about}
+                alt=""
+              />
+            </Fade>
           </div>
-
-          <div
-            className="lg:w-[705px] w-full"
-          >
+          <Fade bottom cascade>
+          <div className="lg:w-[705px] w-full">
             <h1 className="text-[#5B519B] text-[56px] font-Teko font-bold mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
               Our Mission
             </h1>
@@ -67,106 +67,102 @@ const AboutPage = () => {
               a. Vivamus
             </p>
           </div>
+          </Fade>
         </div>
 
         {/***************** Our misstion and vistion section end here *******************/}
-
         <div className="lg:flex gap-[74px] 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
-          <div className="lg:w-[663px] w-full">
-            <h1 className="lg:w-[663px] w-full text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold lg:leading-[70px]">
-              We are Best and Most Trusted Real Estate Agent
-            </h1>
+          <Fade bottom cascade>
+            <div className="lg:w-[663px] w-full">
+              <h1 className="lg:w-[663px] w-full text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold lg:leading-[70px]">
+                We are Best and Most Trusted Real Estate Agent
+              </h1>
 
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:justify-items-center lg:justify-items-start lg:gap-20 2xl:gap-[100px] md:gap-20 gap-14 mt-16">
-              <div className="lg:flex gap-6">
-                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                <img src={icon1} alt="" />
+              <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:justify-items-center lg:justify-items-start lg:gap-20 2xl:gap-[100px] md:gap-20 gap-14 mt-16">
+                <div className="lg:flex gap-6">
+                  <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                    <img src={icon1} alt="" />
+                  </div>
+
+                  <div>
+                    <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                      Buy Property
+                    </h1>
+
+                    <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec miet, placerat vitae tristique ac, venenatis quis
+                      massa. Proin aliquam,{" "}
+                    </p>
+                  </div>
                 </div>
 
-                <div>
-                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
-                    Buy Property
-                  </h1>
+                <div className="lg:flex gap-6">
+                  <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                    <img src={icon2} alt="" />
+                  </div>
 
-                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec miet, placerat vitae tristique ac, venenatis quis
-                    massa. Proin aliquam,{" "}
-                  </p>
+                  <div>
+                    <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                      Sell Properties
+                    </h1>
+
+                    <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec miet, placerat vitae tristique ac, venenatis quis
+                      massa. Proin aliquam,{" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="lg:flex gap-6">
+                  <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                    <img src={icon3} alt="" />
+                  </div>
+
+                  <div>
+                    <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                      Legal/Documentation Help
+                    </h1>
+
+                    <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec miet, placerat vitae tristique ac, venenatis quis
+                      massa. Proin aliquam,{" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="lg:flex gap-6">
+                  <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
+                    <img src={icon4} alt="" />
+                  </div>
+
+                  <div>
+                    <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
+                      Agent Consultaion Help
+                    </h1>
+
+                    <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec miet, placerat vitae tristique ac, venenatis quis
+                      massa. Proin aliquam,{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <div className="lg:flex gap-6">
-                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <img src={icon2} alt="" />
-                </div>
-
-                <div>
-                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
-                  Sell Properties
-                  </h1>
-
-                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec miet, placerat vitae tristique ac, venenatis quis
-                    massa. Proin aliquam,{" "}
-                  </p>
-                </div>
-              </div>
-
-              <div className="lg:flex gap-6">
-                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <img src={icon3} alt="" />
-                </div>
-
-                <div>
-                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
-                  Legal/Documentation Help
-                  </h1>
-
-                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec miet, placerat vitae tristique ac, venenatis quis
-                    massa. Proin aliquam,{" "}
-                  </p>
-                </div>
-              </div>
-
-                 <div className="lg:flex gap-6">
-                <div className="w-[120px] h-[120px] rounded-md bg-primary flex justify-center items-center hover:bg-secondaryColor duration-500 hover:cursor-pointer">
-                  <img src={icon4} alt="" />
-                </div>
-
-                <div>
-                  <h1 className="lg:text-[20px] md:text-[40px] text-[30px] text-primary font-Teko font-bold leading-10 tracking-[2px] mt-4 md:mt-8 lg:mt-0">
-                  Agent Consultaion Help
-                  </h1>
-
-                  <p className="text-black text-[16px] md:text-[20px] lg:text-[16px] mt-3 md:mt-3 lg:mt-0 font-Lato font-normal leading-8 lg:w-[469px]  md:w-[300px] w-full ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec miet, placerat vitae tristique ac, venenatis quis
-                    massa. Proin aliquam,{" "}
-                  </p>
-                </div>
-              </div>
-
-
-
-
-
-
             </div>
-          </div>
-
+          </Fade>
           <div>
-            <img
-              className="lg:w-[700px] lg:h-[940px] 2xl:h-[980px] 2xl:w-[700px] md:w-full mt-16 md:mt-24 lg:mt-0 md:h-[500px] md:mx-auto w-full h-[450px] custom-border"
-              src={aboutHero}
-              alt=""
-            />
+            <Fade right>
+              <img
+                className="lg:w-[700px] lg:h-[940px] 2xl:h-[980px] 2xl:w-[700px] md:w-full mt-16 md:mt-24 lg:mt-0 md:h-[500px] md:mx-auto w-full h-[450px] custom-border"
+                src={aboutHero}
+                alt=""
+              />
+            </Fade>
           </div>
         </div>
-
         {/***************** Certification and Achievemt section start here *******************/}
 
         <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
@@ -184,7 +180,7 @@ const AboutPage = () => {
             quis. Aliquam dignissim ante nec rhoncus porta. Maecenas ut augue
             sem. Nulla rutrum aliquam purus, id viverra metus aliquet a. Vivamus
           </p>
-
+          <Zoom cascade>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 2xl:gap-10 md:gap-10 gap-y-28 md:justify-items-center mt-20">
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
@@ -201,7 +197,6 @@ const AboutPage = () => {
               </p>
             </div>
 
-            
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
@@ -276,6 +271,7 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
+          </Zoom>
         </div>
 
         {/***************** Certification and Achievemt section end here *******************/}
@@ -283,7 +279,7 @@ const AboutPage = () => {
     </div>
 
     //********************  About us section end here **************************//
-     //******************** ##########################  ************************//
+    //******************** ##########################  ************************//
   );
 };
 

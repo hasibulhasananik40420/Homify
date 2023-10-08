@@ -2,12 +2,12 @@ import { LiaBathSolid, LiaBedSolid } from "react-icons/lia"
 import property3 from '../../../src/assets/Property-image/property-1.jpg'
 import property2 from '../../../src/assets/Property-image/property-8.jpg'
 import property1 from '../../../src/assets/Property-image/property-9.jpg'
+import { Fade } from "react-reveal"
 
 const RecentAddedPropertyCard = () => {
   return (
+    <Fade bottom cascade>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
-
-
 
        {/************** property card 1 start here ********************/}
        <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
@@ -154,6 +154,7 @@ const RecentAddedPropertyCard = () => {
    
    
     </div>
+    </Fade>
   )
 }
 

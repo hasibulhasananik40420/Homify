@@ -1,6 +1,8 @@
 import sellPropertyImageTwo from "../../../assets/Sell-property-image/property-two.png";
 import { LuCheckCircle } from "react-icons/lu";
 import { ImPlus } from "react-icons/im";
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 const SellPropertyTwo = () => {
@@ -24,7 +26,7 @@ const SellPropertyTwo = () => {
             <h1 className="text-[#3E348F] text-[32px] font-Teko font-bold leading-8">
               Steps of Sell Properties
             </h1>
-
+            <Fade top cascade>
             <div className="flex flex-col gap-4 mt-10 lg:ml-8 2xl:ml-12">
               <span className="flex items-center gap-3">
                 <LuCheckCircle className="text-[20px]" />
@@ -86,8 +88,9 @@ const SellPropertyTwo = () => {
                 </p>
               </span>
             </div>
+            </Fade>
           </div>
-
+          <Slide right>
           <div className="2xl:w-[697px] lg:w-[600px] w-full relative">
             <img
               className="lg:w-[697px] h-[500px] w-full mt-16 md:mt-16 lg:mt-0 2xl:mt-0"
@@ -106,6 +109,7 @@ const SellPropertyTwo = () => {
               </p>
             </div>
           </div>
+          </Slide>
         </div>
     </div>
     </div>

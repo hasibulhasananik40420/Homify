@@ -2,9 +2,11 @@
 import image1 from "../../assets/Chose-us-image/Vector (1).svg";
 import image2 from "../../assets/Chose-us-image/lock.svg";
 import image3 from "../../assets/Chose-us-image/hand.svg";
+import { Fade } from "react-reveal";
 const ChooseUsCard = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
+      <Fade bottom cascade>
       <div
         className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full h-[500px] 2xl:pl-[50px] lg:pl-[40px] pl-6 py-[56px] hover:bg-hoverColor duration-500 hover:cursor-pointer"
         style={{ boxShadow: " 0px 4px 45px 0px rgba(154, 149, 149, 0.25)" }}
@@ -21,7 +23,9 @@ const ChooseUsCard = () => {
           book. It has survived not on the..
         </p>
       </div>
-
+     
+    
+      
       <div className="2xl:w-[467px] lg:w-[400px] bg-[#504594] md:w-[350px] w-full h-[500px]">
         <div
           className="2xl:pl-[50px] lg:pl-[40px] pl-6 py-[56px] bg-white h-[500px] design hover:cursor-pointer"
@@ -40,8 +44,7 @@ const ChooseUsCard = () => {
           </p>
         </div>
       </div>
-
-
+      
 
       <div
         className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full h-[500px] 2xl:pl-[50px] lg:pl-[40px] pl-6 py-[56px] hover:bg-hoverColor duration-500 hover:cursor-pointer"
@@ -59,6 +62,7 @@ const ChooseUsCard = () => {
           book. It has survived not on the..
         </p>
       </div>
+      </Fade>
     </div>
   );
 };

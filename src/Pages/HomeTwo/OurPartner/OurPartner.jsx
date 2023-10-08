@@ -5,6 +5,7 @@ import image4 from "../../../assets/Chose-us-image/Frame (4).svg";
 import image5 from "../../../assets/Chose-us-image/Frame (5).svg";
 import image6 from "../../../assets/Chose-us-image/real-market.svg";
 import image7 from "../../../assets/Chose-us-image/house-smart.svg";
+import { Fade } from "react-reveal";
 
 const OurPartner = () => {
   return (
@@ -23,7 +24,7 @@ const OurPartner = () => {
         dummy text ever since the 1500s, when an unknown printer took a galley
         of type an
       </p>
-
+      <Fade bottom cascade>
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         <div
           className="2xl:w-[344px] lg:w-[300px] md:w-[340px] w-full h-[230px] bg-white flex justify-center items-center hover:bg-hoverColor duration-500 hover:cursor-pointer"
@@ -81,6 +82,7 @@ const OurPartner = () => {
           <img src={image1} alt="" />
         </div>
       </div>
+      </Fade>
     </div>
 
     //******************** our pertner section start here **************************//

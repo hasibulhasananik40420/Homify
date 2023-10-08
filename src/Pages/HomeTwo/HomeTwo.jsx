@@ -14,7 +14,7 @@ import SellPropertyTwo from "./SellPropertyTwo/SellPropertyTwo"
 const HomeTwo = () => {
   return (
     <div>
-
+        
         <HeaderTwo/>
         <ChooseUsToo/>
         {/* <Count/> */}

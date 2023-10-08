@@ -2,6 +2,7 @@ import CommonAction from "../../components/CommonAction/CommonAction";
 import signUpImage from "../../assets/sign-up-image/signup.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import {Fade, Zoom} from "react-reveal"
 const SignUp = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -9,7 +10,6 @@ const SignUp = () => {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
-
   return (
     <div className="">
       {/********************** common action section start here ****************************/}
@@ -20,13 +20,15 @@ const SignUp = () => {
 
       <div className="lg:flex items-center gap-24 2xl:py-32 lg:py-[100px] md:py-20 py-16 max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 ">
         <div className="lg:w-[765px] md:w-[600px] md:h-[550px] md:mx-auto w-full h-[450px] lg:h-[748px]">
+          <Zoom>
           <img
             className="lg:w-[765px] md:w-[600px]  md:h-[550px] md:mx-auto w-full h-[450px] lg:h-[748px]"
             src={signUpImage}
             alt=""
           />
+          </Zoom>
         </div>
-
+        <Fade bottom cascade>
         <div className="flex flex-col md:mx-auto md:mt-10 lg:mt-0 mt-10 2xl:mt-0 md:w-[500px] w-full">
           <h1 className="text-primary text-[56px] font-Teko font-bold">
             User Sign Up
@@ -135,6 +137,7 @@ const SignUp = () => {
             </span>
           </Link>
         </div>
+        </Fade>
       </div>
 
       {/********************** login section end here ****************************/}

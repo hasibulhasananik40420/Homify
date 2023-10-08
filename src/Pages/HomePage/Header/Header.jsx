@@ -21,7 +21,7 @@ const Header = () => {
         className="herader-image h-[120vh] bg-cover bg-fixed bg-no-repeat bg-center flex justify-center items-center"
       >
         <div className="text-center">
-          <h1 className="stoke-design text-[82px] font-extrabold font-Lato  w-[1138px] mx-auto text-center">
+          <h1 className="stoke-design text-[82px] font-bold font-Lato  w-[1138px] mx-auto text-center">
             The Real Destination to Buy and Sell your Properties
           </h1>
 

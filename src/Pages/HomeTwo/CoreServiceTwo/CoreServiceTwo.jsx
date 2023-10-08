@@ -3,12 +3,14 @@
 import { LiaHandPointRightSolid } from "react-icons/lia";
 import image from "../../../assets/Core-service-image/core-service-two.png";
 import { FiArrowDownCircle } from "react-icons/fi";
+import { Fade } from "react-reveal";
 
 const CoreServiceTwo = () => {
   return (
     //********************  Core service two section start here **************************//
     //******************** ##########################  **************************//
     <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16 lg:flex 2xl:gap-[124px] lg:gap-20">
+      <Fade left>
       <div className="lg:w-[731px]  w-full">
         <h1 className="lg:text-[82px] md:text-[56px] text-[32px] text-[#534994] font-Teko font-bold text-left">
           <span className="text-[#181C21]">Our Core</span> Services
@@ -74,7 +76,8 @@ const CoreServiceTwo = () => {
           </button>
         </div>
       </div>
-
+      </Fade>
+      <Fade right>
       <div>
         <img
           className="2xl:w-[583px] lg:w-[500px] w-full lg:h-[614px] md:h-[500px] h-[450px] mt-20 md:mt-20 lg:mt-0 2xl:mt-0"
@@ -82,6 +85,7 @@ const CoreServiceTwo = () => {
           alt=""
         />
       </div>
+      </Fade>
     </div>
 
     //********************  Core service two section end here **************************//

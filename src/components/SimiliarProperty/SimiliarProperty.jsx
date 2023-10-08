@@ -5,11 +5,13 @@ import image3 from '../../assets/Property-image/blog-related-image2.jpg'
 import image4 from '../../assets/Property-image/image1.png'
 import image5 from '../../assets/Property-image/image2.png'
 import image6 from '../../assets/Property-image/property-6.jpg'
+import { Fade } from "react-reveal";
 
 
 const SimiliarProperty = () => {
   return (
     <div className="">
+       <Fade bottom cascade>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
 
 
@@ -340,7 +342,7 @@ const SimiliarProperty = () => {
       {/************** property card 6 end here ********************/}
     
     </div>
-
+    </Fade>
       
     </div>
   );
