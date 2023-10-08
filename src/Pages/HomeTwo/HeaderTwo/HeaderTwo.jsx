@@ -1,26 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import NavbarTwo from "../../../components/Navbar/NavbarTwo";
-import { motion } from "framer-motion";
+import Flip from 'react-reveal/Flip';
 
 const HeaderTwo = () => {
-  const fadeInVariants = {
-    initial: { opacity: 0 },
-    animate: { opacity: 1, transition: { duration: 0.5 } },
-  };
-
-  const scaleUpVariants = {
-    hover: { scale: 1.05 },
-    initial: { scale: 1 },
-  };
+  
   return (
     <div className="herader-bg bg-cover bg-no-repeat bg-center h-[100vh] flex  justify-center items-center">
       <NavbarTwo />
-
-      <motion.div
-        variants={fadeInVariants}
-        initial="initial"
-        animate="animate"
-      >
+      <Flip top>
+      <div effect="fadeInUp">
         <h1 className="text-white leading-[102px] font-Teko text-[102px] font-bold text-center lg:w-[728px] mx-auto w-full uppercase">
           Find your dream houses By us
         </h1>
@@ -36,7 +24,8 @@ const HeaderTwo = () => {
             Contact Us
           </button>
         </div>
-      </motion.div>
+      </div>
+      </Flip>
     </div>
   );
 };

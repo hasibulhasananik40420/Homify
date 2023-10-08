@@ -4,6 +4,7 @@ import { FiEye } from "react-icons/fi";
 import { RiHeartAddLine } from "react-icons/ri";
 import { CgPlayTrackNextR } from "react-icons/cg";
 import { Link } from "react-router-dom";
+import {Fade} from 'react-reveal';
 
 const PropertyCardTwo = ({data}) => {
    const {image,price,name,details,squarefeet,bathrooms,bedrooms,agentTitle,agentName,agentImage} = data
@@ -11,6 +12,7 @@ const PropertyCardTwo = ({data}) => {
     //******************** property card two section start here **************************//
     //******************** ##########################  ********************************//
     <div>
+       <Fade bottom cascade> 
       <div className="">
         <div className="2xl:w-[467px] lg:w-[380px] md:w-[350px] w-full relative">
          <Link to='/property-details'>
@@ -116,6 +118,7 @@ const PropertyCardTwo = ({data}) => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
 
     //******************** property card two section end here **************************//
