@@ -102,7 +102,7 @@ const BlogPage = () => {
 
         {/******************* blog related section start  here *******************/}
 
-         <div className="2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+         <div className="">
            <h1 className="lg:text-[56px] md:text-[56px] text-[32px] mt-20 text-[#3E348F] font-Teko font-bold ">See  Related Post</h1>
 
             <BlogRelatedCard/>

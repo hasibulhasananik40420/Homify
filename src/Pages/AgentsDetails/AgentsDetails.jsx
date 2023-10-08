@@ -28,9 +28,9 @@ const AgentsDetails = () => {
 
          
            
-            <img className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] border-[20px] border-[#504594] z-50 cursor-pointer" src={agent} alt="" />
+            <img className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] border-[20px] border-[#504594]  cursor-pointer" src={agent} alt="" />
 
-            <div className="bg-red-400 w-[100px] h-[100px] absolute top-0 right-0 z-50"></div>
+            <div className="bg-red-400 w-[100px] h-[100px] absolute top-0 right-0 "></div>
 
             
             <div className="bg-[#181C21] lg:w-[550px] w-full h-[150px] absolute bottom-0 transform translate-y-full transition-transform duration-1000 group-hover:translate-y-0 hidden group-hover:block cursor-pointer">

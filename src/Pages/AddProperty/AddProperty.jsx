@@ -301,7 +301,7 @@ const AddProperty = () => {
            <p className="text-black font-Lato font-semibold text-[20px] pb-5"> Outdoor Details</p>
              
              
-             <div className="lg:flex md:flex justify-between">
+             <div className="lg:flex md:flex justify-between ">
  
              <div className="flex flex-col gap-4">
               <div className="flex gap-4 items-center">

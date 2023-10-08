@@ -1,14 +1,23 @@
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
-import property6 from '../../../src/assets/Property-image/Property-image6.jpg'
+import image1 from '../../../src/assets/Property-image/property-9.jpg'
+import image2 from '../../assets/Property-image/blog-related-image1.jpg'
+import image3 from '../../assets/Property-image/blog-related-image2.jpg'
+import image4 from '../../assets/Property-image/image1.png'
+import image5 from '../../assets/Property-image/image2.png'
+import image6 from '../../assets/Property-image/property-6.jpg'
+
+
 const SimiliarProperty = () => {
   return (
     <div className="">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
+
+
       {/**************Similiar property card 1 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src={property6}
+          src={image1}
           alt=""
         />
         <div className="mt-[20px]">
@@ -58,11 +67,12 @@ const SimiliarProperty = () => {
       </div>
       {/************** property card 1 end here ********************/}
 
+
       {/************** property card 2 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
+          src={image2}
           alt=""
         />
         <div className="mt-[20px]">
@@ -116,7 +126,7 @@ const SimiliarProperty = () => {
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
+          src={image3}
           alt=""
         />
         <div className="mt-[20px]">
@@ -166,11 +176,11 @@ const SimiliarProperty = () => {
       </div>
       {/************** property card 3 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+     {/************** property card 4 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
+          src={image4}
           alt=""
         />
         <div className="mt-[20px]">
@@ -218,13 +228,13 @@ const SimiliarProperty = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 4 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+     {/************** property card 5 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src="https://img.freepik.com/free-photo/house-with-large-driveway-house-background_1340-32162.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=sph"
+          src={image5}
           alt=""
         />
         <div className="mt-[20px]">
@@ -272,13 +282,14 @@ const SimiliarProperty = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 5 end here ********************/}
     
-     {/************** property card 3 start here ********************/}
+    
+     {/************** property card 6 start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
-          src={property6}
+          src={image6}
           alt=""
         />
         <div className="mt-[20px]">
@@ -326,31 +337,11 @@ const SimiliarProperty = () => {
           </div>
         </div>
       </div>
-      {/************** property card 3 end here ********************/}
+      {/************** property card 6 end here ********************/}
     
     </div>
 
-       {/****************** pagination start here  ******************/}
-       {/* <div className="flex justify-center items-center gap-5 mt-20">
-        <button className="w-[100px] h-[56px] flex justify-center items-center text-white font-Lato text-[16px] font-bold leading-8 bg-secondaryColor rounded-[8px] hover:bg-primary transform duration-500  ">
-          Previous
-        </button>
-
-        <button className="w-[56px] h-[56px] text-white font-Lato text-[16px] font-bold leading-8 bg-primary rounded-[8px] hover:bg-secondaryColor transform duration-500  ">
-          1
-        </button>
-        <button className="w-[56px] h-[56px] text-black font-Lato text-[16px] font-bold leading-8 bg-[#C5C4CA] rounded-[8px] hover:bg-secondaryColor transform duration-500  ">
-          2
-        </button>
-        <button className="w-[56px] h-[56px] text-black font-Lato text-[16px] font-bold leading-8 bg-[#C5C4CA] rounded-[8px] hover:bg-secondaryColor transform duration-500  ">
-          3
-        </button>
-        <button className="w-[56px] h-[56px] text-white font-Lato text-[16px] font-bold leading-8 bg-secondaryColor rounded-[8px] hover:bg-primary transform duration-500  ">
-          Next
-        </button>
-      </div> */}
-      {/****************** pagination end here  ******************/}
-
+      
     </div>
   );
 };
