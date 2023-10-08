@@ -69,7 +69,7 @@ const BlogPage = () => {
         
 
         {/******************* blog pagination start  here *******************/}
-        <div className="flex justify-center items-center gap-5  mb-10">
+        <div className="flex justify-center items-center gap-5 2xl:mb-32 lg:mb-[100px] md:mb-20 mb-16">
           <button className="w-[100px] h-[56px] flex justify-center items-center text-white font-Lato text-[16px] font-bold leading-8 bg-secondaryColor rounded-[8px] hover:bg-primary transform duration-500  ">
             Previous
           </button>

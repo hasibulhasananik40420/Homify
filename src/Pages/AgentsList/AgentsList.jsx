@@ -99,7 +99,7 @@ const AgentsList = () => {
         <CommonAction title={'Agents list'} subTitle={'Home> Agents List'}/>
 
         <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:mt-20 mt-12">
-      <h1 className="lg:text-[56px] text-[30px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
+      <h1 className="lg:text-[56px] text-[32px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
         Consult with our Skilled Agents
       </h1>
       <p className="text-[#4F4E4E] font-normal font-Lato text-[20px] text-center">

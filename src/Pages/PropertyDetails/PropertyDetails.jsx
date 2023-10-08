@@ -26,7 +26,7 @@ const PropertyDetails = () => {
 
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
         <div className="">
-          <h1 className="text-[56px] text-primary font-Teko font-bold leading-[70px] tracking-[ 3.2px]">
+          <h1 className="lg:text-[56px] text-[32px] md:text-[56px] text-primary font-Teko font-bold leading-[70px] tracking-[ 3.2px]">
             Property Details Infomation
           </h1>
 

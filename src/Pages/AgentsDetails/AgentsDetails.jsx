@@ -25,7 +25,7 @@ const AgentsDetails = () => {
             <Zoom>
               <div className="group relative">
                 <img
-                  className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] border-[20px] border-[#504594]  cursor-pointer"
+                  className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] h-[500px] border-[20px] border-[#504594]  cursor-pointer"
                   src={agent}
                   alt=""
                 />
@@ -142,7 +142,7 @@ const AgentsDetails = () => {
 
         {/********************* Contact With Our Agent section statr here ********************/}
         <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
-          <h1 className="text-primary font-Teko font-bold text-[56px] leading-[56px] text-center">
+          <h1 className="text-primary font-Teko font-bold lg:text-[56px] text-[32px] md:text-[56px] leading-[56px] text-center">
             Contact With Our Agent
           </h1>
 

@@ -35,7 +35,7 @@ const AboutPage = () => {
           </div>
           <Fade bottom cascade>
           <div className="lg:w-[705px] w-full">
-            <h1 className="text-[#5B519B] text-[56px] font-Teko font-bold mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
+            <h1 className="text-[#5B519B] lg:text-[56px] text-[32px] md:text-[56px] font-Teko font-bold mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
               Our Mission
             </h1>
 
@@ -51,7 +51,7 @@ const AboutPage = () => {
               a. Vivamus
             </p>
 
-            <h1 className="text-[#5B519B] text-[56px] font-Teko font-bold mt-20">
+            <h1 className="text-[#5B519B] lg:text-[56px] text-[32px] md:text-[56px] font-Teko font-bold mt-20">
               Our Vision
             </h1>
 
@@ -166,7 +166,7 @@ const AboutPage = () => {
         {/***************** Certification and Achievemt section start here *******************/}
 
         <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
-          <h1 className="text-[#5B519B] text-[56px] font-Teko font-bold leading-[60px] lg:leading-8 md:leading-8 2xl::leading-8 text-center">
+          <h1 className="text-[#5B519B] lg:text-[56px] text-[32px] md:text-[56px] font-Teko font-bold leading-[60px] lg:leading-8 md:leading-8 2xl::leading-8 text-center">
             Certification and Achievemt
           </h1>
 
@@ -181,7 +181,7 @@ const AboutPage = () => {
             sem. Nulla rutrum aliquam purus, id viverra metus aliquet a. Vivamus
           </p>
           <Zoom cascade>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 2xl:gap-10 md:gap-10 gap-y-28 md:justify-items-center mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 2xl:gap-10 md:gap-10 gap-y-28 md:justify-items-center mt-20 mb-20 md:mb-0 lg:mb-0 2xl:mb-0">
             <div className="2xl:w-[466px] 2xl:h-[506px] lg:w-[400px] lg:h-[500px] md:w-[350px] md:h-[450px] w-full h-full">
               <img
                 className="2xl:w-[466px] 2xl:h-[416px] lg:w-[400px] lg:h-[400px] md:w-[350px] md:h-[350px] w-full h-full"
