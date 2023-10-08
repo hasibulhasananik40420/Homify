@@ -6,9 +6,6 @@ import agents3 from "../../assets/Agents-images/agent-v2-3.png";
 import agents4 from "../../assets/Agents-images/agent-v4.png";
 import agents5 from "../../assets/Agents-images/agent-v5.png";
 import agents6 from "../../assets/Agents-images/agent-v6.png";
-import agents7 from "../../assets/Agents-images/agent7.jpg";
-import agents8 from "../../assets/Agents-images/agent8.jpg";
-import agents9 from "../../assets/Agents-images/agent2.jpg";
 
 
 
@@ -70,32 +67,7 @@ const AgentsListVersionTwo = () => {
      agentTitle:'Real Estate Agent'
     },
     
-    {
-     _id:7,
-     image:agents7,
-     name:'Jasmin Lander',
-     email:'jasminlander@gmail.com',
-     phone:'+12343 896 678',
-     agentTitle:'Real Estate Agent'
-    },
-
-    
- {
-     _id:8,
-     image:agents8,
-     name:'Hasib Luni',
-     email:'hasibluni@gmail.com',
-     phone:'+12343 896 678',
-     agentTitle:'Real Estate Agent'
-    },
- {
-     _id:9,
-     image:agents9,
-     name:'Mack Alexa',
-     email:'mackalexa@gmail.com',
-     phone:'+12343 896 678',
-     agentTitle:'Real Estate Agent'
-    },
+   
 
     
 

@@ -110,7 +110,7 @@ const SellProperty = () => {
         </div>
 
         {/****************** Recent Added Property section start here ******************/}
-        <div>
+        <div className="pt-16">
           <h1 className="text-[#3E348F] text-[32px] font-Teko font-bold leading-8">
             Recent Added Property
           </h1>

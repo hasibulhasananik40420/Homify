@@ -2,6 +2,7 @@ import About from "./About/About"
 import ChoseUs from "./ChoseUs/ChoseUs"
 import CoreService from "./CoreService/CoreService"
 import Header from "./Header/Header"
+import Newsletter from "./Newsletter/Newsletter"
 import OurAgents from "./OurAgents/OurAgents"
 import Property from "./Property/Property"
 import Reviews from "./Reviews/Reviews"
@@ -18,6 +19,7 @@ const HomePage = () => {
       <SellProperty/>
       <OurAgents/>
       <Reviews/>
+      <Newsletter/>
     </div>
   )
 }

@@ -17,7 +17,6 @@ import PropertyCard from "../../components/PropertyCard/PropertyCard";
 
 const PropertyList = () => {
 
-
   const propertis = [
     {
       _id: 1,
@@ -141,6 +140,7 @@ const PropertyList = () => {
                 </h1>
                 <BiSolidDownArrow className="text-[16px] text-black" />
               </div>
+
               <div className="flex items-center gap-5">
                 <h1 className="text-black font-Lato font-normal text-[16px]">
                   Property Size
@@ -153,7 +153,11 @@ const PropertyList = () => {
                 </h1>
                 <BiSolidDownArrow className="text-[16px] text-black" />
               </div>
+
             </div>
+
+
+
           </div>
 
           <div>

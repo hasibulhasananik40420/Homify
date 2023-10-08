@@ -101,7 +101,7 @@ const ContactUsPage = () => {
             <p className="text-black text-[20px] font-Lato font-normal mt-10">
               Get in Touch
             </p>
-            <h1 className="lg:w-[514px] w-full text-primary text-[56px] font-Teko font-bold leading-[56px] mt-5">
+            <h1 className="lg:w-[514px] w-full text-primary lg:text-[56px] text-[32px] md:text-[56px] font-Teko font-bold leading-[56px] mt-5">
               We are waiting To hear From You
             </h1>
 

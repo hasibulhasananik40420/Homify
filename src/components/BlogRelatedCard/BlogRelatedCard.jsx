@@ -5,13 +5,15 @@ import image3 from '../../assets/Property-image/image1.png'
 import image4 from '../../assets/Property-image/image2.png'
 import image5 from '../../assets/Property-image/image3.png'
 import image6 from '../../assets/Property-image/image4.png'
+import { Fade } from "react-reveal";
 
 const BlogRelatedCard = () => {
   return (
     <div>
+     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-10">
       
-      
+      <Fade bottom cascade>
         {/******************* blog releted card 1 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
@@ -224,11 +226,12 @@ const BlogRelatedCard = () => {
           </div>
         </div>
         {/******************* blog releted card 6 end here *******************/}
-     
+        </Fade>
      
       </div>
+      
 
-     <div className="flex justify-center mt-14 2xl:mb-32 lg:mb-[100px] md:mb-[80px] mb-[64px]">
+     <div className="flex justify-center mt-14">
      <button className="bg-[#F90] text-white text-[16px] font-Lato font-normal w-[170px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
       Load More
     </button>
