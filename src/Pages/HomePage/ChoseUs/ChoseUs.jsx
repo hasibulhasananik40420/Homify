@@ -1,16 +1,22 @@
-import choseimage from '../../../../src/assets/Chose-us-image/chose-vector.svg'
+import { Fade, Zoom } from "react-reveal";
+import choseimage from "../../../../src/assets/Chose-us-image/chose-vector.svg";
 const ChoseUs = () => {
-
   return (
     //********************  Chose us section start here **************************//
     //******************** ##########################  **************************//
 
     <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
       <div className="lg:flex 2xl:flex lg:gap-[50px] 2xl:gap-[50px] justify-between">
-        <div className="2xl:w-[607px] lg:w-[607px] w-full">
-          <img className="2xl:w-[607px] lg:w-[607px] w-full lg:h-[460px] 2xl:h-[460px] h-full" src={choseimage} alt="" />
-        </div>
-
+        <Zoom>
+          <div className="2xl:w-[607px] lg:w-[607px] w-full">
+            <img
+              className="2xl:w-[607px] lg:w-[607px] w-full lg:h-[460px] 2xl:h-[460px] h-full"
+              src={choseimage}
+              alt=""
+            />
+          </div>
+        </Zoom>
+        <Fade bottom cascade>
         <div className="2xl:w-[717px] lg:w-[660px]">
           <h1 className="lg:text-[56px] md:text-[56px] text-[32px] mt-16 md:mt-16 lg:mt-0 2xl:mt-0 font-Teko font-bold text-[#375E97]">
             Why Chose us?
@@ -30,9 +36,10 @@ const ChoseUs = () => {
           </p>
 
           <button className="bg-[#F90] text-white text-[16px] mt-[35px] font-Lato font-bold w-[170px] h-[56px] custom-border-property  hover:bg-[#375E97] duration-500">
-          Read More
-            </button>
+            Read More
+          </button>
         </div>
+        </Fade>
       </div>
     </div>
 

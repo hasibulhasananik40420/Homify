@@ -2,11 +2,13 @@ import sellPropertyImage from "../../../assets/Sell-property-image/sell-property
 import { LuCheckCircle } from "react-icons/lu";
 import { ImPlus } from "react-icons/im";
 import RecentAddedPropertyCard from "../../../components/RecentAddedPropertyCard/RecentAddedPropertyCard";
+import { Fade } from "react-reveal";
 const SellProperty = () => {
   return (
     //********************  sell property section start here **************************//
     //******************** ##########################  **************************//
     <div>
+      
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
         <h1 className="text-[#375E97] lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold text-center">
           Sell Your Property here
@@ -15,8 +17,8 @@ const SellProperty = () => {
         <p className="text-black text-[20px] font-Lato font-normal leading-10 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-
         <div className="lg:flex lg:justify-between mt-20">
+        <Fade bottom cascade>
           <div>
             <h1 className="text-[#3E348F] text-[32px] font-Teko font-bold leading-8">
               Steps of Sell Properties
@@ -84,7 +86,8 @@ const SellProperty = () => {
               </span>
             </div>
           </div>
-
+          </Fade>
+          <Fade right>
           <div className="2xl:w-[697px] lg:w-[600px] w-full relative">
             <img
               className="lg:w-[697px] h-[500px] w-full mt-16 md:mt-16 lg:mt-0 2xl:mt-0"
@@ -103,6 +106,7 @@ const SellProperty = () => {
               </p>
             </div>
           </div>
+          </Fade>
         </div>
 
         {/****************** Recent Added Property section start here ******************/}

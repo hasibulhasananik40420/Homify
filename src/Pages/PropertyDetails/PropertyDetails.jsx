@@ -12,8 +12,7 @@ import { MdOutlineSchool } from "react-icons/md";
 import { SiShanghaimetro } from "react-icons/si";
 import { GiRailway } from "react-icons/gi";
 import { LuWarehouse } from "react-icons/lu";
-
-
+import { Fade, Zoom } from "react-reveal";
 
 const PropertyDetails = () => {
   return (
@@ -42,13 +41,14 @@ const PropertyDetails = () => {
 
           {/* ********************  Property details card start here ************************** */}
           <div className="mt-20 lg:flex 2xl:flex 2xl:gap-[121px] lg:gap-20">
+              <Zoom>
             <div className="2xl:w-[674px] lg:w-[600px] w-full relative">
-              <img
-                className="2xl:w-[674px] lg:w-[600px] 2xl:h-[815px] lg:h-[810px] h-[450px] w-full custom-border"
-                src={propertyDetails}
-                alt=""
-              />
-
+                <img
+                  className="2xl:w-[674px] lg:w-[600px] 2xl:h-[815px] lg:h-[810px] h-[450px] w-full custom-border"
+                  src={propertyDetails}
+                  alt=""
+                />
+              
               <div className="absolute -top-[23px] left-1/2 transform -translate-x-1/2 flex">
                 <div className="w-[150px] h-[56px] bg-secondaryColor flex justify-center items-center">
                   <span className="text-white text-[16px] font-Lato font-bold">
@@ -57,14 +57,12 @@ const PropertyDetails = () => {
                 </div>
 
                 <div className="">
-                  <img
-                    src={icon}
-                    alt=""
-                  />
+                  <img src={icon} alt="" />
                 </div>
               </div>
             </div>
-
+            </Zoom>
+            <Fade bottom cascade>
             <div className="lg:w-[630px] 2xl:w-[630px] w-full">
               <div className="flex gap-3 items-center mt-10 md:mt-10 lg:mt-0 2xl:mt-0">
                 <GrLocation className="text-black text-2xl" />
@@ -212,6 +210,7 @@ const PropertyDetails = () => {
                 </div>
               </div>
             </div>
+            </Fade>
           </div>
           {/* ********************  Property details card end here ************************** */}
         </div>

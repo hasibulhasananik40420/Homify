@@ -19,8 +19,7 @@ import agent3 from "../../../assets/Agents-images/agent3.jpg";
 import agent4 from "../../../assets/Agents-images/agent5.jpg";
 import agent5 from "../../../assets/Agents-images/agent6.jpg";
 import agent6 from "../../../assets/Agents-images/agent7.jpg";
-import { Fade,Flip } from "react-reveal";
-// import { Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 
 const PropertyTwo = () => {
   const properties = [
@@ -274,13 +273,11 @@ const PropertyTwo = () => {
           </Fade>
         </div>
 
-         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
-            {properties?.map((data) => (
-              <PropertyCardTwo key={data._id} data={data} />
-            ))}
+          {properties?.map((data) => (
+            <PropertyCardTwo key={data._id} data={data} />
+          ))}
         </div>
-        
 
         <div className="flex justify-center mt-20">
           <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">

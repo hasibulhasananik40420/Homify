@@ -41,8 +41,8 @@ const MobileMenu = (index) => {
 
       {show && (
         <>
-          <div className="absolute lg:hidden 2xl:hidden top-0 right-0 w-full h-screen  flex flex-col items-start ">
-            <div className="w-[80%] h-full  bg-[#112240] flex flex-col z-50 relative pt-20 px-8 md:px-12">
+          <div className="absolute  lg:hidden 2xl:hidden top-0 right-0 w-full h-screen  flex flex-col items-start ">
+            <div className="w-[80%]  customScrollbar overflow-y-scroll h-full  bg-[#112240] flex flex-col z-50 relative pt-20 px-8 md:px-12">
               <IoMdClose
                 onClick={() => setShow(false)}
                 className="text-3xl cursor-pointer text-red-500 absolute top-4 right-4 duration-300"
@@ -60,7 +60,7 @@ const MobileMenu = (index) => {
                   
                 </Link>
 
-                <div className="icon-container">
+                <div className="icon-container ">
                   {activeIndex === index ? (
                     <motion.div
                       initial={{ opacity: 0, scale: 0.8 }}
@@ -95,7 +95,7 @@ const MobileMenu = (index) => {
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="flex flex-col bg-primary text-white text-[16px] font-Lato font-normal"
+                    className="flex  flex-col bg-primary text-white text-[16px] font-Lato font-normal"
                   >
                     <Link
                       onClick={() => setShow(false)}

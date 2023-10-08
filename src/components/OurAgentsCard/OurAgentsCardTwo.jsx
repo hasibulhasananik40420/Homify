@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
+import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 
 const OurAgentsCardTwo = ({ data }) => {
   const { image, name, email, phone, agentTitle } = data;
 
   return (
+  <Fade bottom cascade>
     <Link to={'/agents-details'}>
       {/******************* agent card start here *******************/}
 
@@ -64,6 +66,7 @@ const OurAgentsCardTwo = ({ data }) => {
         {/******************* agent card end here *******************/}
       </div>
     </Link>
+    </Fade>
   );
 };
 
