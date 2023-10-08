@@ -19,10 +19,10 @@ const NavbarTwo = () => {
   return (
     <div className={`h-[86px]  `}>
       <div
-        className={`${scrollPosition > 0 ? 'navbar-bg' : 'primary-navbar'} fixed top-0 left-0 right-0 z-50 max-w-[1680px] mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 lg:block 2xl:block hidden` }
+        className={`${scrollPosition > 0 ? 'navbar-bg' : 'primary-navbar'} fixed top-0 left-0 right-0 z-50  lg:px-8 2xl:px-0 px-4 md:px-8 lg:block 2xl:block hidden` }
         
       >
-        <div className="flex justify-between items-center h-[86px]">
+        <div className="flex justify-between items-center h-[86px] max-w-[1680px] mx-auto">
           <div className="text-white text-xl">logo</div>
 
           <div className="flex flex-row 2xl:gap-20 lg:gap-12 items-center">
@@ -213,14 +213,16 @@ const NavbarTwo = () => {
             </div>
 
 
-          
-
-            <Link to={"/contact-us"}>
+             <div>
+             <Link to={"/contact-us"}>
               <span className="inline-flex relative text-white uppercase font-Lato text-[20px] font-normal cursor-pointer h-7 overflow-x-hidden overflow-y-hidden  group hover:text-secondaryColor duration-500">
                 Contacts
                 <span className="absolute w-full h-[2px] bg-secondaryColor left-0 bottom-0 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
               </span>
             </Link>
+             </div>
+
+           
 
            
 

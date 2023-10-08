@@ -1,4 +1,10 @@
 import { FiUser } from "react-icons/fi";
+import image1 from '../../assets/Property-image/blog-related-image1.jpg'
+import image2 from '../../assets/Property-image/blog-related-image2.jpg'
+import image3 from '../../assets/Property-image/image1.png'
+import image4 from '../../assets/Property-image/image2.png'
+import image5 from '../../assets/Property-image/image3.png'
+import image6 from '../../assets/Property-image/image4.png'
 
 const BlogRelatedCard = () => {
   return (
@@ -9,8 +15,8 @@ const BlogRelatedCard = () => {
         {/******************* blog releted card 1 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] "
+            src={image1}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -41,11 +47,11 @@ const BlogRelatedCard = () => {
         </div>
         {/******************* blog releted card 1 end here *******************/}
      
-       {/******************* blog releted card 1 start here *******************/}
+       {/******************* blog releted card 2 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] "
+            src={image2}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -55,11 +61,11 @@ const BlogRelatedCard = () => {
 
           <div>
             <h5 className="text-[#3E348F] text-[16px] font-Lato font-bold mt-10">
-              Last updated June 9, 2023
+              Last updated June 19, 2023
             </h5>
 
             <h1 className="text-[#263238] text-[32px] font-Teko font-bold 2xl:w-[404px] w-full mt-1">
-              4 Ways to Boost Your Marketing in a Down Market
+            15% Discount for those customers who buy two home
             </h1>
 
             <p className="text-[#3E348F] text-[20px] font-Lato font-bold mt-2">
@@ -74,13 +80,14 @@ const BlogRelatedCard = () => {
             </span>
           </div>
         </div>
-        {/******************* blog releted card 1 end here *******************/}
+        {/******************* blog releted card 2 end here *******************/}
+
      
-       {/******************* blog releted card 1 start here *******************/}
+       {/******************* blog releted card 3 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] "
+            src={image3}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -90,11 +97,12 @@ const BlogRelatedCard = () => {
 
           <div>
             <h5 className="text-[#3E348F] text-[16px] font-Lato font-bold mt-10">
-              Last updated June 9, 2023
+              Last updated July 27, 2023
             </h5>
 
             <h1 className="text-[#263238] text-[32px] font-Teko font-bold 2xl:w-[404px] w-full mt-1">
-              4 Ways to Boost Your Marketing in a Down Market
+            10 Ways to Boost Your Marketing 
+             in a Down Market
             </h1>
 
             <p className="text-[#3E348F] text-[20px] font-Lato font-bold mt-2">
@@ -109,13 +117,14 @@ const BlogRelatedCard = () => {
             </span>
           </div>
         </div>
-        {/******************* blog releted card 1 end here *******************/}
+        {/******************* blog releted card 3 end here *******************/}
+
      
-       {/******************* blog releted card 1 start here *******************/}
+       {/******************* blog releted card 4 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px]"
+            src={image4}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -125,11 +134,11 @@ const BlogRelatedCard = () => {
 
           <div>
             <h5 className="text-[#3E348F] text-[16px] font-Lato font-bold mt-10">
-              Last updated June 9, 2023
+              Last updated January 03, 2023
             </h5>
 
             <h1 className="text-[#263238] text-[32px] font-Teko font-bold 2xl:w-[404px] w-full mt-1">
-              4 Ways to Boost Your Marketing in a Down Market
+            Purchase your Dream Home with Reasonable Cost 
             </h1>
 
             <p className="text-[#3E348F] text-[20px] font-Lato font-bold mt-2">
@@ -144,13 +153,13 @@ const BlogRelatedCard = () => {
             </span>
           </div>
         </div>
-        {/******************* blog releted card 1 end here *******************/}
+        {/******************* blog releted card 4 end here *******************/}
      
-       {/******************* blog releted card 1 start here *******************/}
+       {/******************* blog releted card 5 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] "
+            src={image5}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -160,11 +169,11 @@ const BlogRelatedCard = () => {
 
           <div>
             <h5 className="text-[#3E348F] text-[16px] font-Lato font-bold mt-10">
-              Last updated June 9, 2023
+              Last updated May 9, 2023
             </h5>
 
             <h1 className="text-[#263238] text-[32px] font-Teko font-bold 2xl:w-[404px] w-full mt-1">
-              4 Ways to Boost Your Marketing in a Down Market
+            Buy A Dream home at Sea Facing Beach Area
             </h1>
 
             <p className="text-[#3E348F] text-[20px] font-Lato font-bold mt-2">
@@ -179,13 +188,13 @@ const BlogRelatedCard = () => {
             </span>
           </div>
         </div>
-        {/******************* blog releted card 1 end here *******************/}
+        {/******************* blog releted card 5 end here *******************/}
      
-       {/******************* blog releted card 1 start here *******************/}
+       {/******************* blog releted card 6 start here *******************/}
         <div className="2xl:w-[466px] lg:w-[400px] w-full">
           <img
-            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] border"
-            src="https://img.freepik.com/premium-photo/house-is-listed-1-95-million_865967-353542.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais"
+            className="2xl:w-[466px] lg:w-[400px] w-full h-[400px] "
+            src={image6}
             style={{
               borderRadius: "60px 60px 60px 0px",
               boxShadow: "0px 4px 60px 0px rgba(221, 219, 219, 0.30)",
@@ -195,11 +204,11 @@ const BlogRelatedCard = () => {
 
           <div>
             <h5 className="text-[#3E348F] text-[16px] font-Lato font-bold mt-10">
-              Last updated June 9, 2023
+              Last updated April 22, 2023
             </h5>
 
             <h1 className="text-[#263238] text-[32px] font-Teko font-bold 2xl:w-[404px] w-full mt-1">
-              4 Ways to Boost Your Marketing in a Down Market
+            Buy a Eco Friendly Home at Sea Beach Area with Low Cost
             </h1>
 
             <p className="text-[#3E348F] text-[20px] font-Lato font-bold mt-2">
@@ -214,7 +223,7 @@ const BlogRelatedCard = () => {
             </span>
           </div>
         </div>
-        {/******************* blog releted card 1 end here *******************/}
+        {/******************* blog releted card 6 end here *******************/}
      
      
       </div>

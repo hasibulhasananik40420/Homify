@@ -12,6 +12,9 @@ import { MdOutlineSchool } from "react-icons/md";
 import { SiShanghaimetro } from "react-icons/si";
 import { GiRailway } from "react-icons/gi";
 import { LuWarehouse } from "react-icons/lu";
+
+
+
 const PropertyDetails = () => {
   return (
     //********************  Property details section start here **************************//
