@@ -3,24 +3,20 @@ import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { HiMinusSm, HiPlusSm } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
-
+import { Fade, Flip, Slide } from "react-reveal";
 const MobileMenu = (index) => {
   const [show, setShow] = useState(false);
-
   const [activeIndex, setActiveIndex] = useState(null);
-
   const toggleQuestion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   const [activeSecondIndex, setActiveSecondIndex] = useState(null);
 
   const toggleSecondQuestion = (index) => {
     setActiveSecondIndex(activeSecondIndex === index ? null : index);
   };
-  
-   const [activeThirdIndex, setActiveThirdIndex] = useState(null);
+
+  const [activeThirdIndex, setActiveThirdIndex] = useState(null);
 
   const toggleThirdQuestion = (index) => {
     setActiveThirdIndex(activeThirdIndex === index ? null : index);
@@ -53,50 +49,34 @@ const MobileMenu = (index) => {
                 className="flex justify-between items-center w-full h-12 p-3 bg-secondaryColor cursor-pointer"
               >
                 <Link to={"/"}>
-                  <span className="inline-flex relative text-white font-Lato text-[20px] font-normal cursor-pointer h-7 overflow-x-hidden overflow-y-hidden group duration-500">
+                  <span className="inline-flex  relative text-white font-Lato text-[20px] font-normal cursor-pointer h-7 overflow-x-hidden overflow-y-hidden group duration-500">
                     Home
                     <span className="absolute w-full h-[2px] bg-primary left-0 bottom-0 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
                   </span>
-                  
                 </Link>
 
                 <div className="icon-container ">
                   {activeIndex === index ? (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiMinusSm
                         onClick={() => toggleQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   ) : (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiPlusSm
                         onClick={() => toggleQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   )}
                 </div>
               </div>
-              <AnimatePresence>
-                {activeIndex === index && (
-                  <motion.div
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="flex  flex-col bg-primary text-white text-[16px] font-Lato font-normal"
-                  >
+
+              {activeIndex === index && (
+                <Flip top cascade>
+                  <div className="flex  flex-col bg-primary text-white text-[16px] font-Lato font-normal">
                     <Link
                       onClick={() => setShow(false)}
                       className="text-white text-[16px] p-3 border-b font-Lato font-normal hover:bg-black duration-500 cursor-pointer"
@@ -111,12 +91,9 @@ const MobileMenu = (index) => {
                     >
                       Home style three
                     </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
-
-
+                  </div>
+                </Flip>
+              )}
 
               <div
                 onClick={() => toggleSecondQuestion(index)}
@@ -131,41 +108,26 @@ const MobileMenu = (index) => {
 
                 <div className="icon-container">
                   {activeSecondIndex === index ? (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiMinusSm
                         onClick={() => toggleSecondQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   ) : (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiPlusSm
                         onClick={() => toggleSecondQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   )}
                 </div>
               </div>
-              <AnimatePresence>
-                {activeSecondIndex === index && (
-                  <motion.div
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="flex flex-col bg-primary text-white text-[16px] font-Lato font-normal"
-                  >
+
+              {activeSecondIndex === index && (
+                <Flip top cascade>
+                  <div className="flex flex-col bg-primary text-white text-[16px] font-Lato font-normal">
                     <Link
                       onClick={() => setShow(false)}
                       to={"/about-us"}
@@ -194,15 +156,11 @@ const MobileMenu = (index) => {
                     >
                       404
                     </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                  </div>
+                </Flip>
+              )}
 
-
-
-
-
-  <div
+              <div
                 onClick={() => toggleThirdQuestion(index)}
                 className="mt-4 flex justify-between items-center w-full h-12 p-3 bg-secondaryColor cursor-pointer"
               >
@@ -215,47 +173,32 @@ const MobileMenu = (index) => {
 
                 <div className="icon-container">
                   {activeThirdIndex === index ? (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiMinusSm
                         onClick={() => toggleThirdQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   ) : (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                    <div>
                       <HiPlusSm
                         onClick={() => toggleThirdQuestion(index)}
                         className="text-2xl text-white cursor-pointer"
                       />
-                    </motion.div>
+                    </div>
                   )}
                 </div>
               </div>
-              <AnimatePresence>
-                {activeThirdIndex === index && (
-                  <motion.div
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="flex flex-col bg-primary text-white text-[16px] font-Lato font-normal"
-                  >
+
+              {activeThirdIndex === index && (
+                <Flip top cascade>
+                  <div className="flex flex-col bg-primary text-white text-[16px] font-Lato font-normal">
                     <Link
                       onClick={() => setShow(false)}
                       to={"/property-grid"}
                       className="text-white text-[16px] p-3 border-b font-Lato font-normal hover:bg-black duration-500 cursor-pointer"
                     >
-                     Property Grid
+                      Property Grid
                     </Link>
                     <Link
                       onClick={() => setShow(false)}
@@ -278,28 +221,9 @@ const MobileMenu = (index) => {
                     >
                       Add Property
                     </Link>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
+                  </div>
+                </Flip>
+              )}
             </div>
           </div>
         </>

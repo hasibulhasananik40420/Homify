@@ -5,7 +5,7 @@ import Flip from 'react-reveal/Flip';
 const HeaderTwo = () => {
   
   return (
-    <div className="herader-bg bg-cover bg-no-repeat bg-center h-[100vh] flex  justify-center items-center">
+    <div className="herader-bg bg-fixed bg-cover bg-no-repeat bg-center h-[100vh] flex  justify-center items-center">
       <NavbarTwo />
       <Flip top>
       <div effect="fadeInUp">
