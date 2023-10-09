@@ -1,11 +1,13 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/no-unescaped-entities */
 import NavbarTwo from "../../../components/Navbar/NavbarTwo";
 import Flip from 'react-reveal/Flip';
+import SearchBar from "../../../components/SearchBar/SearchBar";
 
 const HeaderTwo = () => {
   
   return (
-    <div className="herader-bg bg-fixed bg-cover bg-no-repeat bg-center h-[100vh] flex  justify-center items-center">
+    <div className="herader-bg bg-fixed bg-cover bg-no-repeat bg-center h-[1080px] flex flex-col justify-center items-center">
       <NavbarTwo />
       <Flip top>
       <div effect="fadeInUp">
@@ -26,6 +28,12 @@ const HeaderTwo = () => {
         </div>
       </div>
       </Flip>
+
+       
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8">
+       <SearchBar/>
+      </div>
+
     </div>
   );
 };

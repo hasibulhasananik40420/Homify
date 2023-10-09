@@ -70,6 +70,9 @@ const MobileMenu = (index) => {
                 className="text-3xl cursor-pointer text-red-500 absolute top-4 right-4 duration-300"
               />
 
+
+               {/********************* home section *********************/}
+
               <div
                 onClick={() => toggleQuestion(index)}
                 className="flex justify-between items-center w-full h-12 p-3 bg-secondaryColor cursor-pointer"
@@ -120,6 +123,9 @@ const MobileMenu = (index) => {
                   </div>
                 </Flip>
               )}
+
+
+               {/********************* pages section *********************/}
 
               <div
                 onClick={() => toggleSecondQuestion(index)}
@@ -187,7 +193,7 @@ const MobileMenu = (index) => {
               )}
 
 
-              {/* property section */}
+              {/********************* property section *********************/}
 
               <div
                 onClick={() => toggleThirdQuestion(index)}
@@ -257,7 +263,7 @@ const MobileMenu = (index) => {
 
 
 
-              {/* agent section */}
+              {/********************* agent section *********************/}
 
               <div
                 onClick={() => toggleForthQuestion(index)}
@@ -321,7 +327,7 @@ const MobileMenu = (index) => {
 
 
 
-          {/* blog section */}
+          {/********************* blog section *********************/}
 
               <div
                 onClick={() => toggleFifthQuestion(index)}
@@ -384,7 +390,7 @@ const MobileMenu = (index) => {
 
 
                 
-                {/* contact us section */}
+                {/********************* contact us section *********************/}
 
                 <div
                 onClick={() => toggleSixQuestion(index)}
