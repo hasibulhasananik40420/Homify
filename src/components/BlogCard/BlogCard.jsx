@@ -2,12 +2,10 @@ import { CiUser } from "react-icons/ci";
 import { GoDotFill } from "react-icons/go";
 import blog1 from "../../assets/Property-image/blog1.png";
 import blog2 from "../../assets/Property-image/property-9.jpg";
-
 import blog6 from "../../assets/Property-image/blog-related-image1.jpg";
 import blog7 from "../../assets/Property-image/blog-related-image2.jpg";
 import blog8 from "../../assets/Property-image/image4.png";
 import blog9 from "../../assets/Property-image/image5.png";
-
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 const BlogCard = () => {
@@ -15,10 +13,10 @@ const BlogCard = () => {
     <div>
       {/******************* blog card 1 start here *******************/}
       <Fade big>
-      <div className="bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full border">
+      <div className="bg-white  2xl:w-[915px] lg:w-[800px] w-full mt-20 md:mt-20 lg:mt-0 2xl:mt-0">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px] object-cover  cursor-pointer"
             src={blog1}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""
@@ -77,10 +75,10 @@ const BlogCard = () => {
 
       {/******************* blog card 2 start here *******************/}
       <Fade big>
-      <div className="bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full">
+      <div className="bg-white  2xl:w-[915px] lg:w-[800px] w-full mt-20">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px]  object-cover  cursor-pointer"
             src={blog2}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""
@@ -139,10 +137,10 @@ const BlogCard = () => {
 
       {/******************* blog card 3 start here *******************/}
       <Fade big>
-      <div className="bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full">
+      <div className="bg-white 2xl:w-[915px] lg:w-[800px] w-full mt-20">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px] object-cover  cursor-pointer"
             src={blog6}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""
@@ -201,10 +199,10 @@ const BlogCard = () => {
 
       {/******************* blog card 4 start here *******************/}
       <Fade big>
-      <div className=" bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full">
+      <div className=" bg-white 2xl:w-[915px] lg:w-[800px] mt-20 w-full ">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px] object-cover  cursor-pointer"
             src={blog7}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""
@@ -263,10 +261,10 @@ const BlogCard = () => {
 
       {/******************* blog card 5 start here *******************/}
       <Fade big>
-      <div className="bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full">
+      <div className="bg-white  mb-8  2xl:w-[915px] lg:w-[800px] mt-20 w-full ">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px] object-cover  cursor-pointer"
             src={blog8}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""
@@ -325,10 +323,10 @@ const BlogCard = () => {
 
       {/******************* blog card 6 start here *******************/}
       <Fade big>
-      <div className="bg-white p-2 mb-8 rounded  shadow-sm 2xl:w-[915px] lg:w-[915px] w-full">
+      <div className="bg-white 2xl:w-[915px] lg:w-[800px] mt-20 w-full ">
         <Link to={"/blog-details"}>
           <img
-            className="2xl:w-[915px] lg:w-[915px] w-full h-[500px] object-cover  cursor-pointer"
+            className="2xl:w-[915px] lg:w-[800px] w-full h-[500px]  object-cover  cursor-pointer"
             src={blog9}
             style={{ borderRadius: "60px 60px 60px 0px" }}
             alt=""

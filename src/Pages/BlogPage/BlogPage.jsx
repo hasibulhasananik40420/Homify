@@ -1,6 +1,6 @@
 import CommonAction from "../../components/CommonAction/CommonAction";
 import BlogCard from "../../components/BlogCard/BlogCard";
-import image1 from "../../assets/Blog-image/Rectangle 1177.png";
+// import image1 from "../../assets/Blog-image/Rectangle 1177.png";
 import BlogSidebar from "./BlogSidebar";
 
 const BlogPage = () => {
@@ -14,11 +14,11 @@ const BlogPage = () => {
 
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[40px] pt-0">
         {/******************* blog card  start here *******************/}
-        <div className="grid justify-items-center gap-4 p-4  grid-cols-1 lg:grid-cols-3">
-          <div className="p-2  lg:col-span-2 ">
+        <div className="grid justify-items-center gap-[121px] grid-cols-1 lg:grid-cols-3  ">
+          <div className=" lg:col-span-2 ">
             <BlogCard />
           </div>
-          <div className="p-2  lg:col-span-1 ">
+          <div className=" lg:col-span-1 ">
             <BlogSidebar />
           </div>
         </div>
@@ -27,7 +27,7 @@ const BlogPage = () => {
       </div>
 
             {/******************* blog pagination start  here *******************/}
-            <div className="flex  justify-center items-center gap-5 2xl:my-32 lg:mb-[100px] md:mb-20 mb-16">
+            <div className="flex  justify-center items-center gap-5 2xl:my-32 lg:mb-[100px] md:mb-20 mb-16 mt-20">
           <button className="w-[100px] h-[56px] flex justify-center items-center text-white font-Lato text-[16px] font-bold leading-8 bg-secondaryColor rounded-[8px] hover:bg-primary transform duration-500  ">
             Previous
           </button>
