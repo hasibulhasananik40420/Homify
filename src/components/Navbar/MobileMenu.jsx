@@ -425,7 +425,7 @@ const MobileMenu = (index) => {
                       to={"/contact-us"}
                       className="text-white text-[16px] p-3 border-b font-Lato font-normal hover:bg-black duration-500 cursor-pointer"
                     >
-                      Contact Us One
+                      Contact Us 
                     </Link>
                    
                     
