@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unknown-property */
-/* eslint-disable react/no-unescaped-entities */
+
 import NavbarTwo from "../../../components/Navbar/NavbarTwo";
 import Flip from 'react-reveal/Flip';
 import SearchBar from "../../../components/SearchBar/SearchBar";
