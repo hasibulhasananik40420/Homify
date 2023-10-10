@@ -1,4 +1,3 @@
-import React from "react";
 import blog3 from "../../assets/Property-image/blogfacing.png";
 import blog4 from "../../assets/Property-image/image4.png";
 import blog5 from "../../assets/Core-service-image/core-service-two.png";
