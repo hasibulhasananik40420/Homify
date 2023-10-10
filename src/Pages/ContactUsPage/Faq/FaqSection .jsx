@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { RiAddFill } from 'react-icons/ri';
-import { motion, AnimatePresence } from 'framer-motion';
 
 const FaqSection = ({ faqData }) => {
   const [activeIndex, setActiveIndex] = useState(null);
