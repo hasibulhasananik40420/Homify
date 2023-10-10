@@ -11,14 +11,14 @@ const SearchBar = () => {
            </div>
 
 
-            <div className="bg-white h-[156px] 2xl:w-[1440px] lg:w-[1280px] rounded-lg relative ">
-              <div className="grid grid-cols-3 gap-[30px] 2xl:w-[1100px] lg:w-[980px] justify-items-center items-center h-[156px] 2xl:ml-[84px] lg:ml-[50px]">
+            <div className="bg-white lg:h-[156px] h-auto 2xl:w-[1440px] lg:w-[1200px] w-full rounded-lg relative ">
+              <div className="lg:flex gap-7 items-center 2xl:ml-[84px] lg:ml-[50px] md:ml-0 lg:h-[156px] h-auto">
 
                  {/* item 1 */}
                 <div>
                   <h1 className="text-black text-[20px] font-Teko font-medium leading-8 tracking-[2px] uppercase">Search Loaction</h1>
 
-                   <div className="2xl:w-[340px] lg:w-[300px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
+                   <div className="2xl:w-[340px] lg:w-[280px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
 
                      <p className="text-[#263238] text-[14px] font-Lato font-normal leading-8  uppercase">select your location</p>
 
@@ -32,7 +32,7 @@ const SearchBar = () => {
                 <div>
                   <h1 className="text-black text-[20px] font-Teko font-medium leading-8 tracking-[2px] uppercase">Search Loaction</h1>
 
-                   <div className="2xl:w-[340px] lg:w-[300px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
+                   <div className="2xl:w-[340px] lg:w-[280px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
 
                      <p className="text-[#263238] text-[14px] font-Lato font-normal leading-8  uppercase">select your location</p>
 
@@ -47,7 +47,7 @@ const SearchBar = () => {
                 <div>
                   <h1 className="text-black text-[20px] font-Teko font-medium leading-8 tracking-[2px] uppercase">Search Loaction</h1>
 
-                   <div className="2xl:w-[340px] lg:w-[300px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
+                   <div className="2xl:w-[340px] lg:w-[280px] w-full h-[60px] rounded-lg flex justify-between items-center px-[40px] cursor-pointer" style={{border:"1px solid rgba(162, 160, 160, 0.60)"}}>
 
                      <p className="text-[#263238] text-[14px] font-Lato font-normal leading-8  uppercase">select your location</p>
 
@@ -60,7 +60,7 @@ const SearchBar = () => {
 
 
               {/* search bar */}
-             <div className="bg-secondaryColor rounded-lg w-[198px] h-[149px] flex justify-center items-center gap-2 absolute right-[3px] top-[3px] cursor-pointer">
+             <div className="bg-secondaryColor rounded-lg w-[198px] h-[149px] flex justify-center items-center gap-2 absolute right-[3px] top-[3px] cursor-pointer ">
                     <BiSearch className="text-white text-2xl"/>
                    <p className="text-white text-[20px] font-Lato font-normal">search</p>
                </div>
