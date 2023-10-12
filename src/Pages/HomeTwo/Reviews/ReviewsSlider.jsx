@@ -93,7 +93,7 @@ const ReviewsSlider = () => {
                 type specimen book. It has survived not on the not only
                 .industry's make a type specimen book. It has survived not on
                 the. industry's make a type specimen book. It has survived not .
-                the industry's type.
+                the  type.
               </p>
 
               <div className="lg:flex items-center gap-52">
