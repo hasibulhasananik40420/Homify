@@ -4,7 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import { HiMinusSm, HiPlusSm } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { Flip} from "react-reveal";
-
+import logo from '../../assets/Common-image/logo (2).png'
 
 const MobileMenu = (index) => {
   const [show, setShow] = useState(false);
@@ -51,7 +51,9 @@ const MobileMenu = (index) => {
   return (
     <div style={{ boxShadow: "0px 4px 45px 0px rgba(181, 179, 179, 0.30)" }}>
       <div className="flex justify-between items-center h-[80px] lg:px-8 2xl:px-0 px-4 md:px-8">
-        <div>logo</div>
+        <div>
+        <img className="h-[45px] w-[128px]" src={logo} alt="" />
+        </div>
 
         <div className="">
           <CiMenuFries

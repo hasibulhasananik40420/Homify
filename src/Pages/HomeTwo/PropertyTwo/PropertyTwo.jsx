@@ -13,6 +13,7 @@ import agent4 from "../../../assets/Agents-images/agent5.jpg";
 import agent5 from "../../../assets/Agents-images/agent6.jpg";
 import agent6 from "../../../assets/Agents-images/agent7.jpg";
 import SellBox from "../../../components/SellBox/SellBox";
+import { Link } from "react-router-dom";
 
 const PropertyTwo = () => {
   const properties = [
@@ -130,9 +131,11 @@ const PropertyTwo = () => {
         </div>
 
         <div className="flex justify-center mt-20">
-          <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">
+         <Link to={'/property-grid'}>
+         <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">
             Load More Properties
           </button>
+         </Link>
         </div>
       </div>
     </div>

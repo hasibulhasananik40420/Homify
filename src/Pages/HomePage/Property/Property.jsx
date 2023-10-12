@@ -1,11 +1,11 @@
 import PropertyCard from "../../../components/PropertyCard/PropertyCard";
-import { BiSearch, BiSolidDownArrow } from "react-icons/bi";
 import property1 from "../../../assets/Property-image/property-1.jpg";
 import property2 from "../../../assets/Property-image/property-2.jpg";
 import property3 from "../../../assets/Property-image/property-3.jpg";
 import property4 from "../../../assets/Property-image/property-4.jpg";
 import property5 from "../../../assets/Property-image/property-5.jpg";
 import property6 from "../../../assets/Property-image/property-6.jpg";
+import { Link } from "react-router-dom";
 
 const Property = () => {
   const propertis = [
@@ -83,50 +83,23 @@ const Property = () => {
         We have huge properties collection, Chose you dream house.
       </p>
 
-      <div className="lg:flex md:flex justify-center items-center gap-5 w-full mt-20 lg:block md:block hidden">
-        <div className="lg:w-[591px] md:w-full w-full h-[56px] rounded-l-full rounded-r-0 border-[2px] border-primary">
-          <div className="flex gap-[47px] items-center lg:px-16 md:pl-6 h-[50px]">
-            <div className="flex items-center gap-5">
-              <h1 className="text-black font-Lato font-normal text-[16px]">
-                Location
-              </h1>
-              <BiSolidDownArrow className="text-[16px] text-black" />
-            </div>
-            <div className="flex items-center gap-5">
-              <h1 className="text-black font-Lato font-normal text-[16px]">
-                Property Size
-              </h1>
-              <BiSolidDownArrow className="text-[16px] text-black" />
-            </div>
-            <div className="flex items-center gap-5">
-              <h1 className="text-black font-Lato font-normal text-[16px]">
-                Price Range $
-              </h1>
+       {/******************* search property here *********************/}
+       <div>
+            <div className="mt-20 lg:w-[750px] w-full mx-auto relative">
              
-              <BiSolidDownArrow className="text-[16px] text-black" />
+              <input
+                className=" lg:w-full md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[14px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+                type="name"
+                placeholder="Search your property here"
+              />
+
+              <button className="text-white text-[16px] font-Lato font-bold lg:w-[192px] md:w-[192px] w-[110px] h-[48px] absolute right-1 top-[4px] bg-secondaryColor custom-border-property hover:bg-primary duration-500">
+                Search
+              </button>
             </div>
-          </div>
-        </div>
+              </div>
+           {/******************* search property here *********************/}
 
-        <div>
-          <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
-            Search
-          </button>
-        </div>
-      </div>
-
-      <div className="mt-20 relative lg:hidden md:hidden block">
-        <input
-          className="w-full h-[56px] border-[1px] border-secondaryColor outline-0 text-[20px] font-Lato font-medium pl-5 rounded-s-full"
-          type="search"
-          name=""
-          id=""
-          placeholder="Search Property"
-        />
-        <span className="absolute right-0 w-[60px] bg-secondaryColor h-[56px] cursor-pointer">
-          <BiSearch className="text-[40px] mt-2 ml-2 text-white" />
-        </span>
-      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
         {propertis?.map((property) => (
@@ -135,9 +108,11 @@ const Property = () => {
       </div>
 
       <div className="flex justify-center mt-20">
-        <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
+       <Link to={'/property-grid'}>
+       <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
           Load More Properties
         </button>
+       </Link>
       </div>
     </div>
     //********************  Our property section end here **************************//

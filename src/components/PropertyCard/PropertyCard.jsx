@@ -54,13 +54,13 @@ const PropertyCard = ({property}) => {
             </span>
           </div>
 
-          <div className="flex items-center gap-[35px] mt-5">
-            <button className="text-[#F90] text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property border-[2px] border-[#F90] hover:bg-[#F90] duration-500 hover:text-white">
+          <div className="flex items-center md:gap-[35px] gap-5 mt-5">
+            <button className="text-[#F90] text-[16px] font-Lato font-bold md:w-[170px] w-[140px] h-[56px] custom-border-property border-[2px] border-[#F90] hover:bg-[#F90] duration-500 hover:text-white">
               Book
             </button>
 
            <Link to={'/property-details'}>
-           <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
+           <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold md:w-[170px] w-[140px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
               View
             </button>
            </Link>

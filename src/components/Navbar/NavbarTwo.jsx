@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
+import logo from '../../assets/Common-image/logo (2).png'
 
 const NavbarTwo = () => {
 
@@ -17,13 +18,15 @@ const NavbarTwo = () => {
     }, []);
 
   return (
-    <div className={`h-[86px]  `}>
+    <div className={`h-[86px] `}>
       <div
         className={`${scrollPosition > 0 ? 'navbar-bg' : 'primary-navbar'} fixed top-0 left-0 right-0 z-50  lg:px-8 2xl:px-8 px-4 md:px-8 lg:block 2xl:block hidden` }
         
       >
         <div className="flex justify-between items-center h-[86px] max-w-[1680px] mx-auto">
-          <div className="text-white text-xl">logo</div>
+          <div className="">
+          <img className="h-[45px] w-[128px]" src={logo} alt="" />
+          </div>
 
           <div className="flex flex-row 2xl:gap-20 lg:gap-12 items-center">
           
@@ -237,7 +240,7 @@ const NavbarTwo = () => {
         </div>
       </div>
 
-      <div className="2xl:hidden lg:hidden block fixed top-0 left-0 right-0 z-10 bg-white">
+      <div className="2xl:hidden lg:hidden block fixed top-0 left-0 right-0 z-10 bg-[#626C96]">
         <MobileMenu />
       </div>
     </div>

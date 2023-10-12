@@ -1,38 +1,42 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 
 import NavbarTwo from "../../../components/Navbar/NavbarTwo";
-import Flip from 'react-reveal/Flip';
-import SearchBar from "../../../components/SearchBar/SearchBar";
+import hero2 from '../../../assets/Header/hero-image2.png'
+import videoIcon from '../../../assets/Header/videoicon-2.svg'
 
 const HeaderTwo = () => {
-  
   return (
-    <div className="herader-bg bg-fixed bg-cover bg-no-repeat bg-center h-[1080px] flex flex-col justify-center items-center">
+    <div className="header-bg bg-fixed bg-cover bg-no-repeat bg-center lg:h-[100vh]  h-auto flex flex-col justify-center items-center">
       <NavbarTwo />
-      <Flip top>
-      <div effect="fadeInUp">
-        <h1 className="text-white leading-[102px] font-Teko text-[102px] font-bold text-center lg:w-[728px] mx-auto w-full uppercase">
-          Find your dream houses By us
+
+
+        <div className="lg:flex 2xl:gap-[182px] lg:gap-[100px] lg:px-8 2xl:px-0 px-4 md:px-8">
+      <div>
+        <h1 className="text-white lg:leading-[80px] md:leading-[80px] font-Teko lg:text-[70px] md:text-[70px] leading-[50px] text-[38px] font-bold  uppercase tracking-[4.32px] 2xl:w-[578px] lg:w-[560px] w-full mt-8 md:mt-16 lg:mt-0 2xl:mt-0">
+          New standard  for <span className="text-secondaryColor">new living...</span>
         </h1>
 
-        <p className="text-white 2xl:text-[20px] text-[16px] font-Lato font-medium 2xl:leading-10 lg:left-7 uppercase 2xl:w-[1055px] lg:w-[900px] mx-auto pt-5 text-center ">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry'smake a type specimen
-          book. It has survived not only{" "}
-        </p>
+        <p className="text-white 2xl:text-[20px] lg:text-[16px] md:text-[16px] text-[14px]  font-Lato font-normal 2xl:leading-10 lg:leading-8 md:leading-9 leading-7 lg:w-[528px] w-full 2xl:mt-7 mt-6 uppercase">Lorem  Ipsum is simply dummy text of the best printing and typesetting industry. Lorem  has been the industry's make  a  type .</p>
 
-        <div className="flex justify-center mt-10">
-          <button className="text-white text-[16px] font-Lato font-bold w-[244px] h-[56px] tracking-[2px] leading-8 uppercase flex justify-center items-center bg-secondaryColor custom-border-property hover:bg-primary duration-500">
+        <button className="text-white text-[16px] font-Lato font-bold lg:w-[246px] md:w-[246px] w-full h-[56px] 2xl:mt-[60px] mt-10 bg-secondaryColor custom-border-property hover:bg-primary duration-500">
             Contact Us
           </button>
-        </div>
       </div>
-      </Flip>
 
-       
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8">
+
+       <div className="relative">
+        <img className="2xl:w-[768px] lg:w-[650px] 2xl:h-[484px] lg:h-[450px] w-full md:h-[450px] h-[400px] my-20 md:my-24 lg:my-0 md:mt-24 lg:mt-0 2xl:mt-0" src={hero2} alt="" />
+
+         <div className="absolute inset-0 flex  items-center justify-center">
+          <img className="w-16 h-16 rounded-full cursor-pointer" src={videoIcon} alt="" />
+         </div>
+       </div>
+       </div>
+
+      {/* <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8">
        <SearchBar/>
-      </div>
-
+      </div> */}
     </div>
   );
 };

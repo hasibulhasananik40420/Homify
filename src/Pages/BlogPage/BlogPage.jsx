@@ -14,7 +14,7 @@ const BlogPage = () => {
 
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[40px] pt-0">
         {/******************* blog card  start here *******************/}
-        <div className="grid justify-items-center gap-[121px] grid-cols-1 lg:grid-cols-3  ">
+        <div className="grid justify-items-center gap-[121px] grid-cols-1 lg:grid-cols-3 lg:px-8 2xl:px-0 px-0 md:px-0 ">
           <div className=" lg:col-span-2 ">
             <BlogCard />
           </div>

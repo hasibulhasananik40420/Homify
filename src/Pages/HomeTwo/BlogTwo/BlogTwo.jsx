@@ -5,6 +5,7 @@ import blog3 from "../../../assets/Blog-image/blog-3.png";
 import blog4 from "../../../assets/Blog-image/blog-4.png";
 import blog5 from "../../../assets/Blog-image/blog-5.png";
 import blog6 from "../../../assets/Blog-image/blog-6.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -77,9 +78,11 @@ const BlogTwo = () => {
         </div>
 
         <div className="flex justify-center mt-20">
-            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">
+           <Link to={'/blogs'}>
+           <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] rounded-full  hover:bg-primary transform ease-in-out duration-500 ">
             Load More News and Blogs
             </button>
+           </Link>
           </div>
 
 

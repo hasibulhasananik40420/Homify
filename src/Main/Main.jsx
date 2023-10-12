@@ -17,7 +17,7 @@ const Main = () => {
     <div>
       
       {/*************** main page start here  ****************/}
-      {pathname == "/home-two" ? "" : <Navbar />}
+      {pathname === '/' || pathname === '/home-two' ? "" : <Navbar />}
 
       <Outlet />
       <ScrollToTop/>

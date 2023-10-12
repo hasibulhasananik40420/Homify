@@ -27,6 +27,8 @@ const About = () => {
             </Fade>
           </div>
           <Fade bottom cascade>
+         
+         
           <div className="2xl:w-[735px] lg:w-[670px] w-full">
             <h1 className="text-black text-[32px] font-Teko font-bold mt-10 lg:mt-0 2xl:mt-0">
               Dream Living Spaces Setting for New Build
@@ -55,7 +57,7 @@ const About = () => {
                   <h1 className="text-black text-[32px] font-Teko font-medium leading-8 mt-4 md:mt-4 lg:mt-0 2xl:mt-0 group-hover:text-white">
                     The Modern and Latest House
                   </h1>
-                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal leading-8 mt-3 md:mt-3 lg:mt-0 2xl:mt-0 group-hover:text-white">
+                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal 2xl:leading-8 leading-6 mt-3 md:mt-3 lg:mt-1 2xl:mt-1 group-hover:text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod
                     tempor incididunt ut labo et sit amet, consectetur adipisic
                     do eiusmod consectetur adipisic do eiusmod
@@ -81,7 +83,7 @@ const About = () => {
                   <h1 className="text-black text-[32px] font-Teko font-medium leading-8 mt-4 md:mt-4 lg:mt-0 2xl:mt-0 group-hover:text-white">
                     Perfect Location with stunning views
                   </h1>
-                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal leading-8 mt-3 md:mt-3 lg:mt-0 2xl:mt-0 group-hover:text-white">
+                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal 2xl:leading-8 leading-6 mt-3 md:mt-3 lg:mt-1 2xl:mt-1 group-hover:text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod
                     tempor incididunt ut labo et sit amet, consectetur adipisic
                     do eiusmod consectetur adipisic do eiusmod
@@ -107,7 +109,7 @@ const About = () => {
                   <h1 className="text-black text-[32px] font-Teko font-medium leading-8 mt-4 md:mt-4 lg:mt-0 2xl:mt-0 group-hover:text-white">
                     Recent Real Estate Commercial Transaction
                   </h1>
-                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal leading-8 mt-3 md:mt-3 lg:mt-0 2xl:mt-0 group-hover:text-white">
+                  <p className="text-[#263238] text-justify text-[16px] font-Lato font-normal 2xl:leading-8 leading-6 mt-3 md:mt-3 lg:mt-1 2xl:mt-1 group-hover:text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod
                     tempor incididunt ut labo et sit amet, consectetur adipisic
                     do eiusmod consectetur adipisic do eiusmod

@@ -17,9 +17,6 @@ body{
 .custom-border {
   border-radius: 60px 60px 60px 0px;
 }
-/* .custom-border-2 {
-  border-radius: 60px 60px 60px 15px;
-} */
 
 .custom-border-button {
   border-radius: 100px 60px 60px 10px;
@@ -43,12 +40,12 @@ body{
   /* background-image: url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'); */
 }
 
-.herader-image {
-  background-image: url("../src/assets/Header/header-image.png");
+.header-image {
+  background-image: url("../src/assets/Header/banner.png");
 }
 
-.herader-bg {
-  background-image: url("../src/assets/Header-two-image/header-2.png");
+.header-bg {
+  background-image: url("../src/assets/Header/banner-2.png");
 }
 
 .review-bg {
@@ -66,7 +63,7 @@ body{
   top: 0 !important;
   z-index: 9999 !important;
   transition: 2.3s linear;
-  background: black;
+  background: blueviolet;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
@@ -149,4 +146,17 @@ ul.slick-dots li.slick-active button {
  }
  .customScrollbar::-webkit-scrollbar-track-piece:vertical:start {
   background-color: #4d7fff;
+}
+
+
+
+
+
+
+
+.text1{
+  background: linear-gradient(102deg, #504594 36.42%, #F90 77.99%, rgba(80, 69, 148, 0.00) 145.19%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }

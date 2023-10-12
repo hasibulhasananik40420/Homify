@@ -1,6 +1,5 @@
-import image1 from '../../../assets/Agents-images/agent6.jpg'
-import image2 from '../../../assets/Agents-images/agent2.jpg'
-import image3 from '../../../assets/Agents-images/agent3.jpg'
+import ReviewsSlider from "../../HomeTwo/Reviews/ReviewsSlider";
+
 
 
 const Reviews = () => {
@@ -19,136 +18,12 @@ const Reviews = () => {
           customers open feedback.
         </p>
          
-      <div className="relative my-20 lg:block hidden">
-       
-
-        <div className="">
-          <div
-            className="w-[500px] h-[450px] bg-white z-30"
-            style={{
-              boxShadow: "0px 4px 60px 0px rgba(193, 191, 191, 0.30)",
-              borderRadius: " 60px 60px 60px 0px",
-            }}
-          >
-            <h1 className="text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold pl-9 pt-32">
-              Customers
-            </h1>
-
-            <h1 className="text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Lato font-normal pl-9">
-              Stories
-            </h1>
-          </div>
-        </div>
-
-        <div
-          className="2xl:w-[1056px] lg:w-[900px] w-full h-[450px] bg-primary pt-[75px] absolute top-[0px] left-[380px]"
-          style={{ borderRadius: "60px 60px 60px 0px" }}
-        >
-          <div className="2xl:ml-[-100px] lg:ml-[-80px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
-            <div
-              className="2xl:w-[343px] lg:w-[280px] h-[300px] bg-white border pl-7 pt-7"
-              style={{
-                borderRadius: "60px 60px 60px 0px",
-                boxShadow: "0px 4px 60px 0px rgba(81, 79, 79, 0.25)",
-              }}
-            >
-              <div className="flex gap-5 items-center mb-5">
-                <img
-                  className="2xl:w-[100px] 2xl:h-[100px] w-20 h-20 rounded-full"
-                  style={{
-                    boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
-                  }}
-                  src={image1}
-                  alt=""
-                />
-
-                <span>
-                  <h2 className="text-[#504593] text-[20px] font-Teko font-bold">
-                    James Smith
-                  </h2>
-                  <p className="text-[#3C3A3A] text-[16px] font-Lato font-normal">
-                    Service Holder
-                  </p>
-                </span>
-              </div>
-
-              <span className="text-[#6F6C6C] text-justify text-[16px] font-Lato font-normal leading-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vitae ipsum aliquet, aliquam massa ferme.
-              </span>
-            </div>
- <div
-              className="2xl:w-[343px] lg:w-[290px] w-full h-[300px] bg-white border pl-7 pt-7"
-              style={{
-                borderRadius: "60px 60px 60px 0px",
-                boxShadow: "0px 4px 60px 0px rgba(81, 79, 79, 0.25)",
-              }}
-            >
-              <div className="flex gap-5 items-center mb-5">
-                <img
-                  className="2xl:w-[100px] 2xl:h-[100px] w-20 h-20 rounded-full"
-                  style={{
-                    boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
-                  }}
-                  src={image2}
-                  alt=""
-                />
-
-                <span>
-                  <h2 className="text-[#504593] text-[20px] font-Teko font-bold">
-                    James Smith
-                  </h2>
-                  <p className="text-[#3C3A3A] text-[16px] font-Lato font-normal">
-                    Service Holder
-                  </p>
-                </span>
-              </div>
-
-              <span className="text-[#6F6C6C] text-[16px] font-Lato font-normal leading-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vitae ipsum aliquet, aliquam massa ferme.
-              </span>
-            </div>
- <div
-              className="2xl:w-[343px] lg:w-[290px] w-full h-[300px] bg-white border pl-7 pt-7"
-              style={{
-                borderRadius: "60px 60px 60px 0px",
-                boxShadow: "0px 4px 60px 0px rgba(81, 79, 79, 0.25)",
-              }}
-            >
-              <div className="flex gap-5 items-center mb-5">
-                <img
-                  className="2xl:w-[100px] 2xl:h-[100px] w-20 h-20 rounded-full"
-                  style={{
-                    boxShadow: "0px 4px 60px 0px rgba(59, 58, 58, 0.25)",
-                  }}
-                  src={image3}
-                  alt=""
-                />
-
-                <span>
-                  <h2 className="text-[#504593] text-[20px] font-Teko font-bold">
-                    James Smith
-                  </h2>
-                  <p className="text-[#3C3A3A] text-[16px] font-Lato font-normal">
-                    Service Holder
-                  </p>
-                </span>
-              </div>
-
-              <span className="text-[#6F6C6C] text-[16px] font-Lato font-normal leading-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vitae ipsum aliquet, aliquam massa ferme.
-              </span>
-            </div>
-
-          
-
-
-
-          </div>
-        </div>
-      </div>
+          {/************* slider component here ***************/}
+         <div className="mt-20">
+         <ReviewsSlider/>
+         </div>
+           {/************* slider component here ***************/}
+     
       </div>
     </div>
 
