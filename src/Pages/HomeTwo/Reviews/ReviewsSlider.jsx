@@ -93,7 +93,7 @@ const ReviewsSlider = () => {
                 type specimen book. It has survived not on the not only
                 .industry's make a type specimen book. It has survived not on
                 the. industry's make a type specimen book. It has survived not .
-                the  type.
+                the industry's make a type.
               </p>
 
               <div className="lg:flex items-center gap-52">
@@ -132,7 +132,7 @@ const ReviewsSlider = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's make a type
                 specimen book. It has been survived not only .industry's make a
-                type specimen book. It has survived not on the not only
+                type specimen book. It has survived not on the only
                 .industry's make a type specimen book. It has survived not on
                 the. industry's make a type specimen book. It has survived not .
                 the industry's make a type.
