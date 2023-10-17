@@ -20,7 +20,7 @@ const NavbarTwo = () => {
   return (
     <div className={`h-[86px] `}>
       <div
-        className={`${scrollPosition > 0 ? 'navbar-bg' : 'primary-navbar'} fixed top-0 left-0 right-0 z-50  lg:px-8 2xl:px-8 px-4 md:px-8 lg:block 2xl:block hidden` }
+        className={`${scrollPosition > 0 ? 'navbar-bg ' : ''} fixed top-0 left-0 right-0 z-50  lg:px-8 2xl:px-8 px-4 md:px-8 lg:block 2xl:block hidden border-b-[0.5px] border-[#FAFAFA]` }
         
       >
         <div className="flex justify-between items-center h-[86px] max-w-[1680px] mx-auto">

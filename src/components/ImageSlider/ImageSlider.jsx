@@ -60,7 +60,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container mx-auto mt-10 overflow-hidden">
       <Slider ref={sliderRef} {...settings}>
    
            <div  className="outline-0">

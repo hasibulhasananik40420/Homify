@@ -75,13 +75,13 @@ const PropertyDetails = () => {
                 Riverview Home
               </h1>
 
-              <p className="text-[56px] text-secondaryColor font-Teko font-bold">
+              <p className="lg:text-[56px] text-[32px] md:text-[56px] text-secondaryColor font-Teko font-bold">
                 $ 11,79,237
               </p>
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-3 mt-5 2xl:w-[480px] lg:w-[470px] md:w-[480px] w-[350px] justify-items-center md:justify-items-center gap-y-9">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-3 mt-5 2xl:w-[480px] lg:w-[470px] md:w-[480px] w-full justify-items-center md:justify-items-center gap-y-9">
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -97,7 +97,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-secondaryColor text-white hover:bg-primary duration-500 hover:cursor-pointer"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-secondaryColor text-white hover:bg-primary duration-500 hover:cursor-pointer"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -109,7 +109,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -127,7 +127,7 @@ const PropertyDetails = () => {
 
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-4 mt-5 2xl:w-[630px] lg:w-[630px] md:w-[480px] w-full justify-items-center md:justify-items-center gap-y-9">
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-secondaryColor text-white hover:bg-primary duration-500 hover:cursor-pointer"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-secondaryColor text-white hover:bg-primary duration-500 hover:cursor-pointer"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -141,7 +141,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -157,7 +157,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -173,7 +173,7 @@ const PropertyDetails = () => {
                 </div>
 
                 <div
-                  className="flex flex-col justify-center items-center gap-3 w-[145px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
+                  className="flex flex-col justify-center items-center gap-3 md:w-[145px] w-[130px] h-[150px] bg-[#FFF] hover:bg-primary duration-500 hover:cursor-pointer group"
                   style={{
                     borderRadius: "15px 15px 15px 0px",
                     boxShadow: "0px 4px 60px 0px rgba(234, 231, 231, 0.30)",
@@ -200,7 +200,7 @@ const PropertyDetails = () => {
                 </p>
 
                 <div className="flex items-center gap-7 mt-[40px]">
-                  <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[190px] h-[56px] custom-border-property hover:bg-primary duration-500 ">
+                  <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold md:w-[190px]  w-[160px] h-[56px] custom-border-property hover:bg-primary duration-500 ">
                     Book
                   </button>
 

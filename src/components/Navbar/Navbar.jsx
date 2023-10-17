@@ -6,7 +6,7 @@ import logo from '../../assets/Common-image/logo (2).png'
 const Navbar = () => {
 
   return (
-    <div className=" h-[70px] 2xl:h-[86px] bg-white" >
+    <div className=" h-[70px] 2xl:h-[86px] bg-white " >
       <div style={{ boxShadow: "0px 4px 45px 0px rgba(181, 179, 179, 0.30)" }}
         className="fixed top-0 left-0 right-0 z-50  bg-white  lg:px-8   2xl:px-8 px-4 md:px-8 lg:block 2xl:block hidden"
         

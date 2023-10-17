@@ -19,7 +19,7 @@ const AgentsDetails = () => {
       />
       {/********************** common action section end  here ****************************/}
 
-      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16">
+      <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-[80px] pt-16 overflow-hidden">
         <div className="lg:flex lg:justify-between 2xl:gap-[121px]">
           <div className="lg:w-[550px] w-full 2xl:h-[783px] lg:h-[650px] md:h-[700px] relative">
             <Zoom>

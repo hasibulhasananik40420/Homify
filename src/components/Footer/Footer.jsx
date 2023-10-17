@@ -1,5 +1,5 @@
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
-import footerLogo from "../../assets/Footer-image/footer-logo.png";
+import footerLogo from "../../assets/Common-image/logo (2).png";
 import { AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
@@ -9,15 +9,13 @@ const Footer = () => {
   return (
     <div className="lg:h-[630px] overflow-clip h-full w-full footer-bg bg-cover bg-no-repeat bg-center ">
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 ">
-        <div className="flex items-center gap-3 pt-10  border-b-[1px] border-b-white pb-10">
+        <div className="py-10  border-b-[1px] border-b-white">
           <img
-            className="lg:w-[180px] lg:h-[110px] md:w-[180px] md:h-[110px] w-[100px] h-[80px] border"
+            className="lg:w-[180px] lg:h-[110px] md:w-[180px] md:h-[110px] w-[100px] h-[80px] "
             src={footerLogo}
             alt=""
           />
-          <h1 className="text-[#F5F5F5] lg:text-[56px] text-[20px] font-Teko font-bold">
-            poperty.com
-          </h1>
+         
         </div>
 
         {/********************** main content *************************/}

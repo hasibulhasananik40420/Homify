@@ -5,13 +5,12 @@ import image3 from '../../assets/Property-image/blog-related-image2.jpg'
 import image4 from '../../assets/Property-image/image1.png'
 import image5 from '../../assets/Property-image/image2.png'
 import image6 from '../../assets/Property-image/property-6.jpg'
-import { Fade } from "react-reveal";
 
 
 const SimiliarProperty = () => {
   return (
     <div className="">
-       <Fade bottom cascade>
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
 
 
@@ -57,11 +56,11 @@ const SimiliarProperty = () => {
           </div>
 
           <div className="flex items-center gap-[35px] mt-5">
-            <button className="text-[#F90] text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property border-[2px] border-[#F90] hover:bg-[#F90] duration-500 hover:text-white">
+            <button className="text-[#F90] text-[16px] font-Lato font-bold md:w-[170px] w-[140px] h-[56px] custom-border-property border-[2px] border-[#F90] hover:bg-[#F90] duration-500 hover:text-white">
               Book
             </button>
 
-            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[170px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
+            <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold md:w-[170px] w-[140px] h-[56px] custom-border-property hover:border-[2px] hover:border-[#F90] hover:bg-white duration-500 hover:text-[#F90]">
               View
             </button>
           </div>
@@ -342,7 +341,7 @@ const SimiliarProperty = () => {
       {/************** property card 6 end here ********************/}
     
     </div>
-    </Fade>
+   
       
     </div>
   );

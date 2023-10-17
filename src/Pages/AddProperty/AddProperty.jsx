@@ -559,7 +559,7 @@ const AddProperty = () => {
           <Zoom>
             <img
               style={{ borderRadius: "60px 60px 60px 0px" }}
-              className="2xl:w-[658.971px] lg:w-[550px] md:w-full h-[730px] w-full mt-20 md:mt-20 lg:mt-0 2xl:mt-0"
+              className="2xl:w-[658.971px] lg:w-[550px] md:w-full md:h-[730px] h-[500px] w-full mt-20 md:mt-20 lg:mt-0 2xl:mt-0"
               src={image1}
               alt=""
             />
