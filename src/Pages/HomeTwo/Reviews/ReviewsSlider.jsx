@@ -26,7 +26,7 @@ const ReviewsSlider = () => {
 
 
   return (
-    <div>
+    <div className='overflow-hidden'>
         {/* Add the Slider component here */}
         <Slider {...sliderSettings}>
           {/* Review Item */}
@@ -40,7 +40,7 @@ const ReviewsSlider = () => {
             </div>
 
             <div className="absolute top-[0px] review-bg bg-cover bg-no-repeat bg-left h-[540px] lg:p-[74px] lg:pl-[500px] p-8 md:p-20">
-              <span className="w-8 h-8 rounded-full bg-secondaryColor flex justify-center items-center">
+              <span className="w-10 h-10 rounded-full bg-secondaryColor flex justify-center items-center">
                 <BiSolidQuoteAltLeft className="text-white text-xl" />
               </span>
               <p className="text-white lg:text-[20px] md:text-[16px] md:leading-8 text-[16px] lg:leading-10 font-Lato font-normal mt-4">
@@ -87,7 +87,7 @@ const ReviewsSlider = () => {
             </div>
 
             <div className="absolute top-[0px] review-bg bg-cover bg-no-repeat bg-left h-[540px] lg:p-[74px] lg:pl-[500px] p-8 md:p-20">
-              <span className="w-8 h-8 rounded-full bg-secondaryColor flex justify-center items-center">
+              <span className="w-10 h-10 rounded-full bg-secondaryColor flex justify-center items-center">
                 <BiSolidQuoteAltLeft className="text-white text-xl" />
               </span>
               <p className="text-white lg:text-[20px] md:text-[16px] md:leading-8 text-[16px] lg:leading-10 font-Lato font-normal mt-4">
@@ -129,7 +129,7 @@ const ReviewsSlider = () => {
             </div>
 
             <div className="absolute top-[0px] review-bg bg-cover bg-no-repeat bg-left h-[540px] lg:p-[74px] lg:pl-[500px] p-8 md:p-20">
-              <span className="w-8 h-8 rounded-full bg-secondaryColor flex justify-center items-center">
+              <span className="w-10 h-10 rounded-full bg-secondaryColor flex justify-center items-center">
                 <BiSolidQuoteAltLeft className="text-white text-xl" />
               </span>
               <p className="text-white lg:text-[20px] md:text-[16px] md:leading-8 text-[16px] lg:leading-10 font-Lato font-normal mt-4">
@@ -175,7 +175,7 @@ const ReviewsSlider = () => {
             </div>
 
             <div className="absolute top-[0px] review-bg bg-cover bg-no-repeat bg-left h-[540px] lg:p-[74px] lg:pl-[500px] p-8 md:p-20">
-              <span className="w-8 h-8 rounded-full bg-secondaryColor flex justify-center items-center">
+              <span className="w-10 h-10 rounded-full bg-secondaryColor flex justify-center items-center">
                 <BiSolidQuoteAltLeft className="text-white text-xl" />
               </span>
               <p className="text-white lg:text-[20px] md:text-[16px] md:leading-8 text-[16px] lg:leading-10 font-Lato font-normal mt-4">

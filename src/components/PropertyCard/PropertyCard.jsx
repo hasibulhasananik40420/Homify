@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { LiaBathSolid, LiaBedSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
-
+import { Fade } from "react-reveal";
 
 
 const PropertyCard = ({property}) => {
@@ -9,9 +9,9 @@ const PropertyCard = ({property}) => {
   const {name,image,price,location,bathRooms,bedRooms,propertyid} = property
 
   return (
+
+    <Fade bottom cascade>
      <div>
-    
-    
       {/************** property card start here ********************/}
       <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
@@ -69,6 +69,7 @@ const PropertyCard = ({property}) => {
       </div>
       {/************** property card end here ********************/}
      </div>
+     </Fade>
   );
 };
 

@@ -66,7 +66,7 @@ const MobileMenu = (index) => {
       {show && (
         <>
           <div className="absolute  lg:hidden 2xl:hidden top-0 right-0 w-full h-screen  flex flex-col items-start">
-            <div className="w-[80%]  customScrollbar overflow-y-scroll h-full  bg-[#112240] flex flex-col z-50 relative pt-20 px-8 md:px-12 pb-6">
+            <div className="w-[100%]  customScrollbar overflow-y-scroll h-full  bg-[#112240] flex flex-col z-50 relative pt-20 px-8 md:px-12 pb-6">
               <IoMdClose
                 onClick={() => setShow(false)}
                 className="text-3xl cursor-pointer text-red-500 absolute top-4 right-4 duration-300"

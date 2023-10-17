@@ -83,23 +83,21 @@ const Property = () => {
         We have huge properties collection, Chose you dream house.
       </p>
 
-       {/******************* search property here *********************/}
-       <div>
-            <div className="mt-20 lg:w-[750px] w-full mx-auto relative">
-             
-              <input
-                className=" lg:w-full md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[14px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
-                type="name"
-                placeholder="Search your property here"
-              />
+      {/******************* search property here *********************/}
+      <div>
+        <div className="mt-20 lg:w-[750px] w-full mx-auto relative">
+          <input
+            className=" lg:w-full md:w-full w-full h-[56px] pl-10 rounded-[60px] border-[1px] border-[#878383] text-[#2F2D2D] font-Lato text-[14px] font-normal leading-6 outline-none focus:border-primary focus:ring-primary focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-primary transition-all duration-700"
+            type="name"
+            placeholder="Search your property here"
+          />
 
-              <button className="text-white text-[16px] font-Lato font-bold lg:w-[192px] md:w-[192px] w-[110px] h-[48px] absolute right-1 top-[4px] bg-secondaryColor custom-border-property hover:bg-primary duration-500">
-                Search
-              </button>
-            </div>
-              </div>
-           {/******************* search property here *********************/}
-
+          <button className="text-white text-[16px] font-Lato font-bold lg:w-[192px] md:w-[192px] w-[110px] h-[48px] absolute right-1 top-[4px] bg-secondaryColor custom-border-property hover:bg-primary duration-500">
+            Search
+          </button>
+        </div>
+      </div>
+      {/******************* search property here *********************/}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  gap-x-[20px] gap-y-[50px] justify-items-center mt-20">
         {propertis?.map((property) => (
@@ -108,11 +106,11 @@ const Property = () => {
       </div>
 
       <div className="flex justify-center mt-20">
-       <Link to={'/property-grid'}>
-       <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
-          Load More Properties
-        </button>
-       </Link>
+        <Link to={"/property-grid"}>
+          <button className="bg-[#F90] text-white text-[16px] font-Lato font-bold w-[280px] h-[56px] custom-border-property  hover:bg-primary transform ease-in-out duration-500 ">
+            Load More Properties
+          </button>
+        </Link>
       </div>
     </div>
     //********************  Our property section end here **************************//

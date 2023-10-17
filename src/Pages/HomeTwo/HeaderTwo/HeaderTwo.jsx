@@ -19,7 +19,7 @@ const HeaderTwo = () => {
 
         <p className="text-white 2xl:text-[20px] lg:text-[16px] md:text-[16px] text-[14px]  font-Lato font-normal 2xl:leading-10 lg:leading-8 md:leading-9 leading-7 lg:w-[528px] w-full 2xl:mt-7 mt-6 uppercase">Lorem  Ipsum is simply dummy text of the best printing and typesetting industry. Lorem  has been the industry's make  a  type .</p>
 
-        <button className="text-white text-[16px] font-Lato font-bold lg:w-[246px] md:w-[246px] w-full h-[56px] 2xl:mt-[60px] mt-10 bg-secondaryColor custom-border-property hover:bg-primary duration-500">
+        <button className="text-white text-[16px] font-Lato font-bold lg:w-[246px] md:w-[246px] w-[190px] h-[56px] 2xl:mt-[60px] mt-10 bg-secondaryColor custom-border-property hover:bg-primary duration-500">
             Contact Us
           </button>
       </div>

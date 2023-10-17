@@ -2,12 +2,13 @@
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { Fade } from "react-reveal";
 const OurAgentsCard = ({agent}) => {
 
   const {image,name,phone,email,news} = agent
 
   return (
-   
+    <Fade bottom cascade>
       <div>
         {/****************** agent card start here  ******************/}
         <div className="bg-[#504594] 2xl:w-[345px] lg:w-[290px] md:w-[345px] w-[300px] h-[420px] custom-border relative hover:bg-secondaryColor hover:cursor-pointer duration-500 transform ease-in-out group">
@@ -99,6 +100,8 @@ const OurAgentsCard = ({agent}) => {
    
    
     </div>
+
+    </Fade>
   );
 };
 
