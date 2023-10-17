@@ -83,7 +83,7 @@ const AgentsList = () => {
       image: agent8,
       name: "Mack Alexa",
       news: "Real Estate Agent",
-      phone: '0123 786 88567',
+      phone: '0123 086 88567',
       email:'mackalexa@gmail.com'
     },
 
