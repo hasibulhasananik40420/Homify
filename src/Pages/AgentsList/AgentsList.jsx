@@ -107,7 +107,7 @@ const AgentsList = () => {
         and take their help.
       </p>
 
-      {/* ********************  Our agents list card section end here ************************** */}
+      {/* ********************  Our agents list card section start here ************************** */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 gap-x-[20px] gap-y-[100px] justify-items-center pt-28">
         {
           agents?.map(agent => <OurAgentsCard key={agent?._id} agent={agent}/>)
