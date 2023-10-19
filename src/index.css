@@ -37,7 +37,6 @@ body{
 
 .footer-bg {
   background-image: url("../src/assets/Footer-image/footer-bg.png");
-  /* background-image: url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580&semt=ais'); */
 }
 
 .header-image {
@@ -58,7 +57,7 @@ body{
   top: 0 !important;
   z-index: 9999 !important;
   transition: 1s linear;
-  background: blueviolet;
+  background: #331949;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);

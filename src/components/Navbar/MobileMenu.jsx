@@ -52,13 +52,13 @@ const MobileMenu = (index) => {
     <div style={{ boxShadow: "0px 4px 45px 0px rgba(181, 179, 179, 0.30)" }}>
       <div className="flex justify-between items-center h-[80px] lg:px-8 2xl:px-0 px-4 md:px-8">
         <div>
-        <img className="h-[45px] w-[128px]" src={logo} alt="" />
+        <img className="h-[40px] w-[80px]" src={logo} alt="" />
         </div>
 
         <div className="">
           <CiMenuFries
             onClick={() => setShow(true)}
-            className="text-3xl cursor-pointer"
+            className="text-3xl text-white cursor-pointer"
           />
         </div>
       </div>

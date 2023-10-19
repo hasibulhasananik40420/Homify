@@ -229,7 +229,7 @@ const Navbar = () => {
       </div>
       </div>
 
-      <div className="2xl:hidden lg:hidden block fixed top-0 left-0 right-0 z-10 bg-[#626C96]">
+      <div className="2xl:hidden lg:hidden block fixed top-0 left-0 right-0 z-10 bg-[#331949]">
         <MobileMenu />
       </div>
     </div>
