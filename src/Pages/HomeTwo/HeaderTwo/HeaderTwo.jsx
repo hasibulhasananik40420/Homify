@@ -11,7 +11,7 @@ const HeaderTwo = () => {
       <NavbarTwo />
 
 
-        <div className="lg:flex 2xl:gap-[182px] lg:gap-[100px] lg:px-8 2xl:px-0 px-4 md:px-8">
+        <div className="lg:flex 2xl:gap-[182px] lg:gap-[100px] lg:px-8 2xl:px-8 px-4 md:px-8">
       <div>
         <h1 className="text-white lg:leading-[80px] md:leading-[80px] font-Teko lg:text-[70px] md:text-[70px] leading-[50px] text-[38px] font-bold  uppercase tracking-[4.32px] 2xl:w-[578px] lg:w-[560px] w-full mt-8 md:mt-16 lg:mt-0 2xl:mt-0">
           New standard  for <span className="text-secondaryColor">new living...</span>
