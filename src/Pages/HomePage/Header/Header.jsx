@@ -33,7 +33,7 @@ const Header = () => {
 
 
          <div className="w-full">
-          <img className="2xl:w-[730px] 2xl:h-[650px] lg:w-[580px] lg:h-[520px] md:w-[600px] md:h-[520px] md:mx-auto lg:mx-0 2xl:mx-0  md:mt-24 md:mb-24 mb-24 lg:mb-0 2xl:mb-0 lg:mt-14 2xl:mt-2 mt-20 w-full h-full" src={heroImage} alt="" />
+          <img className="2xl:w-[730px] 2xl:h-[650px] lg:w-[580px] lg:h-[520px] md:w-[600px] md:h-[520px] md:mx-auto lg:mx-0 2xl:mx-0  md:mt-24 md:mb-24 mb-24 lg:mb-0 2xl:mb-0 lg:mt-16 2xl:mt-2 mt-20 w-full h-full" src={heroImage} alt="" />
          </div>
 
 
