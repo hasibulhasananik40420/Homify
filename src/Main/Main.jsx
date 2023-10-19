@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import { useEffect } from "react";
+import Preloader from "../components/Preloader/Preloader";
 
 const Main = () => {
   const { pathname } = useLocation();
@@ -15,7 +16,7 @@ const Main = () => {
 
   return (
     <div>
-      
+     
       {/*************** main page start here  ****************/}
       {pathname === '/' || pathname === '/home-two' ? "" : <Navbar />}
 
