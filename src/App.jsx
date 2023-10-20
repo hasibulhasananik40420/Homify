@@ -1,18 +1,30 @@
-import { RouterProvider } from 'react-router-dom'
-import routes from './Routes/routes'
-import Preloader from './components/Preloader/Preloader'
+import React, { useState, useEffect } from "react";
+import { RouterProvider } from "react-router-dom";
+import routes from "./Routes/routes";
+import Preloader from "./components/Preloader/Preloader";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    window.onload = () => {
+      // Page has fully loaded
+      setLoading(false);
+    };
+  }, []);
 
   return (
     <div>
-      <Preloader/>
-       {/*************** app page start here  ****************/}
-      <RouterProvider router={routes} />
-
-       {/*************** app page end here  ****************/}
+      {loading ? (
+        <Preloader />
+      ) : (
+        <div>
+          {/* Your main content goes here */}
+          <RouterProvider router={routes} />
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
