@@ -119,7 +119,7 @@ const AgentsList = () => {
 
 
       {/****************** pagination start here  ******************/}
-      <div className="flex justify-center items-center gap-5 mt-20 2xl:mb-32 lg:mb-[100px] md:mb-[80px] mb-16">
+      <div className="flex justify-center items-center gap-5 mt-20 2xl:mb-32 lg:mb-[100px] md:mb-[80px] mb-16 lg:px-0 2xl:px-0 px-4 md:px-0">
         <button className="w-[100px] h-[56px] flex justify-center items-center text-white font-Lato text-[16px] font-bold leading-8 bg-secondaryColor rounded-[8px] hover:bg-primary transform duration-500  ">
           Previous
         </button>

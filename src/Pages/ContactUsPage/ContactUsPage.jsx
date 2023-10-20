@@ -41,31 +41,31 @@ const ContactUsPage = () => {
               </h1>
 
               <div className="flex items-center gap-5 mt-8">
-                <SlLocationPin className="text-white text-[40px]" />
-                <h2 className=" text-white text-[20px] font-Lato font-normal">
+                <SlLocationPin className="text-white md:text-[40px] text-[32px]" />
+                <h2 className=" text-white md:text-[20px] text-[16px] font-Lato font-normal">
                   234/1/B, XYZ Ave. West Newyork,
                 </h2>
               </div>
 
               <div className="flex items-center gap-5 mt-8">
-                <BsTelephone className="text-white text-[40px]" />
+                <BsTelephone className="text-white md:text-[40px] text-[32px]" />
                 <span>
-                  <h2 className=" text-white text-[20px] font-Lato font-normal">
+                  <h2 className=" text-white md:text-[20px] text-[16px] font-Lato font-normal">
                     +123 456 66778
                   </h2>
-                  <h2 className=" text-white text-[20px] font-Lato font-normal">
+                  <h2 className=" text-white md:text-[20px] text-[16px] font-Lato font-normal">
                     +123 467 56778
                   </h2>
                 </span>
               </div>
 
               <div className="flex items-center gap-5 mt-8">
-                <AiOutlineMail className="text-white text-[40px]" />
+                <AiOutlineMail className="text-white md:text-[40px] text-[32px]" />
                 <span>
-                  <h2 className=" text-white text-[20px] font-Lato font-normal">
+                  <h2 className=" text-white md:text-[20px] text-[16px] font-Lato font-normal">
                     propertyadmin@gmail.com
                   </h2>
-                  <h2 className=" text-white text-[20px] font-Lato font-normal">
+                  <h2 className=" text-white md:text-[20px] text-[16px] font-Lato font-normal">
                     propertyceomail@gmail.com
                   </h2>
                 </span>

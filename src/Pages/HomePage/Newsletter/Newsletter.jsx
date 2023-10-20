@@ -14,10 +14,10 @@ const Newsletter = () => {
           boxShadow: "0px 4px 60px 0px rgba(0, 0, 0, 0.25)",
         }}
       >
-        <h1 className="lg:text-[56px] text-[32px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
+        <h1 className="lg:text-[56px] text-[24px] md:text-[56px] text-[#504594] font-bold font-Teko text-center ">
           Subscribe our Newsletter
         </h1>
-        <p className="text-[#676565] font-normal font-Lato text-[20px] text-center">
+        <p className="text-[#676565] font-normal font-Lato md:text-[20px] text-[14px] text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
           elit, vulputate at leo in,
         </p>

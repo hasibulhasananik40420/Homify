@@ -215,7 +215,7 @@ const PropertyDetails = () => {
           {/* ********************  Property details card end here ************************** */}
         </div>
 
-        <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16">
+        <div className="2xl:py-32 lg:py-[100px] md:py-[80px] py-16 ">
           <h1 className="text-primary lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold leading-[80px]">
             Similiar Property Here
           </h1>

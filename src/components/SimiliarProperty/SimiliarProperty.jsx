@@ -15,7 +15,7 @@ const SimiliarProperty = () => {
 
 
       {/**************Similiar property card 1 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image1}
@@ -23,33 +23,33 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] md:text-[24px] text-[16px]">
               $ 10,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>
@@ -70,7 +70,7 @@ const SimiliarProperty = () => {
 
 
       {/************** property card 2 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image2}
@@ -78,33 +78,33 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
-              $ 10,0 0,0 0 0
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px]  md:text-[24px] text-[16px]">
+              $ 60,7 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>
@@ -124,7 +124,7 @@ const SimiliarProperty = () => {
       {/************** property card 2 end here ********************/}
 
       {/************** property card 3 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image3}
@@ -132,33 +132,33 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
-              $ 10,0 0,0 0 0
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px]  md:text-[24px] text-[16px]">
+              $ 30,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>
@@ -178,7 +178,7 @@ const SimiliarProperty = () => {
       {/************** property card 3 end here ********************/}
     
      {/************** property card 4 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image4}
@@ -186,21 +186,21 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px]  md:text-[24px] text-[16px]">
               $ 10,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
@@ -212,7 +212,7 @@ const SimiliarProperty = () => {
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>
@@ -232,7 +232,7 @@ const SimiliarProperty = () => {
       {/************** property card 4 end here ********************/}
     
      {/************** property card 5 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image5}
@@ -240,33 +240,33 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
-              $ 10,0 0,0 0 0
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px]  md:text-[24px] text-[16px]">
+              $ 17,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>
@@ -287,7 +287,7 @@ const SimiliarProperty = () => {
     
     
      {/************** property card 6 start here ********************/}
-      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-[345px]">
+      <div className="2xl:w-[467px] lg:w-[400px] md:w-[350px] w-full">
         <img
           className="2xl:w-[467px] lg:w-[400px] md:w-[467px] w-[350px] h-[400px] border custom-border-image"
           src={image6}
@@ -295,33 +295,33 @@ const SimiliarProperty = () => {
         />
         <div className="mt-[20px]">
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
-              $ 10,0 0,0 0 0
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px]  md:text-[24px] text-[16px]">
+              $ 19,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>

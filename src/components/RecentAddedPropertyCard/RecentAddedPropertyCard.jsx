@@ -18,33 +18,33 @@ const RecentAddedPropertyCard = () => {
         />
         <div className="py-[24px] pl-4 bg-white" style={{borderRadius:'0px 0px 60px 0px', boxShadow:'0px 4px 60px 0px rgba(134, 132, 132, 0.30)'}}>
           <div className="flex items-center gap-[50px]">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               Property ID-007654
             </p>
-            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] text-[24px]">
+            <p className="text-[#F90] font-Teko font-bold leading-[3.84px] md:text-[24px] text-[16px]">
               $ 10,0 0,0 0 0
             </p>
           </div>
 
           <div className="flex items-center gap-[50px] mt-2">
-            <p className="text-[#504594] font-Teko font-bold text-[20px]">
+            <p className="text-[#504594] font-Teko font-bold md:text-[20px] text-[16px]">
               Southbreez Castle
             </p>
             <span className="flex items-center gap-3">
               <LiaBedSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bed Rooms
               </p>
             </span>
           </div>
 
           <div className="flex items-center gap-[35px] mt-2">
-            <p className="text-black font-Lato font-normal text-[16px]">
+            <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
               773/2, New york, USA
             </p>
             <span className="flex items-center gap-3">
               <LiaBathSolid className="text-2xl" />
-              <p className="text-black font-Lato font-normal text-[16px]">
+              <p className="text-black font-Lato font-normal md:text-[16px] text-[13px]">
                 3 Bath Rooms
               </p>
             </span>

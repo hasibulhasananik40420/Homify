@@ -16,6 +16,7 @@ const PropertyList = () => {
     {
       _id: 1,
       image: property1,
+      propertyid: "007654",
       price: "10,00,000",
       name: "Lake View Castle",
       bedRooms: 3,

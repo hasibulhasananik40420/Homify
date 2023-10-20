@@ -13,7 +13,7 @@ const SignUp = () => {
   return (
     <div className="">
       {/********************** common action section start here ****************************/}
-      <CommonAction title={"User Sign Up"} subTitle={" Home> User Sign In"} />
+      <CommonAction title={"User Sign Up"} subTitle={" Home> User Sign Up"} />
       {/********************** common action section end  here ****************************/}
 
       {/********************** login section start here ****************************/}

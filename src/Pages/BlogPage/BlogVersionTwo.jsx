@@ -69,7 +69,7 @@ const BlogVersionTwo = () => {
     //******************** ##########################  ********************************//
 
     <div>
-      <CommonAction title={"Blog "} subTitle={"Home> Blog Version Two"} />
+      <CommonAction title={"Blog Two"} subTitle={"Home> Blog Version Two"} />
 
       <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-20 pt-16">
         <h1 className="text-[#3E348F] lg:text-[56px] md:text-[56px] text-[32px] font-Teko font-bold leading-[56px] text-center">

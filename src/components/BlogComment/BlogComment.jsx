@@ -15,7 +15,7 @@ const BlogComment = () => {
          {/******************* blog comments part start here *******************/}
          <div className='2xl:pt-32 lg:pt-[100px] md:pt-20 pt-16'>
           <h3 className="text-[#3E348F] lg:text-[56px] text-[32px] md:text-[56px] font-bold leading-[70px]">
-            Commnts
+            Comments
           </h3>
 
           <div className="lg:flex 2xl:flex items-center lg:gap-80 2xl:gap-[120px] mt-10">

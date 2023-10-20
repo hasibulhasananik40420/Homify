@@ -30,7 +30,7 @@ const About = () => {
          
          
           <div className="2xl:w-[735px] lg:w-[670px] w-full">
-            <h1 className="text-black text-[32px] font-Teko font-bold mt-10 lg:mt-0 2xl:mt-0">
+            <h1 className="text-black md:text-[32px] text-[24px] font-Teko font-bold mt-10 lg:mt-0 2xl:mt-0">
               Dream Living Spaces Setting for New Build
             </h1>
 

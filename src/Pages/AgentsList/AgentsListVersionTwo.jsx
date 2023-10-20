@@ -78,7 +78,7 @@ const AgentsListVersionTwo = () => {
      //********************  Agents list version two section end here **************************//
     //******************** ##########################  ********************************//
     <div>
-         <CommonAction title={"Agents List "} subTitle={"Home> Agents List Two"} />
+         <CommonAction title={"Agents List Two"} subTitle={"Home> Agents List Two"} />
 
 
          <div className="max-w-container mx-auto lg:px-8 2xl:px-0 px-4 md:px-8 2xl:pt-32 lg:pt-[100px] md:pt-20 pt-16">
