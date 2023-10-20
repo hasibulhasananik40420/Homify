@@ -4,6 +4,8 @@
 import NavbarTwo from "../../../components/Navbar/NavbarTwo";
 import hero2 from '../../../assets/Header/hero-image2.png'
 import videoIcon from '../../../assets/Header/videoicon-2.svg'
+import Zoom from 'react-reveal/Zoom';
+
 
 const HeaderTwo = () => {
   return (
@@ -12,6 +14,7 @@ const HeaderTwo = () => {
 
 
         <div className="lg:flex 2xl:gap-[182px] lg:gap-[100px] lg:px-8 2xl:px-8 px-4 md:px-8">
+        <Zoom>
       <div>
         <h1 className="text-white lg:leading-[80px] md:leading-[80px] font-Teko lg:text-[70px] md:text-[70px] leading-[50px] text-[38px] font-bold  uppercase tracking-[4.32px] 2xl:w-[578px] lg:w-[560px] w-full mt-8 md:mt-16 lg:mt-0 2xl:mt-0">
           New standard  for <span className="text-secondaryColor">new living...</span>
@@ -23,8 +26,9 @@ const HeaderTwo = () => {
             Contact Us
           </button>
       </div>
+      </Zoom>
 
-
+      <Zoom>
        <div className="relative">
         <img className="2xl:w-[768px] lg:w-[650px] 2xl:h-[484px] lg:h-[450px] w-full md:h-[450px] h-[400px] my-20 md:my-24 lg:my-0 md:mt-24 lg:mt-0 2xl:mt-0" src={hero2} alt="" />
 
@@ -32,7 +36,9 @@ const HeaderTwo = () => {
           <img className="w-16 h-16 rounded-full cursor-pointer" src={videoIcon} alt="" />
          </div>
        </div>
+       </Zoom>
        </div>
+      
 
       
     </div>
