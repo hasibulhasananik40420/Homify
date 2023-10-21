@@ -22,6 +22,7 @@ export default {
         xl: '1280px',
        '2xl': '1440px',
        '2Issue': {'min': '1500px', 'max': '1600px'},
+       '2l': {'min': '1050px', 'max': '1250px'}
       },
 
 
